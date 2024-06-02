@@ -1,0 +1,28 @@
+/* .datarange-main {
+    background-image: url(../images/Galletown.jpg);
+    height: 220vh;
+    z-index: 100000000000000000;
+} */
+
+/* SelectDateRange.css */
+
+/* Custom styling for DateRangePicker */
+.rs-picker-dateRange-input-container {
+    margin-bottom: 10px !important; /* Adjust the margin as needed */
+  }
+  
+  .date-range-picker-container{
+    margin-bottom: 50px !important;
+  }
+
+  .rs-input-group .rs-input-group-inside {
+    margin: 100px !important;
+  }
+
+  /* SelectDateRange.css */
+
+/* Custom styling for hiding the input fields */
+.rs-picker-dateRange-input-container input {
+    display: none;
+  }
+  

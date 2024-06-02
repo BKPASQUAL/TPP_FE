@@ -1,0 +1,93 @@
+.restaurant-main {
+  display: flex;
+  margin: 56px;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.restaurant-main-top {
+  display: flex;
+  justify-content: center;
+}
+
+.restaurant-main-top p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.restaurant-top-btn {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+.restaurant-top-btn button {
+  margin-right: 10px;
+  background-color: rgb(158, 158, 158);
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.restaurant-top-btn button:hover {
+  background-color: rgb(180, 200, 195);
+}
+
+.restaurant-con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 25px;
+}
+
+.restaurant-box-con {
+  height: 330px; /* Set a fixed height for each restaurant box */
+  width: 400px; /* Set a fixed width for each restaurant box */
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.restaurant-box-con:hover {
+  transform: scale(1.05);
+}
+
+.restaurant-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px !important;
+  padding: 10px;
+}
+
+.restaurant-con-btm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.restaurant-con-btm-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.restaurant-con-btm-left {
+  display: flex;
+  align-items: center;
+}
+
+.restaurant-con-btm-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.restaurant-con-btm-right h1 {
+  font-size: 20px;
+}

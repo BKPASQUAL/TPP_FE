@@ -1,0 +1,21 @@
+.withfriends-main {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.withfriends-selct {
+    margin-left: 10px;
+}
+
+.withfriends-main {
+    margin: 20px;
+  }
+  
+  .withfriends-selct .rs-picker-toggle {
+    border-color: #000000 !important; /* Change this to your desired border color */
+
+  }
+  
+ 

@@ -1,0 +1,94 @@
+.hotel-main {
+  display: flex;
+  margin: 56px;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.hotel-main-top {
+  display: flex;
+  justify-content: center;
+}
+.hotel-main-titile {
+font-size: 30px;
+font-weight: 700;
+}
+
+.hotel-con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 25px;
+}
+
+.hotel-box-con {
+  height: 330px; /* Set a fixed height for each hotel box */
+  width: 400px; /* Set a fixed width for each hotel box */
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease; 
+}
+
+.hotel-box-con:hover {
+  transform: scale(1.05);
+}
+
+.hotel-box-con-top {
+}
+
+.hotel-main-btm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.hotels {
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.hotelimg {
+  width: 100%; 
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 20px !important;
+  padding: 10px;
+}
+
+/* .hotelimg {
+  width: 100%;
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 10px 10px 0 0; 
+} */
+
+
+.hotel-box-con-btm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 15px;
+
+}
+
+.hotel-box-con-btm-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hotel-box-con-btm-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hotel-box-con-btm-right h1 {
+  font-size: 20px;
+}

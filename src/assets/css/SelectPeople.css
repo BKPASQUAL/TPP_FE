@@ -1,0 +1,89 @@
+.planetrip-SelectPeople-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.planetrip-SelectPeople-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.planetrip-SelectPeople-mid {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  margin-bottom: 80px;
+  /* margin-top: 58px; */
+}
+
+.planetrip-SelectPeople-mid-left {
+  font-size: 40px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.planetrip-SelectPeople-mid-right {
+  font-size: 40px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.planetrip-SelectPeople-mid-mid {
+  display: flex;
+}
+
+.planetrip-SelectPeople-mid-box {
+  margin-right: 20px;
+  height: 150px;
+  width: 200px;
+  background-color: rgb(229, 231, 240);
+  border-radius: 10px;
+}
+
+.planetrip-SelectPeople-mid-box button {
+  height: 150px;
+  width: 200px;
+  background-color: rgb(229, 231, 240);
+  border-radius: 10px;
+  border: none !important;
+}
+
+.planetrip-SelectPeople-mid-box p {
+  font-weight: 700;
+  margin-top: 20%;
+  font-size: 18px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.planetrip-SelectPeople-mid-box button:hover .planetrip-SelectPeople-icons,
+.planetrip-SelectPeople-mid-box button.active .planetrip-SelectPeople-icons {
+  background-color: rgba(89, 247, 102, 0.63);
+}
+
+.planetrip-SelectPeople-mid-box button:hover,
+.planetrip-SelectPeople-mid-box button.active {
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgb(0, 0, 0) !important;
+}
+
+.planetrip-SelectPeople-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 55%;
+}
+
+.SelectPeople-btn {
+  position: fixed;
+  right: 430px;
+  bottom: 170px;
+}
