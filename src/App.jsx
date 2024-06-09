@@ -3,17 +3,20 @@ import Home from "./pages/Home";
 import PlanDestination from "./pages/PlanDestination";
 import SelectDateRange from "./pages/SelectDateRange";
 import SelectPeople from "./pages/SelectPeople";
+import CreatePackage from "./pages/CreatePackage";
+import Userreq from "./pages/Userreq";
 
 function App() {
+
   return (
-   
-      <Routes>
-        <Route path="/" element={<Home />} />
+    <Routes>
+       <Route path="/" element={<Home />} />
         <Route path="/Planetrip" element={<PlanDestination />} />
         <Route path="/SelectDateRange" element={<SelectDateRange />} />
         <Route path="/SelectPeople" element={<SelectPeople />} />
-      </Routes>
-
+        <Route path="/userreq" element={<Userreq />} />
+        <Route path="/CreatePackage" element={<CreatePackage />} />
+    </Routes>
   );
 }
 

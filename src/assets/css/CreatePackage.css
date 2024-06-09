@@ -1,0 +1,79 @@
+/* .package-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+   */
+.package-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.activities {
+  background-color: #f9f9f9; /* Background color fill */
+  padding: 10px;
+}
+
+.day-activities {
+  margin-bottom: 20px;
+}
+
+.even {
+  background-color: #fff; /* White background for even rows */
+}
+
+.odd {
+  background-color: #f2f2f2; /* Light gray background for odd rows */
+}
+
+.activity {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.activity-time {
+  font-weight: bold;
+}
+
+.activity-name {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.activity-description {
+  margin-top: 5px;
+}
+
+/* -------------------------------------------------------------- */
+
+.package-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.package-container-left {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.package-container-right {
+  width: 50%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.package-container-left-top {
+  margin: 40px;
+}
+
+.package-container-left-botm {
+  margin: 40px;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+  vertical-align: middle;
+}
+

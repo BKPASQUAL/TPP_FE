@@ -1,0 +1,528 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "Type": "oneday",
+      "name": "1-Day Trip to Galle",
+      "likeBeach": true,
+      "likeSurfing": true,
+      "wantBath": true,
+      "activities": [
+        {
+          "time": "7:00 AM - 8:00 AM",
+          "activity": "Travel to Galle",
+          "description": "Depart from your accommodation early to make the most of your day. Ensure you have your surfing gear and beach essentials packed."
+        },
+        {
+          "time": "8:00 AM - 9:00 AM",
+          "activity": "Breakfast in Galle",
+          "description": "Enjoy a hearty breakfast at one of the local cafes or restaurants in Galle. Recommended spots include Pedlar's Inn Cafe and Church Street Social."
+        },
+        {
+          "time": "9:00 AM - 11:00 AM",
+          "activity": "Surfing at Unawatuna Beach",
+          "description": "Head to Unawatuna Beach, a short drive from Galle. Unawatuna is renowned for its beautiful crescent-shaped beach and good surfing conditions, especially for beginners and intermediate surfers."
+        },
+        {
+          "time": "11:00 AM - 1:00 PM",
+          "activity": "Explore Galle Fort",
+          "description": "Take a short break and explore the historic Galle Fort, a UNESCO World Heritage site. Walk along the ramparts, visit the Galle Lighthouse and the Maritime Museum, and shop for souvenirs in the quaint shops."
+        },
+        {
+          "time": "1:00 PM - 2:00 PM",
+          "activity": "Lunch",
+          "description": "Have lunch at a restaurant within Galle Fort or nearby. Recommended spots include The Fort Printers and Lucky Fort Restaurant."
+        },
+        {
+          "time": "2:00 PM - 4:00 PM",
+          "activity": "Beach Time at Jungle Beach",
+          "description": "Drive to Jungle Beach, located near Unawatuna. It's a smaller, more secluded beach with calm waters, perfect for relaxing after your morning surf session. Enjoy swimming, snorkeling, or just lounging on the beach."
+        },
+        {
+          "time": "4:00 PM - 6:00 PM",
+          "activity": "Surfing at Weligama Bay",
+          "description": "Head to Weligama Bay, about a 30-minute drive from Galle, for more surfing. Weligama is famous for its long sandy beach and consistent waves, suitable for all levels of surfers."
+        },
+        {
+          "time": "6:00 PM - 7:00 PM",
+          "activity": "Sunset at Weligama",
+          "description": "Relax on the beach and enjoy the stunning sunset over the Indian Ocean. It's a perfect way to end your day of beach activities."
+        },
+        {
+          "time": "7:00 PM - 8:00 PM",
+          "activity": "Dinner in Weligama",
+          "description": "Have dinner at one of the beachfront restaurants in Weligama. Recommended spots include W15 Weligama and Nomad Café & Boutique."
+        },
+        {
+          "time": "8:00 PM - 9:00 PM",
+          "activity": "Return to Galle",
+          "description": "Travel back to Galle or your accommodation, reflecting on a fun-filled day of surfing and beach activities."
+        }
+      ],
+      "tips": [
+        "Consider hiring a tuk-tuk or a car for the day to make traveling between locations easier.",
+        "Always follow local guidelines for swimming and surfing. Be aware of the tides and currents.",
+        "Bring sunscreen, a hat, and plenty of water to stay hydrated throughout the day."
+      ]
+    },
+    {
+      "id": 2,
+      "Type": "twoDay",
+      "name": "2-Day Trip to Galle",
+      "likeBeach": true,
+      "likeSurfing": true,
+      "wantBath": true,
+      "activities": [
+        {
+          "day": 1,
+          "activities": [
+            {
+              "time": "7:00 AM - 8:00 AM",
+              "activity": "Travel to Galle",
+              "description": "Depart from your accommodation early to make the most of your day. Ensure you have your surfing gear and beach essentials packed."
+            },
+            {
+              "time": "8:00 AM - 9:00 AM",
+              "activity": "Breakfast in Galle",
+              "description": "Enjoy a hearty breakfast at one of the local cafes or restaurants in Galle. Recommended spots include Pedlar's Inn Cafe and Church Street Social."
+            },
+            {
+              "time": "9:00 AM - 11:00 AM",
+              "activity": "Surfing at Unawatuna Beach",
+              "description": "Head to Unawatuna Beach, a short drive from Galle. Unawatuna is renowned for its beautiful crescent-shaped beach and good surfing conditions, especially for beginners and intermediate surfers."
+            },
+            {
+              "time": "11:00 AM - 1:00 PM",
+              "activity": "Explore Galle Fort",
+              "description": "Take a short break and explore the historic Galle Fort, a UNESCO World Heritage site. Walk along the ramparts, visit the Galle Lighthouse and the Maritime Museum, and shop for souvenirs in the quaint shops."
+            },
+            {
+              "time": "1:00 PM - 2:00 PM",
+              "activity": "Lunch",
+              "description": "Have lunch at a restaurant within Galle Fort or nearby. Recommended spots include The Fort Printers and Lucky Fort Restaurant."
+            },
+            {
+              "time": "2:00 PM - 4:00 PM",
+              "activity": "Beach Time at Jungle Beach",
+              "description": "Drive to Jungle Beach, located near Unawatuna. It's a smaller, more secluded beach with calm waters, perfect for relaxing after your morning surf session. Enjoy swimming, snorkeling, or just lounging on the beach."
+            },
+            {
+              "time": "4:00 PM - 6:00 PM",
+              "activity": "Surfing at Weligama Bay",
+              "description": "Head to Weligama Bay, about a 30-minute drive from Galle, for more surfing. Weligama is famous for its long sandy beach and consistent waves, suitable for all levels of surfers."
+            },
+            {
+              "time": "6:00 PM - 7:00 PM",
+              "activity": "Sunset at Weligama",
+              "description": "Relax on the beach and enjoy the stunning sunset over the Indian Ocean. It's a perfect way to end your day of beach activities."
+            },
+            {
+              "time": "7:00 PM - 8:00 PM",
+              "activity": "Dinner in Weligama",
+              "description": "Have dinner at one of the beachfront restaurants in Weligama. Recommended spots include W15 Weligama and Nomad Café & Boutique."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            {
+              "time": "8:00 AM - 9:00 AM",
+              "activity": "Breakfast",
+              "description": "Enjoy breakfast at your accommodation or a local café in Galle."
+            },
+            {
+              "time": "9:00 AM - 11:00 AM",
+              "activity": "Morning Surfing at Mirissa",
+              "description": "Drive to Mirissa, about a 45-minute drive from Galle. Mirissa is another great surfing spot with beautiful beaches."
+            },
+            {
+              "time": "11:00 AM - 12:00 PM",
+              "activity": "Whale Watching",
+              "description": "Join a whale watching tour in Mirissa, known for its sightings of blue whales, sperm whales, and dolphins."
+            },
+            {
+              "time": "12:00 PM - 1:00 PM",
+              "activity": "Lunch",
+              "description": "Have lunch at a beachfront restaurant in Mirissa. Recommended spots include Zephyr Restaurant & Bar and Margherita Italiano Restaurant."
+            },
+            {
+              "time": "1:00 PM - 3:00 PM",
+              "activity": "Beach Time at Mirissa",
+              "description": "Relax on Mirissa Beach, swim, or snorkel. Mirissa Beach is known for its picturesque scenery and calm waters."
+            },
+            {
+              "time": "3:00 PM - 5:00 PM",
+              "activity": "Visit to Koggala Lake",
+              "description": "On your way back to Galle, visit Koggala Lake. Enjoy a boat ride and explore the small islands on the lake."
+            },
+            {
+              "time": "5:00 PM - 7:00 PM",
+              "activity": "Return to Galle and Dinner",
+              "description": "Return to Galle for dinner. Recommended spots include A Minute by Tuk Tuk and The Tuna & The Crab."
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Book your whale watching tour in advance to ensure availability.",
+        "Bring a waterproof camera for underwater and whale watching photos.",
+        "Stay hydrated and protect yourself from the sun with sunscreen and a hat."
+      ]
+    },
+    {
+      "id": 3,
+      "Type": "threeDay",
+      "name": "3-Day Trip to Galle",
+      "activities": [
+        {
+          "day": 1,
+          "activities": [
+            {
+              "time": "7:00 AM - 8:00 AM",
+              "activity": "Travel to Galle",
+              "description": "Depart from your accommodation early to make the most of your day. Ensure you have your surfing gear and beach essentials packed."
+            },
+            {
+              "time": "8:00 AM - 9:00 AM",
+              "activity": "Breakfast in Galle",
+              "description": "Enjoy a hearty breakfast at one of the local cafes or restaurants in Galle. Recommended spots include Pedlar's Inn Cafe and Church Street Social."
+            },
+            {
+              "time": "9:00 AM - 11:00 AM",
+              "activity": "Surfing at Unawatuna Beach",
+              "description": "Head to Unawatuna Beach, a short drive from Galle. Unawatuna is renowned for its beautiful crescent-shaped beach and good surfing conditions, especially for beginners and intermediate surfers."
+            },
+            {
+              "time": "11:00 AM - 1:00 PM",
+              "activity": "Explore Galle Fort",
+              "description": "Take a short break and explore the historic Galle Fort, a UNESCO World Heritage site. Walk along the ramparts, visit the Galle Lighthouse and the Maritime Museum, and shop for souvenirs in the quaint shops."
+            },
+            {
+              "time": "1:00 PM - 2:00 PM",
+              "activity": "Lunch",
+              "description": "Have lunch at a restaurant within Galle Fort or nearby. Recommended spots include The Fort Printers and Lucky Fort Restaurant."
+            },
+            {
+              "time": "2:00 PM - 4:00 PM",
+              "activity": "Beach Time at Jungle Beach",
+              "description": "Drive to Jungle Beach, located near Unawatuna. It's a smaller, more secluded beach with calm waters, perfect for relaxing after your morning surf session. Enjoy swimming, snorkeling, or just lounging on the beach."
+            },
+            {
+              "time": "4:00 PM - 6:00 PM",
+              "activity": "Surfing at Weligama Bay",
+              "description": "Head to Weligama Bay, about a 30-minute drive from Galle, for more surfing. Weligama is famous for its long sandy beach and consistent waves, suitable for all levels of surfers."
+            },
+            {
+              "time": "6:00 PM - 7:00 PM",
+              "activity": "Sunset at Weligama",
+              "description": "Relax on the beach and enjoy the stunning sunset over the Indian Ocean. It's a perfect way to end your day of beach activities."
+            },
+            {
+              "time": "7:00 PM - 8:00 PM",
+              "activity": "Dinner in Weligama",
+              "description": "Have dinner at one of the beachfront restaurants in Weligama. Recommended spots include W15 Weligama and Nomad Café & Boutique."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            {
+              "time": "8:00 AM - 9:00 AM",
+              "activity": "Breakfast",
+              "description": "Enjoy breakfast at your accommodation or a local café in Galle."
+            },
+            {
+              "time": "9:00 AM - 11:00 AM",
+              "activity": "Morning Surfing at Mirissa",
+              "description": "Drive to Mirissa, about a 45-minute drive from Galle. Mirissa is another great surfing spot with beautiful beaches."
+            },
+            {
+              "time": "11:00 AM - 12:00 PM",
+              "activity": "Whale Watching",
+              "description": "Join a whale watching tour in Mirissa, known for its sightings of blue whales, sperm whales, and dolphins."
+            },
+            {
+              "time": "12:00 PM - 1:00 PM",
+              "activity": "Lunch",
+              "description": "Have lunch at a beachfront restaurant in Mirissa. Recommended spots include Zephyr Restaurant & Bar and Margherita Italiano Restaurant."
+            },
+            {
+              "time": "1:00 PM - 3:00 PM",
+              "activity": "Beach Time at Mirissa",
+              "description": "Relax on Mirissa Beach, swim, or snorkel. Mirissa Beach is known for its picturesque scenery and calm waters."
+            },
+            {
+              "time": "3:00 PM - 5:00 PM",
+              "activity": "Visit to Koggala Lake",
+              "description": "On your way back to Galle, visit Koggala Lake. Enjoy a boat ride and explore the small islands on the lake."
+            },
+            {
+              "time": "5:00 PM - 7:00 PM",
+              "activity": "Return to Galle and Dinner",
+              "description": "Return to Galle for dinner. Recommended spots include A Minute by Tuk Tuk and The Tuna & The Crab."
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            {
+              "time": "8:00 AM - 9:00 AM",
+              "activity": "Breakfast",
+              "description": "Enjoy breakfast at your accommodation or a local café in Galle."
+            },
+            {
+              "time": "9:00 AM - 11:00 AM",
+              "activity": "Visit to Hikkaduwa Beach",
+              "description": "Drive to Hikkaduwa Beach, about a 30-minute drive from Galle. Hikkaduwa is known for its coral reefs and marine life. Enjoy snorkeling or scuba diving."
+            },
+            {
+              "time": "11:00 AM - 1:00 PM",
+              "activity": "Explore Hikkaduwa",
+              "description": "Explore the local area, visit the Tsunami Honganji Vihara, and shop for souvenirs at the local markets."
+            },
+            {
+              "time": "1:00 PM - 2:00 PM",
+              "activity": "Lunch",
+              "description": "Have lunch at a beachfront restaurant in Hikkaduwa. Recommended spots include Mamas Coral Beach Restaurant and Red Lobster."
+            },
+            {
+              "time": "2:00 PM - 4:00 PM",
+              "activity": "Surfing at Hikkaduwa Beach",
+              "description": "Enjoy an afternoon surfing session at Hikkaduwa Beach, known for its good waves and vibrant surf culture."
+            },
+            {
+              "time": "4:00 PM - 6:00 PM",
+              "activity": "Relax at the Beach",
+              "description": "Spend some time relaxing on the beach, swimming, or exploring the nearby coral reefs."
+            },
+            {
+              "time": "6:00 PM - 7:00 PM",
+              "activity": "Sunset at Hikkaduwa",
+              "description": "Watch the sunset from Hikkaduwa Beach, known for its beautiful evening views."
+            },
+            {
+              "time": "7:00 PM - 8:00 PM",
+              "activity": "Dinner in Hikkaduwa",
+              "description": "Have dinner at a beachfront restaurant in Hikkaduwa. Recommended spots include Top Secret and The Crab."
+            },
+            {
+              "time": "8:00 PM - 9:00 PM",
+              "activity": "Return to Galle",
+              "description": "Return to your accommodation in Galle."
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Book your whale watching tour and scuba diving session in advance to ensure availability.",
+        "Bring a waterproof camera for underwater and whale watching photos.",
+        "Stay hydrated and protect yourself from the sun with sunscreen and a hat."
+      ]
+    },
+    {
+      "id": 4,
+      "Type": "fourDay",
+      "name": "4-Day Trip to Galle",
+      "activities": [
+        {
+          "day": 1,
+          "activities": [
+            {
+              "time": "7:00 AM - 8:00 AM",
+              "activity": "Travel to Galle",
+              "description": "Depart from your accommodation early to make the most of your day. Ensure you have your surfing gear and beach essentials packed."
+            },
+            {
+              "time": "8:00 AM - 9:00 AM",
+              "activity": "Breakfast in Galle",
+              "description": "Enjoy a hearty breakfast at one of the local cafes or restaurants in Galle. Recommended spots include Pedlar's Inn Cafe and Church Street Social."
+            },
+            {
+              "time": "9:00 AM - 11:00 AM",
+              "activity": "Surfing at Unawatuna Beach",
+              "description": "Head to Unawatuna Beach, a short drive from Galle. Unawatuna is renowned for its beautiful crescent-shaped beach and good surfing conditions, especially for beginners and intermediate surfers."
+            },
+            {
+              "time": "11:00 AM - 1:00 PM",
+              "activity": "Explore Galle Fort",
+              "description": "Take a short break and explore the historic Galle Fort, a UNESCO World Heritage site. Walk along the ramparts, visit the Galle Lighthouse and the Maritime Museum, and shop for souvenirs in the quaint shops."
+            },
+            {
+              "time": "1:00 PM - 2:00 PM",
+              "activity": "Lunch",
+              "description": "Have lunch at a restaurant within Galle Fort or nearby. Recommended spots include The Fort Printers and Lucky Fort Restaurant."
+            },
+            {
+              "time": "2:00 PM - 4:00 PM",
+              "activity": "Beach Time at Jungle Beach",
+              "description": "Drive to Jungle Beach, located near Unawatuna. It's a smaller, more secluded beach with calm waters, perfect for relaxing after your morning surf session. Enjoy swimming, snorkeling, or just lounging on the beach."
+            },
+            {
+              "time": "4:00 PM - 6:00 PM",
+              "activity": "Surfing at Weligama Bay",
+              "description": "Head to Weligama Bay, about a 30-minute drive from Galle, for more surfing. Weligama is famous for its long sandy beach and consistent waves, suitable for all levels of surfers."
+            },
+            {
+              "time": "6:00 PM - 7:00 PM",
+              "activity": "Sunset at Weligama",
+              "description": "Relax on the beach and enjoy the stunning sunset over the Indian Ocean. It's a perfect way to end your day of beach activities."
+            },
+            {
+              "time": "7:00 PM - 8:00 PM",
+              "activity": "Dinner in Weligama",
+              "description": "Have dinner at one of the beachfront restaurants in Weligama. Recommended spots include W15 Weligama and Nomad Café & Boutique."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            {
+              "time": "8:00 AM - 9:00 AM",
+              "activity": "Breakfast",
+              "description": "Enjoy breakfast at your accommodation or a local café in Galle."
+            },
+            {
+              "time": "9:00 AM - 11:00 AM",
+              "activity": "Morning Surfing at Mirissa",
+              "description": "Drive to Mirissa, about a 45-minute drive from Galle. Mirissa is another great surfing spot with beautiful beaches."
+            },
+            {
+              "time": "11:00 AM - 12:00 PM",
+              "activity": "Whale Watching",
+              "description": "Join a whale watching tour in Mirissa, known for its sightings of blue whales, sperm whales, and dolphins."
+            },
+            {
+              "time": "12:00 PM - 1:00 PM",
+              "activity": "Lunch",
+              "description": "Have lunch at a beachfront restaurant in Mirissa. Recommended spots include Zephyr Restaurant & Bar and Margherita Italiano Restaurant."
+            },
+            {
+              "time": "1:00 PM - 3:00 PM",
+              "activity": "Beach Time at Mirissa",
+              "description": "Relax on Mirissa Beach, swim, or snorkel. Mirissa Beach is known for its picturesque scenery and calm waters."
+            },
+            {
+              "time": "3:00 PM - 5:00 PM",
+              "activity": "Visit to Koggala Lake",
+              "description": "On your way back to Galle, visit Koggala Lake. Enjoy a boat ride and explore the small islands on the lake."
+            },
+            {
+              "time": "5:00 PM - 7:00 PM",
+              "activity": "Return to Galle and Dinner",
+              "description": "Return to Galle for dinner. Recommended spots include A Minute by Tuk Tuk and The Tuna & The Crab."
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            {
+              "time": "8:00 AM - 9:00 AM",
+              "activity": "Breakfast",
+              "description": "Enjoy breakfast at your accommodation or a local café in Galle."
+            },
+            {
+              "time": "9:00 AM - 11:00 AM",
+              "activity": "Visit to Hikkaduwa Beach",
+              "description": "Drive to Hikkaduwa Beach, about a 30-minute drive from Galle. Hikkaduwa is known for its coral reefs and marine life. Enjoy snorkeling or scuba diving."
+            },
+            {
+              "time": "11:00 AM - 1:00 PM",
+              "activity": "Explore Hikkaduwa",
+              "description": "Explore the local area, visit the Tsunami Honganji Vihara, and shop for souvenirs at the local markets."
+            },
+            {
+              "time": "1:00 PM - 2:00 PM",
+              "activity": "Lunch",
+              "description": "Have lunch at a beachfront restaurant in Hikkaduwa. Recommended spots include Mamas Coral Beach Restaurant and Red Lobster."
+            },
+            {
+              "time": "2:00 PM - 4:00 PM",
+              "activity": "Surfing at Hikkaduwa Beach",
+              "description": "Enjoy an afternoon surfing session at Hikkaduwa Beach, known for its good waves and vibrant surf culture."
+            },
+            {
+              "time": "4:00 PM - 6:00 PM",
+              "activity": "Relax at the Beach",
+              "description": "Spend some time relaxing on the beach, swimming, or exploring the nearby coral reefs."
+            },
+            {
+              "time": "6:00 PM - 7:00 PM",
+              "activity": "Sunset at Hikkaduwa",
+              "description": "Watch the sunset from Hikkaduwa Beach, known for its beautiful evening views."
+            },
+            {
+              "time": "7:00 PM - 8:00 PM",
+              "activity": "Dinner in Hikkaduwa",
+              "description": "Have dinner at a beachfront restaurant in Hikkaduwa. Recommended spots include Top Secret and The Crab."
+            },
+            {
+              "time": "8:00 PM - 9:00 PM",
+              "activity": "Return to Galle",
+              "description": "Return to your accommodation in Galle."
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "activities": [
+            {
+              "time": "8:00 AM - 9:00 AM",
+              "activity": "Breakfast",
+              "description": "Enjoy breakfast at your accommodation or a local café in Galle."
+            },
+            {
+              "time": "9:00 AM - 11:00 AM",
+              "activity": "Visit to Koggala Beach",
+              "description": "Drive to Koggala Beach, about a 20-minute drive from Galle. Enjoy the calm waters and beautiful surroundings."
+            },
+            {
+              "time": "11:00 AM - 1:00 PM",
+              "activity": "Stilt Fishing Experience",
+              "description": "Try stilt fishing, a traditional fishing method unique to Sri Lanka, with local fishermen."
+            },
+            {
+              "time": "1:00 PM - 2:00 PM",
+              "activity": "Lunch",
+              "description": "Have lunch at a beachfront restaurant in Koggala. Recommended spots include The Fortress and Café Ceylon."
+            },
+            {
+              "time": "2:00 PM - 4:00 PM",
+              "activity": "Visit to Handunugoda Tea Estate",
+              "description": "Tour the Handunugoda Tea Estate, known for its 'Virgin White Tea'. Learn about tea production and enjoy a tea tasting session."
+            },
+            {
+              "time": "4:00 PM - 6:00 PM",
+              "activity": "Return to Galle and Shopping",
+              "description": "Return to Galle and spend some time shopping for souvenirs and exploring the local markets."
+            },
+            {
+              "time": "6:00 PM - 7:00 PM",
+              "activity": "Dinner in Galle",
+              "description": "Have dinner at a local restaurant in Galle. Recommended spots include The Church Street Social and Elita Restaurant."
+            },
+            {
+              "time": "7:00 PM - 8:00 PM",
+              "activity": "Evening Walk in Galle Fort",
+              "description": "Take a leisurely evening walk in Galle Fort, enjoying the cool breeze and the historic ambiance."
+            },
+            {
+              "time": "8:00 PM - 9:00 PM",
+              "activity": "Return to Accommodation",
+              "description": "Return to your accommodation, reflecting on a memorable 4-day trip."
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Book your whale watching tour and scuba diving session in advance to ensure availability.",
+        "Bring a waterproof camera for underwater and whale watching photos.",
+        "Stay hydrated and protect yourself from the sun with sunscreen and a hat."
+      ]
+    }
+  ]
+}

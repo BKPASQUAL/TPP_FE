@@ -1,21 +1,18 @@
-import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react'
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-// Initialize an empty api service that we'll inject endpoints into later as needed
+// Initialize an empty API service that we'll inject endpoints into later as needed
 export const api = createApi({
-    baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:3001/',
-        // baseUrl: 'http://44.208.32.102:3001/',
-
-        prepareHeaders: (headers) => {
-            const accessToken = localStorage.getItem('accessToken'); 
-            // console.log("hello "+accessToken)         
-            if (accessToken) {
-                headers.set('Authorization', `Bearer ${accessToken}`)
-            }
-            return headers;
-        }
-    }),
-    endpoints: () => ({}),
+  baseQuery: fetchBaseQuery({
+    baseUrl: 'https://api.apify.com/v2/datasets/YzqspUxwJlfpYv73T/items?clean=true&format=json',
+    prepareHeaders: (headers) => {
+      const accessToken = localStorage.getItem('accessToken'); 
+      if (accessToken) {
+        headers.set('Authorization', `Bearer ${accessToken}`);
+      }
+      return headers;
+    },
+  }),
+  endpoints: () => ({}),
 });
 
 export default api;

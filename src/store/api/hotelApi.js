@@ -1,19 +1,20 @@
-import api from "./api";
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-export const hotelApi = api.injectEndpoints({
+export const hotelApi = createApi({
+  baseQuery: fetchBaseQuery(),
   reducerPath: "hotelApi",
   endpoints: (builder) => ({
-    getHotelList: builder.query({
-      query: () => "hotel/getAllHotels", // Ensure the endpoint path is correct
+    getHotelList1: builder.query({
+      query: () => ({
+        url: "https://api.apify.com/v2/datasets/YzqspUxwJlfpYv73T/items?clean=true&format=json",
+      }),
     }),
-    addHotel: builder.mutation({
-      query: (data) => ({
-        url: "hotel/createHotel",
-        method: "POST",
-        body: data,
+    getHotelList2: builder.query({
+      query: () => ({
+        url: "https://api.apify.com/v2/datasets/egelftqveQOE1e8Jm/items?clean=true&format=json",
       }),
     }),
   }),
 });
 
-export const { useGetHotelListQuery, useAddHotelMutation } = hotelApi;
+export const { useGetHotelList1Query, useGetHotelList2Query } = hotelApi;

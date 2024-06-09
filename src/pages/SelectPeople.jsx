@@ -104,7 +104,7 @@ function SelectPeople() {
         </div>
 
         <div className="planetrip-SelectPeople-mid-right">
-          <FontAwesomeIcon icon={faCircleArrowRight} />
+          <FontAwesomeIcon icon={faCircleArrowRight} onClick={() => navigate("/userreq")}/>
         </div>
       </div>
       <div className="planetrip-SelectPeople-btm">
@@ -112,7 +112,7 @@ function SelectPeople() {
         {activeButton === "Family" && <WithFamilly />}
       </div>
       <div className="SelectPeople-btn">
-        <Button variant="dark" style={{ width: "150px" }}>
+        <Button variant="dark" style={{ width: "150px" }} onClick={() => navigate("/CreatePackage")} >
           Next
         </Button>
       </div>
