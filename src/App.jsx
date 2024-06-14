@@ -5,6 +5,7 @@ import SelectDateRange from "./pages/SelectDateRange";
 import SelectPeople from "./pages/SelectPeople";
 import CreatePackage from "./pages/CreatePackage";
 import Userreq from "./pages/Userreq";
+import UserChoise from "./pages/UserChoise";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/SelectPeople" element={<SelectPeople />} />
         <Route path="/userreq" element={<Userreq />} />
         <Route path="/CreatePackage" element={<CreatePackage />} />
+        <Route path="/UserChoise" element={<UserChoise />} />
     </Routes>
   );
 }

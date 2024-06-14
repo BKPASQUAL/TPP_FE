@@ -1,0 +1,70 @@
+.UserChoice-main {
+    display: flex;
+}
+
+.UserChoice-main-left{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin: 40px;
+    margin-top: 20px;
+}
+
+.UserChoice-main {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .UserChoice-main-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .UserChoice-main-right {
+    flex: 1;
+  }
+  
+  .UserChoice-main-mid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .UserChoice-field {
+    margin-bottom: 30px;
+  }
+  
+  /* .rs-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+  
+  .activities-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .activity-button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .activity-button.selected {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .activity-button:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  

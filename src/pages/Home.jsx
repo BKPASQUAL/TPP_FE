@@ -67,6 +67,7 @@ function Home() {
 
         {section === "thingsToDo" && (
           <div className="section-placeholder">Things To Do Section</div>
+          
         )}
       </div>
     </>
