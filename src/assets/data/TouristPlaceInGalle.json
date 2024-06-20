@@ -1,0 +1,891 @@
+[
+    {
+        "Name": "Galle Dutch Fort",
+        "Rating": 4.7,
+        "User Ratings Total": 16345,
+        "Address": "Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUj1hwcFcVYZTqOUZ0xVsnqy5mY5uioKM0Z9P_hJDxMGRsq-zTuTj4MkBe8CNrf9NRRaTBgD7uHS-M6TVQ9gAO9xqnQ8BQ6Qj1tFabnIWH_-BEsvo91AW2o8LRMRMiLSwBrZ6DzIT16ZmGoMi35vOirJU_cS_4UigLEOD69ZSbwrMid&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVFzsW4ao_22t9rxPMsczJ7ci5QdPkxgTSy8svssW9hVo9ryPcKBYSHQk9Ps0aL0RzH_MNpjb3i-lmtEuzLWO404B0-j40K9IU1ZcEZisjUIBmYBsvfcA0KGd61Dt2f5IijDMPrU4Y6hixGtUSwczPDrXwuuo76KVI8t_1GDEmrxzIu&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXsX6vui_WGUAFJrZJvoH5bB9oocONhiyCpwXiyrBz-e44vYY4WCrSE9c6IhFR3qaoKgzPMS9TKhE57SCGc3a8mcbvjuMhxZKOUibSWN5pT6aIBDEydYiKD_-PyTTq_JoD-eDfTWWN0H7cR77mlW8p0WG-3G4O6mtzkorY-50YDNNYa&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU0vxeSTq-auxQk3bBLXN06vD94H-OIF1uMLks8f_qgSWJckKL6M_sv93xpgMZYRI45WzFPyqsHAzueirKJ7Clu1xsjRw5OZaKO7op3nG92yln96WuKSsq_FvPl6sCbJfLYqjCUTc_9s30s3I3r1ZZnLbsDZ2Nm06GsG8kcST7-HO9H&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUGU8fZ33gWvgqli9WARisq0a-B_O74i23j-K18drLs0JNykPhuVWHVgK7qCWzxws-3wJ0VyED1Sjnbeewx1yt_mntAtLxRCHXxTnl1UQVGml9naWNQ202zUIphpXdJeUoLLCcAS9BsYAvHDGfYytTZMM4lnjnOxRWXe7rFBTisjeCN&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXZhyEaxgYqeKFnJICiALoSjg1fbOJlnAluVKAwWUul1Yu9vfzpiU7qUncvCSXMu77Rsg2UxPcuXnG6YDuvpWdbOA_9nFPccwLZ6qb4BcuoUkWcA264Yc-x_zNGnbtkbynZMrhvo7KuBrr3rEC7nprQpqMnI_R77E3tbcNgiChq6khh&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW6cG-nbPUdF-u77Zq_3kCKjeXDGyGyeArAucRDql0wKdwySeOehVjg5Wm-eOESYnCzz9lMOda1z3Y0ls7qoNTI5BrxWESlIdj4iOdusjODUElyqjvwx0aanj8DSB89axyCNp1_i6A46xlgZguRUVMvhBpam5aKofEs9I2OXodmwKiC&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUYe0S6YHw7MOm3R04LW4olSix5eQSHYbbGj7UvQg8MrINvJB_MS2hQd-G36Zbx1HsMiUVKR7H5vPHl1HWT1wHucPoj6lr6JPpJ2q8RWtYV0b0XltAgDt0NkboEsOVtdhijPQZHHWB0bvJd5JuWOOVmO8pB9H5GhbLYx8CdAgB1Ziya&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWf0jCC-kSSqtDFDh8xTdgIDXlrr-nZhjcNtTA44jA-ZeTY4CZcuHYSZnJbXKGjcG9CkTDzwLuTJneUzkjJA5qLZj00iH7FcVD5GrLUJSuRXLfPhM51relNG3KWJTCjbCPBAzkLAIp7vk_OT3XyxdPWjfPhux6Qyc3KvrgISAzjtN1r&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVVyrO3Y1a8crwBJjuS36Jiw1KRRlNuuOsoifwmTpBlVKFSyTEWoisMpK2Im8TsEQCFI7cuwOCl_dDQcPx_zo8IuVBdCYHugRcWkiDyocFf0tCPlCNz7xG6IifIPzPJCyTFDTfnTi7LD9V4EJLsoaRP-CJRdzo_5IlCmnb3nIa8QcGT&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.030459199999999,80.2150207",
+        "Reviews": [
+            {
+                "Review Author": "Ishan Bhanuka",
+                "Review Rating": 5,
+                "Review Text": "This was an ancient fort built by the Dutch and later developed by the Englishmen. Today, it stands as a significant historical site and a beautiful place for a leisurely walk. Visitors can enjoy the serene atmosphere, explore the remnants of history, and experience breathtaking sunsets in the evening. The blend of rich history and natural beauty makes it a perfect spot for reflection and relaxation, offering a unique glimpse into the past while providing a peaceful escape from the busy of everyday life."
+            },
+            {
+                "Review Author": "S Rohan (Vanduraa_sr)",
+                "Review Rating": 5,
+                "Review Text": "Beautiful old fort with so much to see and do.\nIt's a must visit when in Sri Lanka. You'll be foolish not to.\n\nThe roads leading into the fort are a bit messy and it would be nice if there was more shaded seating areas around the fort.\n\nThe area feels big altho in reality it isn't. There are so many little side roads and shops it makes it feel as though the fort is never ending.\n\nOne issue, like with most tourist traps around the world, you really do have to be careful which restaurant is genuinely a good place to eat and which ones are just there to over charge you. Once you've visited the area more than twice you do get a good idea which is which.\nAlso there are many souvenir shops selling the exact same thing, so my advice is to browse around until you find a good deal.\n\nThe fort walls are usually busy with people milling, walking along it but it hardly ever feels packed. The sea views are absolutely amazing any time of the day, however, it's the evening that you really get treated to some beautiful colours.\n\nGalle fort is a great place to go on your own, with friends/family and also has a lovely romantic charm to it for you and your partner."
+            },
+            {
+                "Review Author": "Dilrukshi Thuduwewatta",
+                "Review Rating": 5,
+                "Review Text": "Galle Fort is a wonderful place to visit! The old buildings and cobbled streets are charming, and the ocean views are breathtaking, especially at sunset. There are interesting museums, lovely shops, and great cafes. The history and friendly locals make it a must-see. Highly recommended!"
+            },
+            {
+                "Review Author": "Aravinda Madushanka",
+                "Review Rating": 5,
+                "Review Text": "Named as a UNESCO World Heritage Site, which is a great asset to Sri Lanka, this is a valuable souvenir bequeathed to Sri Lanka by the Portuguese and Dutch. Inside the fort, you can still see well-preserved Portuguese and Dutch architectural buildings, shops & monuments.The best way to discover this fort is to take a walk in the morning or evening.\n\nMany buildings including restaurants, souvenir shops, gem stalls, hotels, as well as a lighthouse and an old clock tower can be seen here."
+            },
+            {
+                "Review Author": "Avishka Dilshan",
+                "Review Rating": 5,
+                "Review Text": "Most amazing spot in whole Galle city.Tourists from all over the world visit Galle fort. Living here for 27 years, this is the best place to hangout and chill in the evenings have a dip in the sea , do some snorkeling 🤿.\n\nThe best ever is to have a night walk in the fort Streets! Go and see the vine fantastic 😍"
+            }
+        ]
+    },
+    {
+        "Name": "Galle Lighthouse",
+        "Rating": 4.6,
+        "User Ratings Total": 4091,
+        "Address": "26F9+RPH, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU0bvQmdOIqYXl32-Cua_jxEws0-OUhSnynwTg-eLtMd98oajKnZm8W2_mrrkvVYWL1WHZ2BTXZu5XK9ursu2TjZmBgd3CnXIAQ1kQJT5msYXSCbhMyxXQKM9AvBrD9RKyF9FxePyQME4mgHgk6hl3eFtllTh0EyxB5W5JJVIcSmnU4&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXrUAArlGbfikXQQw9EZW-gAZ5yMRJFpKhOuKT6iVibakK0b9KIvvgRPodxvwB7MGNwv2WnA1YejkeKKvxw_y-KmKLt1vdjedOLYnOOEGC5X_leojpJ1YWruGHuSKYqDvgbouaN1Dc2_XwvKKLZJrfkaw7xWiA8adVbZQ1UliIAiqja&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXQnwlTrVTCM5_dBQDi_-z4x1oDaf_AAb2P8ESBfeV-KypKww0WUwGPmwJOKVqlRWyDpzKwhRYQcQlGATfR4P7Grxsu7hbrG9WWu1sIHeARZv38Sg6BzASO9E-Ekp63L1yFPtYpMwHv46E6LztLxxGAwPpcoAfQzZq6kgFEfk2chCia&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXoc8QP21GXUyRkoO0FMNbQkZnxmRmrU1T0a69khp4mtPC4dlK8vpS863wM4pn9x85CSkjAX3Z26bt_p0YzjQAHOTcnmMqTAFLKiwxq-L4iCVxqKnwCi7ezxFuRf1mUb_iZfqrDp8KCS-HjJziL9zaWbwODaMERY2q2vFlF4SIQ9sKX&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXV6SRhMHZQZOMTiFWR2bO-wUt1sM66XNDG-1kZSB0iRDnnY-2WUUg0s5NXxCpbn5V00CfpgjvJg8YoMBl9zWJ1V4hkB_Iet5-Ph8RB2lI0PtGULuZpm5wx3JBO1Wk6GtYPhIaiLAVE1tRUXp-fltlUJrAfW2d0Hre4uRcd9WNLLaBUd&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWxjelFEnP10FS4gaif4JzGGyqax85in5Jd2popOuak3_C9P7zgAOAftJsva1eNQrEd7x6wfV1ML35haxArCgOdnrNquqTKxumqLdKF9LQN9twcg9kEGsNrUK5rlc2o9qcawyblF8cnnUyQnvSMB8hhKJDDxsg1GHMcxu8Vi5DwdmLM&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW41AljlgiGP5Hf6R08MZmzzhKM1aM5Oai015Xkxgi9jGS0veDGPFuA3wjxl4C0_c2LGJJfDldZ0CO1DY5F0V-Bm6AMsJeOSgZsF3uqR3WRM-G_vt0wr2PVB9yU7fiaZUN7kGQdk9AXO_lfhvaZkfOLZB2NMTlXkBBm8BdGYdNX8nIf&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX40qXFS84mh4irL2NsA-IT5BS7W8w4YdhwOGu8tzU7lp_w9BKWL5qFXVs0ZIFiWgGWXGPfYKyoF9Sfft50cFxqnllD4LJSB_mEYUMLzHA9DI3y9J3i2nzD6WG9U2HCio_Pg2Ao4ysssfArfWyFvsod5KCPrzRz0naoetIBeKbiQUY&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXJNqlcwhGDZPDfI_IZjeyhudWw-GT49uWiMGv86gL_GzPFQqFteHD66U-OrxOb1sIvW_9Kul67xirz-16P1yTfHYpGTG21ClS7Ad2pPOBfwdTQNSrMQUj7SuInjYsje5viVFHML_ldQY9wm01uWBe9MTmskPpQc9czUl1NNFRY9eBR&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU2MGXnXxPTzdqALrwWaRn64CKe0K7w6b3-8rfXbcZDfl3HKUisJU8T7Hl-r6x_0i-Voj0qVglYjxQhoQ3yE6x9fubbG6HClkotHbzHDLc0iYK202rfVe3E5t5KtrpQ5cGe52bBIHOqDvIsNftIRwv8BDxV6rmm0DJS1NVtmTTrsrYe&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.024561299999999,80.2193661",
+        "Reviews": [
+            {
+                "Review Author": "Calin",
+                "Review Rating": 5,
+                "Review Text": "A must see place at sunset. The entirety of Galle Fort has loads of charm, but the sunset colours takes it to another level.\nGet there 1 hour before and just walk around. It’s small enough to be easily covered that way and dutch influence makes the buildings  and architecture stand out from everything else we’ve seen in Sri Lanka."
+            },
+            {
+                "Review Author": "Sameera Samarasekara",
+                "Review Rating": 5,
+                "Review Text": "Actually, the lighthouse  is no longer functioning and serves only as a landmark. Many people come to enjoy the area, the breezy weather, and the sea.🌊 .There are numerous local vendors and many food trucks 🛻 as well. You can also enjoy authentic Dutch 🇱🇺architecture from the 1600s."
+            },
+            {
+                "Review Author": "Dileesha Kinish Bandara",
+                "Review Rating": 5,
+                "Review Text": "I recently visited Galle Fort, and it was an incredible experience! The rich history, well-preserved architecture, and charming atmosphere make it a must-visit destination. Walking along the ramparts offers stunning views of the ocean, and the narrow streets within the fort are filled with quaint shops and cafes. The blend of Dutch and Portuguese influences is evident throughout. I thoroughly enjoyed exploring the museums and learning about the fascinating history of this UNESCO World Heritage Site. Whether you're a history buff or just looking for a delightful stroll, Galle Fort won't disappoint. Highly recommended!"
+            },
+            {
+                "Review Author": "Homaed Ishaque moon",
+                "Review Rating": 5,
+                "Review Text": "It's a beautiful place with a Magnificent view of the Indian Ocean. The Dutch colony is mesmerizing you to see the vintage architectural forms. That evening I spent beside the Galle fort was amazing. 😍🤘"
+            },
+            {
+                "Review Author": "F SB",
+                "Review Rating": 4,
+                "Review Text": "The entire fort is a historic place that takes you back in time - very impressive. Unfortunately we were there during the rainy season, but you shouldn't miss this area around the lighthouse. There are lots of nice little cafes to escape the rain."
+            }
+        ]
+    },
+    {
+        "Name": "Maritime Museum",
+        "Rating": 4.2,
+        "User Ratings Total": 906,
+        "Address": "26H9+663, Queens St, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXcKyAPg3OIpSP3ungXhAC2VI12swlvfeGIfhsqoT0JsMEpMC0ITVgoXqeDo_z8QoFryJ65lMLB9rRvCa7cpkVqpAXV6aN5_LVFBXurLqU4taZbupBulvSAjAhH3VpcsZ68PmmWzAFrIVJcfy6XQ4Jks4HP2wzeuijPMetd8tA_RJep&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVQMFTZsr1FMNMpocfOlVjLFozbKDIQQ93pQbf-txXcqJqQ9Uam2FCo3k2OuSfNAOZGz1I8yMnR7Eu8kaXBphWJeZfonB04Ywbea9nnb1ql6Iu5VcgVaRMOaNAX67gigRL2uMHj8TlxogpVBcxCf6x64Dq3Xq06E7FDms5dJlBGHNbO&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXmrTT8seZGQQwizFrDKiQf_7e8yqKLcEJ0OAOr1gUCTvyWMd8C8noVLaxC0o1kucTmkiA1c6KHr02CHdYP795j4w1ucV6ytr0qksNAJvBDxg0tur1ANdb6hKFWE9FqAX6bda_ndLfwhgDksuFTPge-ANY7TyBcXBedZ0Vy3BpSCGUu&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUF2nwfGTDlp7ldItHuxsChYathgYdktu4CgH7ES6oE3_2hggjLvJ6lcV8tdUHUnDSnyBQP_XzghlQH-_LNPcnVi64g89dupOqNufDw7jID4rKdmQTj4T7lGUtv1hPjz_xEBERL0lc28grTtJOZesfLvAIF5b-nqYjJmm7iSkSnqDf1&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWhXNavYyN0o2Wmq6EroOI4oAsmwrLvvZtYgBfd01eO97wqd6s_aTTfqagO80k88GIrgFII6ndoxNaxs1Mr3xvn9v_tAWMUXLdJGLSBB-ZdS8t0pB5kGvU2M6jSIENis1TiKY21TpGc0K2a5zmlIMf_VZKZ9MfP229idp_6_Aln-2ez&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU93JFr5w9yaZmNnKYP6qjuDlFzHIlgBzQcqzB2TQIvB8aSm-2l1RHoRN3D0Dnk08t8aqWqSGu5xFHn_icOMfN4J64WjKjcJcZl2MQgbQ3Yc5hFnkRi5JnZHlSNkKUaIqvcmis7PBsGjJ5nWroJY3zWUYHI_4OJXWIY6IlirCLfIF3Q&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXI92x5c9oaJubgzruYPCuOrx_rEZNLhqLjvtoERUgY3lPWwDiYjdDXrOXoFhGLAIhc5TLiKKQnBevGq8D7qVYroIj5PStJqQQLRFct_4NGTWRGKWwaoUjMBgFAFXr4vMCmL8pgzBKBKkv58bnkVDFO6ksiJRFt7AYWAPm5vt2QLlF-&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXU8t90J-pq1ShOjbb6WfJ8okuLLCMMxMy2qLk4IF9hulzCQm4DCllbcRAFtUc4Olokl0feilzGt7OfiFDkBwEY3knLmLE7LTWUPTqvzimAuGnf8n33tGJ2oawUvkLAUTMDglohx9A6E78KkUkormpBv9nUfwjrQRWPw8dfyTONWgRX&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXzinQAmVGcTGUzEUF-lHsI9JBOcMeGCLwxHvEIVYFQCBbZFKOtVL-JrmtfDU6i4jsRN5u_CtqS1cENl-znU0J62ZxckwbKY0_mG1kOWXMXVZR-ZL5nzF2PUZ-4i6rwcEeZi-kwqwO5wvwywb1FbjiDfZU2uRV58r7d7rGhypsiPUkt&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX8Cv0JxKt9rkIQ5qoDYW4Ms5gptSML3AVuCoU8oWlLvtaBUyEsXyj4SJ9d96Mx1cm-FSMpln-w9iI69OlThUpkT3OtFaU4G2arrppxNZ0Z1FGG8w-oPKM504z2sJ9PW2zil_OLvAf4P-rZPKAO-xFcaV8DpkhtTj35F-vS4m70jOzT&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.028025,80.2180559",
+        "Reviews": [
+            {
+                "Review Author": "Kavin Kumar",
+                "Review Rating": 4,
+                "Review Text": "Significant repository of marine history within the historic Galle Fort. While the artifacts and information are interesting, the museum could benefit from better maintenance. The dimly lit interior and non-functional fans detract from the overall experience. 🌟🏛️ Need to buy entry ticket."
+            },
+            {
+                "Review Author": "Muthuraja Nanayakkara",
+                "Review Rating": 3,
+                "Review Text": "A small maritime museum and i guess most of the items washed away during Tsunami in 2004. But I believe this museum can be improved in many ways as I have seen lot of Martime Museums in Europe. There is a big history with Maritime affairs in Galle and southern coast. Simply include those history and also can include current technology to display the things. This can be improved as a tourist destination."
+            },
+            {
+                "Review Author": "Ishara Adikaram",
+                "Review Rating": 4,
+                "Review Text": "Good place to visit inside of Galle dutch fort.. ticket prices are -> Rs. 50 for local adults & Rs. 25 for Local Kids. But there was nothing much to see in the museum. Highlighted item of the museum is the \"large whale skeleton hanging on the roof.\""
+            },
+            {
+                "Review Author": "Marc Weerasinghe",
+                "Review Rating": 4,
+                "Review Text": "Inside the Galle Fort, interesting maritime history of Srilanka with many artefacts and model replicas of the earliest types of boats with nice simple explanations in English. There are two sections of the museum which strangely you have to pay two separate fees to enter. Whole experience doesn’t take more than an hour."
+            },
+            {
+                "Review Author": "Anton Varga",
+                "Review Rating": 5,
+                "Review Text": "Really enjoyed looking at the historical artifacts. Provides a lot of insight into the local history.\nLoved the Outriggers!\nWorth the entrance fee - recommended"
+            }
+        ]
+    },
+    {
+        "Name": "Rumassala Sanctuary",
+        "Rating": 4.5,
+        "User Ratings Total": 227,
+        "Address": "269R+6MF, Unawatuna, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVLqiB5bS4SDxLeqpWU7PGHyndh4shcw45-1yw_hePTGzxSyMuAIPMbH0gqJPDIeq3TAv4ErKKLPUsEWLscP1yZQbVZxB0ZJ1-VXIOwf3Z5M0xmFXUnmmltvDo9k5j6v2laea3prw1bJ4_ubGBaymxGi_hMHbaTfzV3Gxt4NP1lt7xw&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUs2-ByhaEm56pzsCJUJU6tT0Cp99by6oCwWXgFrSt6iYVWzyMYNOfGwnSGvQ-2_BcnKg17fK_Kd8-nZVaBxmng7tPcPM__fEORHR58nMZH96llQejFWAHqKYIOnaraaTSI89NYmaE3ojJn967tP8CT_ESxNu4Wy4hWak0UnNRdsOm3&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXRJw2vbvoEKSP3f-BmWcIqPOKMud4FhBmWqzUcQmMaoryFNUSdMQk355N4MU6aklI6tPvmb8wyfB1BNgxUGO4WgSk6kUcNYddAypPm-S6LkiGxlr0-ksXw728yJ2VTVS82koC0Ss12u130gnmfOeb8Fb9O40nuRoR6acgMl2PzgAdO&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX5JJRSO4C3QAHV8rYa-Z-5yhzQve4wwAwN2hjOOxBckYREOfQUZq73_aaN8A4SiipsyI5piO4w-d3khCk3-Bv2KFmeBSc7ZAcn-3e8n-ZVyhW4JUALbgUEpDHRG9bp3EC3_28LGkmC8cJPXYKwavTREgJ9ENFKzTQ_k8AFBfyQ-e4_&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX1jz178pDMXghOL2VAbNksVNk-lTXOqgLpwH1IoGgCudZP3x0mIavujPIcUy6HQDochhk5bcvBojYnpcCiENjuCgdksSbN75PbYPMKWGnQAFz5rF3o4OV1urz3A7R4LYMDAt02XwoL3-yq8XcO4PWoyUg8lJ6HLFPEnvCJBZWEHCuM&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXV-4c1MhJkR1mBIwHT1JPUFXezxoLFkeyApOBW2tpdH8X6NNaDVqYiEDqeAPqtVSEhLGLTVeN9F5CRbFEQwbukvRBYjJTiGUdyQp46ddMirjoG-B_1RHz4qqluDk90hQ4RPZI70SQDzfuMeIpG7q0lZcoa-xmlwGdUI4Y34jUZFIhYR&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXrGEmNTAzWQtJxBW7NhdKOqCDVR3Zz_gn8SNwFRg4iM_DR7fp2gpN4xdL5oUAK-chFjgx-cFwZHKdV-KfBEPCTIBYV0e4DmP4Ot_WWeXAG9Z7yOWRd14o0kMf0flEtKx6zXlCymaSCBmMeb6Bq7pg2KW9uLtB9527u4eIaKzwVNLFr&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWDCBe98tD3lfHC_9UBS5ygMnyfIvs9Nk9vHmk00PfF_lnDEULNT8DrwlOQVSmVRzqe2ESQv4Rtpa5PLHZMsbTswTKEx90aAZq8mN0_2wrV_NF6ss6ryxhbuyD_U-grbAr4s8zhvqbn-0oDueDrYe5T8bg1yiMN2duKPusCRkjXOW-S&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUFJqI7rp4URU59pfZD2Ayl_HxN6CR-VeLMHLhsvgvi46iBGiIcViTxFRj1HTCzTa_UrizzeI2B011kKEIUpfNm2Uaan-IaAI3W3T0NFavRkouXnCyZK2I0rkRKbbES32k7FJaR7tiLxqgyu74nmYn7XPmc7udsqxX-6fJGaIyjYygf&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUFDth_zmuxzx5skTT4o3jc6G32DgKxK44cbo17XqXEipaWDEJ-2voA9QiH3v3HtWPkL3942yVqBhQKrZ1XQ07wo-d1wAGPbxeazZG-tmFR-y2GLLb2346bzT9ZrkqNDhkahyvymSDENKPEZvqSlrzj2ac8xkwzC922r4RqD5I2q8II&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.018055599999999,80.24166670000001",
+        "Reviews": [
+            {
+                "Review Author": "Rasmus Løth Petersen",
+                "Review Rating": 5,
+                "Review Text": "Very nice and pretty beach. Quite pricy if you wanna eat something tho. And it was quite packed with people when we were there. Its a nice ✓ on the list of to see but there are many other beaches in the area with far less people and more affordable prices for food"
+            },
+            {
+                "Review Author": "Thowfeek M. Khan",
+                "Review Rating": 4,
+                "Review Text": "A nice place with a Japanese pansala and a great view of the jungle beach. Have a boat ride during season time. Have parking places and small shops on the way."
+            },
+            {
+                "Review Author": "S Perera",
+                "Review Rating": 5,
+                "Review Text": "Best of best place to feel the sunrise and warm weather in Sri Lanka. Very clean and beautiful. Hope everyone will keep the place clean and beautiful. There are few nice hotels you can stay and walk to the beach to have a swim. Really calming and breathtaking scene. #visitsrilanka #srilanka"
+            },
+            {
+                "Review Author": "Subash Chandra Bowse",
+                "Review Rating": 5,
+                "Review Text": "Very nice trecking experience.. Beautiful Dagaba and beautiful beach. We saw a lot of Hermit crabs"
+            },
+            {
+                "Review Author": "Isuka Manudula",
+                "Review Rating": 5,
+                "Review Text": "It's a  beautifull place . It's a place which shows the beauty of sri-lanka"
+            }
+        ]
+    },
+    {
+        "Name": "Historical Mansion Museum",
+        "Rating": 4.4,
+        "User Ratings Total": 224,
+        "Address": "31, 39 Leyn Baan St, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVLUhf4XZ4k7IKFaCoJE7VnjCfPcqSLM8oF7ktI3p2EtoX4oeQ79Ksbao8fIhC-_nQtqIqiCV0VlcRkbWbOuzl16p9FdRcUXGe_xjO9gLKJSkQhcZYJzD4cQmiSRyPEoPeU9Hkh5uRu_ABv7m8doCZ3XHp_iNYB7Z2Q504-DowRXD5m&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXWyNLx1jZn8ClyRqZJfDJlJ1eCc0heXXlVR-WcnCE-8wZNKD4QUjDjLUA2UNNu1M0-GNVYl7pthOzYY4-0p69KLtRhEqN20DKehvPvY2ZovUA4KzuRQwuT8WWO6WUW07eUbb1NQKM64L4aCsK_Z21-t7HOln01T9IIeUP0fGqTHEEH&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW_zGlFWIMZw27tOZa7d2p_ituxQPpCSNRO1xIHuDBplqqX6uZgqQ7JbnQLa2UClEFECSUl3jHsrNf1RYn2wfSvARJK-lfS_pLt7JdHgQdOLmEB9sD1WRDNTrWfH59QTB9nV3sk-iXMRGgcLPQwnDhAEyl9InSojLmIzjyjLys-dnwI&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUBWJwppXQz5VyG9ZojEOATF5-p3iX7i83Z5_U0pCuo3e6d5TfrFhvWZ2InaC9CKi8JxnQqG_WP-8ZqqUr9qVGB0yLOlXsdi3VTyhXTDTetrLXbnWrpiPi-zEnCTjUJTd2FJI5jiGSjZVT74sGg9x6Ly7sne8gw7kAHQPf3tdXne5Xm&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXSf6Y7bpX2TKf2gosnBXE9Rd_EYPEuyH2V_p7p_5599WuypTih7EezW317heQsovwEZM0o4RvyvYYFFkWFVW2lXpPKDm1jylYnPOd1-gHg3fNWPD9VHiQdyKRPAWh5mcvyOV3G1DfK11-LDSilCkOTyC87QAiQi6VfGaRAnoMhIco-&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXV-tCqLFbIZvP9oyCSIGkPcrQTKMax4w_XfSAfQZ-q4KGQ7LxQrnXiBYA-r4Ke5FIqF3eca_CViM-vroAa6ThYAOBwQS-Pu2YBHNXA3EPd5_md7dDGzBZf0Rp3frvssXlh3vR8kvncCMyaaL62HhpbMk3RVEydZHyoHdG_UAOSr-OLM&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWkstKStg2P2B7KomW7EcKIxa_vUQVaf0kjyxAKZ5G8Eob58KZSBgMfCR0lIAT9RDOWDrH0ksZjay1U6d9fYC5kHQGyuFRQ0-ByKkQ2-8OUQj2K5WldDtDuJi47LqFwPH0OeSdsBnbYm0kVFJgNuPmTojOVOhAv1uITWyPpQTY0OMb6&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWjSVgghMTAQ-iSeh4D9fNG1PhPgYRxiH7eiU6Rdnj3XhR7J1_aKWpQGgBmUb2bc82FjLYJkHWxAMaytUNhaKSwVehwVz9qUvC7Hg8zLVyEFATXayFgaiSaQ2VetWBPPYuoFKEW1kxNV8g1Mn63BynWWZgdy1PleonAJgm8PE1-WWHH&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVp6Ms7qd3WD7QiEOS8RzLWukAaT5zjeXHsBzBLBoWfk8FFbMG2-QoQP_OVovNEvxCd61-IOzeoVFWKGouHyh41iXVgq0KceG5-waNHxmVbydzaREwQT6KBetBBauY5eSmkVbSafgywrtZLU5Dbm0lB4sACrdW1Bc4w0rsxD21uyr1w&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWjY2Va_4WOgnW_nskUls1GHjaREUL5zBrQskhq7OeMU6_kF2Tcj4KxzUHg5ZHbzy-E9qICj2nzCeHbE1ap60qcb0Bmb57YuSeRWO4KkXYqfO3TOAhA1-kCsK0W5GrWnYEtUXoj4hjz0oNgbl53-MixA_17dADZQ-WpYn9nrFGtmvYj&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.0264711,80.2188726",
+        "Reviews": [
+            {
+                "Review Author": "Jayasanka Udara",
+                "Review Rating": 3,
+                "Review Text": "A hidden museum in the Galle Fort was hosted by a visionary gem businessman, namely Mr. M.H.A. Shankar.\nOpening hours 0900-1800hrs\nFriday 1200-1330 hrs closed\n\nThis entry is free, and anyone can visit this museum. There is no restriction on taking photos. You can see many artifacts that are well arranged and displayed. Most of the items belong to the Dutch period in Sri Lanka. Even the building appeared in Dutch architecture.\n\nIt is worth visiting this place if you have an interest in historical things relevant to the Dutch period. The tour won't take much time. (nearly 30 minutes)\n\nAppreciate the effort of the initiator of the museum and his successors for giving such a valuable opportunity."
+            },
+            {
+                "Review Author": "Ishara Adikaram",
+                "Review Rating": 5,
+                "Review Text": "Good place to visit in Galle Dutch fort. This museum has so great collection of antiques. Also there is no entry fee to visit the museum."
+            },
+            {
+                "Review Author": "Kavin Kumar",
+                "Review Rating": 5,
+                "Review Text": "Housed in the oldest Dutch building within Galle Fort, this museum preserves artifacts from the Portuguese, Dutch, and British periods. Explore collections of turtle shell jewelry, Dutch furniture, weaponry, camera, stamps, currency and more. The recent addition, the ‘Sri Lanka China Friendship Gallery,’ sheds light on historical trade relations between China and Sri Lanka. A cultural gem! 🏛️🌟 There is store inside the museum where you can buy authentic gems of Sri Lanka including the most popular Ceylon or blue sapphire."
+            },
+            {
+                "Review Author": "Ross Daniels",
+                "Review Rating": 5,
+                "Review Text": "Yes I fully agree with previous reviewers we also stumbled upon this place and it is absolutely jampacked with all sorts of artefacts and some lovely reminders of bygone errors with keys and clocks and plates, knives and forks and don't forget the well outside. Certainly worth a wander if you want pictures from the past ages."
+            },
+            {
+                "Review Author": "Anuranga Herath",
+                "Review Rating": 5,
+                "Review Text": "A private museum. No entrance fee. A must visit place in Galle Fort. Has a lot of antiques items and the format of an ancient fort house."
+            }
+        ]
+    },
+    {
+        "Name": "Galle Fort Clock Tower",
+        "Rating": 4.6,
+        "User Ratings Total": 3130,
+        "Address": "Galle Fort Clock Tower, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWL0kynoUfu1m__mOqTHmI1rdSN4shlrUTFmY6tBa01ONIMU7rH291l5P3pbc4oUifWpgWM1ql7OBzc-nLQkq7oiJoB76e6Em2M1A-YkAEp081E10L5m4LzzYeJp3yhrOFmGhAX7u6W2N1y2JE3lOQSyLll4rOlgyLbyoa6BIY4hMVP&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXzJfU5FzYIWrjPvHbCZNzh6v6HHCIAKRsozrkV6KqcG12hH5orA7ov7ykmDpV3qq-1CXxLTHmfcrIu56coWtJZmBZXipK5KAsAQVx9Tm9pMKnwEPCMp6rPeour7HDuDJugsuhrMrh5tpd6LACjEiycqf1pYyBfNHlE9iVVExAOfXyE&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX4wL7Dzdk2bcmMA9GK7JWDLiE2P86dFxbb9SIphDKkmweEUm5Yl1EvitTun_4XZA2NysmKk9UtlxRMVxFjp0cBceDutD0IRcJ0G2Yv9TJR2Wx_rM9D8lkhJlPN7Jh7JCVZEGOZPnvN6UCMPekp-6dx9wIpJx4_rht-uYq81eqoL4n_&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXvEItzyHnRsl0DplXxtDskoqvLja0eRebaZSEkuXd9aJf2OAJ1IVI9F7Znmq5w60X1gBeSpdHedZihvV8mLVq2UKXCYA6_w6VWv1kXfmb9qz7-narkPY1jdZ4TFEPAxvCZghm_f3uwSnylcPcZrHpziCICvHg7j-Q3v-v7xOCiQjJ4&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXonhJxXKI55zyAVyymc88_2_tfjrM1pluXDOd0f02ORKbEp3AOvTdxUQb2U3JeJKXSj2JjaPAxfxnDPiVer19nXr_eUiUbC9pZZ4d_FvA5vd-LTr51dNed5w7EOEjpRfqTVUSkqickkvVwMkduFNS5g6Sqh1Mo5OupKy9jtzUTnCNp&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUGvRtic_IrifzTbkjm9zKvKY00K6b3bj6gEZYKO2zkzT2SwH6jkjvoSBTkdHHuPr2IkWdmT-XdGfeO8DnAMXfYOMlawPV3fdpKeDnXlr45nGMOC7GifullMat1yH1jQdSj5hXXkQXbrynHANfSo5XMUlVXXuxGOnCRsQujLa8XJZ4&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU8kmy--RuT6aagzGgom-Cx8uAH1tH4QtlUe_T8dkz4uqTbCybEjmPwspRyTd0VXlm7qc5q8jypIp7vtY_Uoa3qbAK4sjei9J385ep3PGdWG8rfNXo_X6YIKrefuzRWPnV6IP2Bctc8ZOBUXwjPV7RlT9Y0W0Oybw1VF951O-7AEfS0&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXTrcjKb_R7chcsrnwrzDYGlFIrMZR7siOv_btoICb-jGfgeKtaqyNbftillDXlxqixve3o-8gQqkLp1cWMseHhzJlF6rgP7eq9i85xOlvR_9hE--hv63weqJVBVp86iS3GcTMenzEd0k1eB5UEJ87I8z9-TNyEeMM9Rn-sqjBuxP3X&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVwr-X7bnt78pe_d9y1hFp6okp6xiD7FpqLDtHQZCIg92DXg-mR7FFAMvmTbxs_-Ckanr0KL_NKkQDOnVs2fOUlfM-KwOnn1MEGeq3nZJyAXddhs86LJVfTinO9YNLpeIF0xlYCbPffyjsBB0sgrRyZ5KIMDi3y5y903b-9M_GexeDJ&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXE5t_zn_s9kIomgVd5iQY8G3jJP7eIvz0NC71Acop94jsCD5Dz9UweFVuYDpqimCIaeKj17wtXwZXee1YOzIoPvWha7ssBY7opQoGBFXt-GoA9nGTyFMg3A7kbf_W2jfHrkXY4l-qRchw_gif14slfxwdHrKSLveMgmhfefVtgfOZN&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.030027699999999,80.21512179999999",
+        "Reviews": [
+            {
+                "Review Author": "Kavin Kumar",
+                "Review Rating": 5,
+                "Review Text": "Historic landmark located within the Galle Fort area. The impressive structure adds to the charm and character of the fort. It’s a great spot to take photos and soak in the history and beauty of the fort. Easily accessible and worth a visit! 🌟🏰🇱🇰"
+            },
+            {
+                "Review Author": "Marc Weerasinghe",
+                "Review Rating": 5,
+                "Review Text": "Spectacular views and very informative history all around. Hidden museum access inside the fort at 3 different locations explaining the history of the fort in the form of art/comics."
+            },
+            {
+                "Review Author": "johnny aces",
+                "Review Rating": 4,
+                "Review Text": "On top there is a nice wiew on the city,its okay but nothinh spectacular...since that is major attraction there,its okay to visit during the Day as in the night you cant see anything..."
+            },
+            {
+                "Review Author": "Luthira Lochana",
+                "Review Rating": 5,
+                "Review Text": "Galle Fort is a UNESCO World Heritage Site located in the city of Galle, on the southwestern coast of Sri Lanka. Here's some key information about it:\n\n1. **History**: The fort was originally built by the Portuguese in the late 16th century, then extensively fortified by the Dutch during the 17th century. It's a remarkable example of a fortified city built by Europeans in South and Southeast Asia, showcasing a fusion of European architectural styles with South Asian traditions.\n\n2. **Architecture**: The fort's architecture reflects a mix of Dutch and Portuguese influences, with its distinctive ramparts, bastions, and intricate colonial-era buildings. The fortifications are characterized by thick granite walls and sturdy gates.\n\n3. **Attractions**: Within the fort, you'll find a charming mix of narrow streets, colonial-era buildings, museums, art galleries, boutique shops, cafes, and restaurants. Some notable attractions include the Dutch Reformed Church, Galle Lighthouse, Maritime Museum, and the Old Dutch Hospital complex, which has been converted into a shopping and dining precinct.\n\n4. **Culture**: Galle Fort is not just a historical site but also a thriving cultural hub. It hosts various cultural events, art exhibitions, and literary festivals throughout the year, attracting both locals and tourists.\n\n5. **Scenic Views**: The fort offers stunning views of the Indian Ocean from its ramparts, especially during sunset. Many visitors enjoy taking leisurely walks along the fortifications while soaking in the picturesque surroundings.\n\n6. **Shopping and Dining**: Inside the fort, you'll find a plethora of boutique stores selling local handicrafts, jewelry, textiles, and souvenirs. There are also numerous cafes and restaurants serving a variety of cuisines, ranging from traditional Sri Lankan dishes to international fare.\n\n7. **Accessibility**: Galle Fort is easily accessible from the city of Galle and is a popular day trip destination for travelers exploring the southern coast of Sri Lanka. It's approximately 2-3 hours' drive from Colombo, depending on traffic conditions.\n\nOverall, Galle Fort is not only a historic landmark but also a vibrant cultural and commercial center that offers a unique glimpse into Sri Lanka's colonial past."
+            },
+            {
+                "Review Author": "Dumindu Dassanayaka",
+                "Review Rating": 5,
+                "Review Text": "5 min walk from the Galle bus stand and railway station. An Ideal for experience the sunset and one of the most beautiful and historic places in Sri Lanka.. A variety shops are there and you can buy food, jewelleries, fast food and clothings  However prices might be bit high for most of the locals."
+            }
+        ]
+    },
+    {
+        "Name": "Galle Fort Attractions and Jumpers Sri Lanka",
+        "Rating": 4.6,
+        "User Ratings Total": 1200,
+        "Address": "Galle Fort Thalpe Unawatuna, Unawatura, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUe-riN66MFMCEX_VifrLUyyU6VqzA4Xv5J0IjuAuk1tDDbEfh13OVymtekjm2xRtHLECfnm-uZcuLQ4W8QuEr2ODDFSmzFzgNy3bbgF8mO5OtHgjM9kh1kLMZsLuJE5r3bwG7E6P6mpgSqzSor-utkNdoi2SLMcy9Jyn35gffq_xsL&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXrkzvMIL_St09MkANdo0ZOyY4wzBgfMiaGPBlS5TmVZJIfW-DUrSISZK5HV529OJfBUMpClOcmNEzuV45v2Pc_LXDlDq50g54JZlo85Gui_iVSPGXlmXMqsyZol4QC5QSP91qC6NgZ3gJbg3cxRmKnS0Mi7fClfPCC0MEIjw59AiaW&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXOxRU0x_yea-jwLCfNJptSeoaqgDH1DX1n9SBverHT3Cn0f1FG9nOpaebh1YPKcb_6CuR7eDFWZoGyqwkwy8iOCl1o5aL3oZdzsAqgd80ogfjRcaqe3Qgq-gF8A5KponYH6aZBP2CSWzZ-zM8Vv2omo7GORm1VDZOGZZW9uMNMU0JO&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUj1aYIKDFjN9URYaswGByyFGzOVx5ylr5S1iyFg6T6kK6_qCFy98suvgyn1iX051VJYZFkHvg4JMPEG2O0ugWd7LZRxLB1RV3auXhoxKKyKCtOg-0IHSk2UTbJG_lsr51-YvBOB71SN8LRotLLRtuSZuRwZDLwpZmN1a0cWBYaoyp_&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWIoNEVCTKAvG_TGxJYHdRBVQ-B01mEnpOD0SyMpKnsXqCNcemhoIkPjHQGzkzA2lyDDCrkmY7cvh2Kg2pIoCohDaJ7xvTkEP07EJBWAyNTRyPK5BxjJ0IXLzyy52vqPbSjb_ebxPrHlZl2XkbShTGdtSIjQmWqocGc9aFSi5ZzZ5hL&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXRiBc_xd7TCW6uz0OHXLjAw-xF-vhDlAxna2E1fOaOpgh-cLyMOFYaMhdICGZU-tznRPE4OwHSFjBZt6XXJ0WftLP4CivEzytyg1L3vZ4lUvI0eQ4X-gnrilemACct0XL4E4g4LFY-TkouQ5cmP3kXnrdia209H80pUxZHfTyvgKWt&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVdtG8gOa1of8ODszJq4TmxGDOJQEzkiaLYTFA96-ImMv0XTnO7MOMa9JEdwOG5aDYzf3Eg18cjZklOShOoxNxmwDELU8nTP6LeEe6sjjJSW5PaRGCrCYocLYtQNfskTue3RQenPKhinSfvqTm7Pg9M6k7c8THWfdtZRJpOAITC1Tcu&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXlpkVUTKuBBxsqJk8kxy3U4Y9__ZV_XNENPwWJ1gd3wrqZIv6a-M-bFxLCsoIfNDKqO_eG3SnvdOCDCnvFE8cL4wzaB8qLqD4YvNXNujJtTuhIDvvMfDWmbjceD76-OGkbj7nwlvucSaJxmXnSJpJJyQZc2aT3iaRBsG_6DU8HnVUB&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWeW56Cz5iw_F_Sbr8PrBvRlbX9JRYIYv_aGF87SH6-PmdWSb4MFmueE5Qo_AXL7zfGC98kZ2D1E4imOs656eXDutwEzS4FwEAysa8H2wI8KcTd1_yJoQvP_9pMOmB8vLzD4t3Tzn1-lPH9UnabtYMkWp-CC2vT4dMioP7Q46gM-c9I&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW9eKyheF7tqckVvwRZRu4ZW9-skFpSNpeDHt9CbE_DrbI3VJgBlyoiIOr5I7VKnH6dGONtZ9bnrwl8cGDL0Y93FNNMUfdNuwaRq-NZ5n4iPFsRn0sPHPJXnsncEaziXTtwx_VTVydSGvLZahT21BFPot9no_FXfEL4sua0G8PJzCN0&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.0304644,80.2150237",
+        "Reviews": [
+            {
+                "Review Author": "Vlogger Marc",
+                "Review Rating": 5,
+                "Review Text": "There is only one word for this place; WOOW!!\nThe Dutch are something else, they did things where nowadays many people still dream of doing!  By plane coming from The Netherlands it still takes you about 16 hours to get here.\nHow long did they had to travel back then in the 16th century??\nThere is still so much to see, from during this period. And still in pretty good shap, after all these centuries. We really enjoyed our stay here!"
+            },
+            {
+                "Review Author": "Péter Kosik",
+                "Review Rating": 5,
+                "Review Text": "Nice touristic place. West and East mixing. Nice view over the sea. Locals are using the open spaces for sports :) it's so different than the rest of the island. Don't visit if you want to see the traditional cultural places."
+            },
+            {
+                "Review Author": "Adnan Almuslem",
+                "Review Rating": 5,
+                "Review Text": "A must to visit tourist attraction ancient Dutch Fort. Nice surrounding shopping and dining areas."
+            },
+            {
+                "Review Author": "Shuchit Patni",
+                "Review Rating": 4,
+                "Review Text": "This world heritage site is very beautiful with clean beach and a very good view of the bay... Architecture is Dutch or Portuguese or British which takes you to past. Streets are small and full of various cafes... Do come to visit this place with minimum 1 hour and be prepared for lot of walking.."
+            },
+            {
+                "Review Author": "Arosh Wijepala",
+                "Review Rating": 5,
+                "Review Text": "First time to visit Galle Fort. A beautiful place with a lot of historical value. Buildings built with dutch architecture are everywhere inside the fort. Visited the museum. A bit crowded at times. You have to take a visit to Isle of gelato ice cream shop inside the fort. Best ice cream I've ever tasted."
+            }
+        ]
+    },
+    {
+        "Name": "Sunset Observing Place",
+        "Rating": 4.9,
+        "User Ratings Total": 16,
+        "Address": "26J7+3CV, Samanala Bridge, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVFVF7DYoB_CJa2YSjv1YNziqrSP7pEnmlkliBOZy71EixSCqmPYmcK28VEScLROv6F5tJpfn1fkh6Ci85Ijh0fxdcCN7IYXEwaCzF5KLsdrIa-8yPJPcqVoV7rcXDjylgyp3se4AgnJgIVZ79IwOu6be6YssLKmkzazLRemi-2qduL&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW0urqeAq_qUxWEMaRDvgIiLrN5nLUJlBPYWfMFzgQGylYijeKxi4E43BIVCQz7NlJMFCk5U_8CPqKt0z6ZayzmyiGoLb1lCUhddb7PfTDE2OlmdQDESwNuzSaS8h8EjMse-zHTBJHhhqCQj1_ZKF_IiZRAiUsgvLI4_3wB4gaK8mJT&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVVHkwWiOeRbWeXYfYDKdjt9alasLo5O8g_PtdFhR_s_behQDplsXSbT2g1CoQMV9EEqSW0t3W8J0ZQfNkekqCLg5jAPkfy-tw1Rv32jAh6tA9ojLlVfxMJCCD2ktuawY0wg5hASavlx4tR19wI8jeWUTEwfdlQh2JPn6xExWUL8uUu&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWw9Wf9RsPhP7t-6L5JswuvoOeNkyUjN-6jVmZYFazMsbLOkJ29qyOGTfjLrHz85inw7jpmJw4lJxFv8VJVuRwE4-3kLwk_vs241YlD7a8UB82ZhdYgj-YFkjLrNcSVUYjcHgkuCO4kmYi-PfiirJxOLynR2_qbUFWfb-88_IdAQW60&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW71oin2jkkiHBesVajaowG0pc1qhXCXi_x7Yj6Z-sSj9T6rL_w8ej_g7zYBNGjmPIHmxIBn9pbxmXQLHT-gXIcoIhzBFpHe-dAa90CIaLz9L70YpFCkx_TI3VFL7dz2HDXNsy1LUiB-3cbEEVgmmqh4RHGyqk5HgleyCiLTb3RONms&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUD9YBvBYLT-47zOdBYKz1RKMtSE7mr_aD650y4KUAr-vM-SqKHN_tMYTfMn2SJ3xZqNDYGGTSnXBKXMKxLlu1NnHCkdFFfd3P9eQf1hKPvZIPcRZS5PS8lMptdSqeIPl5WkPKIIaXU5VfpI9vHkX4p_ZEzZAv_u_p6KdEgSWSie-2A&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWF403yTrpxVEmiojV5toSQpoz7ahHl2VgeqJ1O7vGPnUqGBhOjSW8NyiCxxXWHqmvZkc1SZ4Q4IsiYBK-As79sY4e9LqALMoCI9glrKhrNoRzTFhDirfns-nk6Avm0t6Ywp1KcaK9R3qKTvYH-ubgvcCH6VNRR8RDF826vRNOhO5S9&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXEMaGOb92W0qy8sqhZc3jcsmef8ecleSMNkcZ6Bmal5LwztCJ6aiKQz_VIjwGgFCFiWYSwhRf6Lzt1FFcds8aJqeNnmL7WC-6UmnM9YWJGg1UsrsaIB8Lf_zZOHcE2cMgd92BgUUW6wFcGMnOFEqCUAl-x5pEjO1bB193r03foB7R4&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUqppeku570bpzyv2TVIlNTCEon822owgTWiTq3X1RbdPl18keCn_AkjRibuaYBn9rHx7HugoEk9ixT1rdyJJsLjZuN6bmUWqh78X8KHqyJgDteoc44d3S4I4MQvYzlcgxxM_GGpBpcQ7oSR2UqOugCcK4ezrPiHRCsBFWEHzyuHA21&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXHPsg_vMboU3CZyJKizBepY1YdZ5IVRo4c6oEPq7IJ-PU9rDFav-VWrTUgyhOs3-hXey55nj5asivDao6vNCrVk6fmBOdU8z5Mr0jUIUk1HjXeFfQhDdKq6_gGZ_8THYdyed71bSDL4NYXvc-ekyoxsmEy0HYfdeCjK_pZNBlS2cl5&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.030230899999999,80.21355729999999",
+        "Reviews": [
+            {
+                "Review Author": "Shreyas Pawar",
+                "Review Rating": 5,
+                "Review Text": "Nice view of the sunset from Galle Fort."
+            },
+            {
+                "Review Author": "Usman Gul",
+                "Review Rating": 4,
+                "Review Text": "Nice place below are pics few miles away from galle that is Galle OPL outer port limit."
+            },
+            {
+                "Review Author": "Rikzy Jezuli",
+                "Review Rating": 5,
+                "Review Text": "Perfect spot to view the sunset."
+            },
+            {
+                "Review Author": "Ravindu Hettiarachchi",
+                "Review Rating": 5,
+                "Review Text": "Gives the feeling of really where we are in this planet to see the beauty..perfect view for the Sunset with sailboats in the horizon."
+            },
+            {
+                "Review Author": "Adith & Lytha Story",
+                "Review Rating": 5,
+                "Review Text": "Amazing place to catch sunset in Galle. really nice city."
+            }
+        ]
+    },
+    {
+        "Name": "National Museum Galle",
+        "Rating": 4.3,
+        "User Ratings Total": 262,
+        "Address": "26H8+HQ6, Church St, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWdYt0fSBSJDSDOWitRhqazdG-q0Luoz_dgi2mWKvl1Q6BwNsdXXL9smTq9wQYWYLhJFD7GsxGsiJWJLc2jjQaYrBFB_4YssunEU65fNFdpQQq-6SJkTJ8cgyIr1sxov3Y4Js5xGCmJaWrgkR6kGDsLRLegMSYWWM9f_LgGn0_h8gaS&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUn7GZFEKXz7YwWqqBvFZIw7MnAI8PLujlZCKVXAAdccyoFqgB7ZMPo67PQqi18gQINHn-6QD5jw3z57BVvw0n--T2D_qZB4_jAp5olwgpPrv9bnI5bFFKcciu63tfRWD9AnObdcXBSv3RczFdeba1p8zEGOfIU2fSaCHForeRQjtO2&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU4Z_wx9KeNsxmbHeGWbbUyiOIb_s2xrT2JB9AGDxHxEIHWD-Ms3X2xB43NaJBk5TMyyVWKm9JXfXiWagxyuJzfv1cPr60lWrhRjPkuCIJZhhdsrurWIo-iW50C8kq5Gm--YOdNUXUxAPixqq-CIKGpKGPoytQeVk_r-iIhc0oKjTT-&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW1okdhcH7QCePj2WFKHqMGYdNII-PUVG_o95BTF8rGCsFhuyvs_suzblTBy0V3QJQI8J8xN02z3Lq1dyxU2XpC2cfRTrBrA9uaU0SOR9fdLY5Tv_GXvBQgLGK5nesEMmASJqU-VCRDwzNChtgAwtb0IblBV1jn4zWwolzDzSeFdAyg&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWWhp4DaTl6dZBHlqmqDZk-m1RzoILQRjA7UThbGl16PTp6rBECTfVS7dTIvo3D51HDBtnCzyK8OZPsiRXTbGY8SLR-17c2VxiQjCDjkdKUVnqtw0covoVR-CGQJFvoqRYPsEPWN7Sf1RzFLiN0xrwtGh11NLocOJVBVZQtGRG2nrIf&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW_-Q6eT5wo-OZ55TCkrzt9U7VJfj4F3rl-uox-BEFYV2mUuyd01uB_Lh6GLzn8n155BPWANJmG8RmexnB1PuMR7Wv_veahArNgLhGlmjtqKNJVWTXYc9tSnko_1n73mo8s-fnn36v5dWwj7mP31tZxNdr7OprKqhbyn6pYtvPUVILV&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX7EKHBZNDrh3hFSlTjN974Q-ro3367HyqBGsFrkYmJ1sjaHGNdkuG7FBXl01uoLbRY2honEUK4RebBxX3Z6cSoOOynhA6x9qOAUWy0L9Qly620W_EP-ilnw8AoKVnSDajl7xMqjfXEZLCaplcuQKe5Feb8Mq46HWs5IwwUEq_jBj3S&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWK-vZhM0z7WTKgckQG0JCSfZGugFWimgCDAjWgNeu1q4X8QjqRqjM-HSBDXIWsyRHU-U8yGNJjb2DpwMaMlR9yc3SIIlVZy3guag_qQME0LIfMPHUYY56GGeK-5YlbuTnGbNBvdmx_t9j1b-Fdv3SAOwMC0wYrI5M_JN9UK6cRlUJQ&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUkS9K-0V36zMg7sgxXVb9XBRtDxy31ue-WHQtAPpEONWXtynF6TM6EezAZq8XgKIxKUCwq78DaYoU4wd5p13ff5gLXQr4NCk4HvWAYZ_o_seBVaLjEfUy_r3STXu13vLxkwgGl4usZrBvZBIYmX6m408v3nqbI9uAeDEF4QkTA1IY8&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXhK3kjUuHkraJkhG4C26Vad_W9LEWF33V0oiBp5vsnS01K4kK2zS56yEEE3H73wZmbb9kKUJX5xvKTPj_KFHA8c-3qZPbPxp84FOJedvUlTndFAEEGp92AI1lLUO3N88_u-XxRvWf_i2z5aTTRZ4B45vNwKW8CMT4uI9fQjTndaIFg&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.0289175,80.2168789",
+        "Reviews": [
+            {
+                "Review Author": "Ross Daniels",
+                "Review Rating": 5,
+                "Review Text": "Actually as far as Museums go this was quite a pleasant surprise. The building itself is impressive as it is the oldest remaining Dutch building in the Galle fort, Galle It is just a single Storey colonnaded 1656 as the commissariat store for the Dutch garrison at the Fort. It is stacked with all sorts of museum pieces and I was delighted to be able to buy something from Sri Lanka for my grandchildren. So it was a very beneficial visit."
+            },
+            {
+                "Review Author": "Georges Younes",
+                "Review Rating": 4,
+                "Review Text": "Set in a beautiful colonnaded white building that was built by the Dutch in the 17th century, the Galle National Museum won't take much of your time. It's still worth a visit because of the artifacts on exhibit and the very short history lesson that it will teach you about the city of Galle."
+            },
+            {
+                "Review Author": "Anuranga Herath",
+                "Review Rating": 5,
+                "Review Text": "A must visit place maintained by the Department of Archeology. Has a lot of information about the ancient history of Galle and international relationships of Sri Lanka, specially with China."
+            },
+            {
+                "Review Author": "Jayasanka Udara",
+                "Review Rating": 3,
+                "Review Text": "Ticket: LKR 50 per local adult and LKR 25 for children. The whole area can be visited within 20–25 minutes.\n\nSome archaeological artifacts are displayed here. There is a separate section that shows historical facts about the China-Sri Lanka bond.\n\nThe place is easily accessible, and ample paid parking spaces are available."
+            },
+            {
+                "Review Author": "Natasha Jayamanne",
+                "Review Rating": 4,
+                "Review Text": "A small museum with a good collection of exhibits. Can improve further by adding more."
+            }
+        ]
+    },
+    {
+        "Name": "The Palm Rope Swing",
+        "Rating": 3.6,
+        "User Ratings Total": 67,
+        "Address": "Unawatuna, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW1wOMMuD-oVzjzayb3VoPximN-qci1rB-4gXBJMutK9RErZ2wXKtbnSSQ1qmpTKpgmrzEu_dKEuIuMNw_M8l9jQKdf_qRsikJZWhzgqNkJyB7dHP6vWkeq_lEwEVWXvMc6mqLBSxMzZgjC-kOJB_YnqjKdrJxovSUTV08YswK1LG_N&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVO01n0FTgcHfARmGgqr5z0YvvMC_ITaO5EEAT06VLY9Dwk6LCBV8-aUqNBEKNpT4kxZ_U4847uUC8L2sLVPNLPun6-b21TiQTRy_hrT094kL-6oV37FEzHXKGgvxZtSrYRtFoU7PsMqI_jFWLGNvB8WU-k1xE0UYHNyS8Re7FF3fs3&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWiWLauwRZYLpPgL77goFcEMwhVbycMmAqO4Htc07W9BjHFo_qqs3tbTQ5LyuyWuvfSz81Sg2bgSISQlf7ptDCvTi3WLs6w84KV6qDutPKBh6AUNcmJ9j4TL6vJIkVeJRURd9aBJ4dkZqYeiEdDS7X74RVFNnfpnRzMgL3Rl24zN4d1&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVABPA9meZTxtlpuvXoKN3uymUpoy2S-EucXLmuUjU8n75JURMVuMort9Jbflk4m34u0L_88RUYoGAWtsTxM--fK4AW3vKiSKA8gSJGMjMRIGC8vLQHgxYn3NjOKumUhrfVfRQmitBr4aHsSlcpcUN57kvXwpcJGx75ALHTAhQbERXe&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUZTHfERh4b3tr4egbX200c2x8Jo2CZeByPuIxSFjjmZvAFKdm5PkCayfBYIx3x7_luyJ9SkVQQLUNuPoKcaLgBNiYcRFK0yYIJHHMZcTeLN8jNoGxHINhqGyGaAp4o3aFD86l5ZZg5lIoSxjnveg8RnEo2PdjhqS8kNNbjNRCek6zk&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXV42nHPoUaXbtP6KHvAoOXCN6Bl1XmKT9Z_dSC9-1h0exNpok3s6yws_MxtjGA1Nw_KVAnT1ER4EMSeN1KBWJgAnL_jIb0ecORDavCssGV1I94rPW1ic5alFMHKU7sT7bJLZWMMIfHqg5KTq7GkncRRkWdnzpbQylc_nKwsWcWFmcId&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXFDnWyAqlUxmXYpezEaoAFcSWBKWT3yB64UN_wtl2NckNqNAsvjZo0Zw4NCk3lsj6z8CP7GdUzFd4V3EstIDIcNeBNjJyURGKWbhT3EA6JGJunvMNz639JbsCVP9LC7k-5c1asNh4oDI5PyZJEb8XJmcuEl82GucbubdSe7lXQ5g6g&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXKRyI-0nbv5Ba3pU-Cw65HCTRV15FsjSaaVdq4pwf81Geg2awK2w1w0kvJ5pjR0KqSDDwNpczErPto-NQo6xNFBdWfcTG6-EmjlirQjGiyoaZvKnIE7AYLOJGNGYAt6Bq7Q7vz66TGNMQ-SUqIop4pV0BNa95Te3DYoidYPF9vOqF-&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWX708kPQNEspV1WTqbxqHCS1mXt25I3c5N6HtqauYjZpdC7-b_wfhiE-QSzR2-BAssCB2P3LXyYmKe5EKac-faOc1UlXVEbEIgEpnDe4qdwAxKX23ZL1xK1e9v2NboY5tOOda-zrYqxfXxI3ZWm3fBXSVn1NyolUv46tckJxYagIYk&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX-J6acG_fclUwVVVdThvp32xJ6h-tz8U0ormjhxZP8XmgyPSP7zF1DcmZAhf0JTGhaGNn0hgrBy7WKmrrNW6GEvncmYZrFEFPiVCdRxvmG8QsazZoiD78xxMRGdNE6vlGc471aNXSAiWLmUssrdoC-4JiNpb_FrNAHoPuRZk1mrq-L&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.001340400000001,80.26002869999999",
+        "Reviews": [
+            {
+                "Review Author": "Sanjana Kanilka",
+                "Review Rating": 5,
+                "Review Text": "Unawatuna Palm Rope Swing in Sri Lanka is a thrilling adventure that adds an extra dose of excitement to your beach experience! 🌴🌊 The palm rope swing is a local favorite, nestled in the lush surroundings of Unawatuna Beach, offering a unique and exhilarating way to enjoy the coastal beauty.\n\nSwinging out over the turquoise waters, the palm rope swing provides an adrenaline-pumping moment as you soar above the ocean. 🤿 The cool sea breeze, coupled with the stunning views, creates an unforgettable and Instagram-worthy experience.\n\nThe swing is not only a source of excitement but also a great way to cool off on a sunny day. The clear waters beneath the swing are perfect for a refreshing splash, making it a must-try activity for adventure seekers. 🏄‍♂️\n\nThe laid-back atmosphere and friendly locals make the palm rope swing a fun and social experience. 🤗 Whether you're a solo traveler or part of a group, the swing is a great way to connect with fellow adventurers and share the joy of this unique coastal activity.\n\nFor those seeking a break from the ordinary, the Unawatuna Palm Rope Swing is a fantastic addition to your beach itinerary. 🏝️ So, grab your courage, take a swing, and relish the exhilarating moment suspended between the sky and sea. It's an adventure you won't forget! 🇱🇰✨"
+            },
+            {
+                "Review Author": "nad ROLO",
+                "Review Rating": 5,
+                "Review Text": "We paid 500 lkr for 3 swings on the rope. The guys that were here were friendly. I dont understand whats up with all the bad reviews."
+            },
+            {
+                "Review Author": "marius mako",
+                "Review Rating": 5,
+                "Review Text": "500 Rs for a ride.\n\nJust a swing\n\nGood to take pics or have little fun"
+            },
+            {
+                "Review Author": "Kasey Kaplan",
+                "Review Rating": 1,
+                "Review Text": "If you read any of this review, please know that I'd highly recommend avoiding this venue at all costs.\n\nThe main reason we went here was to try the rope swing. Note that there are several places nearby and along the coast that have rope swings -- so you have options.\n\nThe place is a bit hard to find, but upon arrival we looked at the rope swing. The rope looks old and I'd question it's longevity (see pics), but because rope swings are a fun touristy things to do, we thought we'd give it a go.\n\nWe were originally told it'd cost 500 Rs for us to try the swing 3 times each. Then when my wife was getting ready to try it, they doubled the price to 500 Rs each. After expressing concern about the price change the owner came out and said the prices was as it stands and they he set the rules. I then asked since the price was for 3 swings of we could divide up the swings. He got very aggrey and very rudely said no it was against the rules that he set...\n\nThe owner spoke fairly good English and in a very aggressive manner told us that he decided we couldn't use the swing and go find another one. I was honestly shocked because everyone I met in Sri Lanka has been so nice, helpful, and respectful. This man shouldn't be in the hospitality business and if he worked for me would be fired because of his actions.\n\nI then in a calm manner expressed how I was shocked and offended by his actions towards us and that this would be reflected in the review I write. Normally one would expert the owner to set a professional time for his staff... In this case since the experience was horrible you could say the worst of the owners traits have also been learned by his staff.\n\nI said we'd pay the rate he wanted, but he still refused and stormed off. I was still in shock at how childish this grown man was acting.\n\nBecause I'm an active reviewer I began taking pictures so that I could share my experience with others and at least part pictures of what the venue looked like.\n\nHe then started taking pictures of us and threatening us. We told him we didn't concent to him taking pictures of us and that he did not have permission to use them. We asked him to stop and delete the pictures, but he didn't. He then threatened us more and said how if we leave a bad review he'd to do whatever he wanted with the pictures he took of us and we'd regret it. I don't take kind to blackmail so I'm writing this review.\n\nYou have a choice of where you stay and where you spend your money. Please skip this place and support another venue with kind hardworking people."
+            },
+            {
+                "Review Author": "Chinthana Deshapriya",
+                "Review Rating": 5,
+                "Review Text": "This is a very famous place among local and foreign travelers. You can have a great experience by enjoying the rope swing. The evening time is ideal. You have to pay nearly Rs 500 for the owner."
+            }
+        ]
+    },
+    {
+        "Name": "Jungle Beach, Unawatuna.",
+        "Rating": 4.5,
+        "User Ratings Total": 1566,
+        "Address": "269Q+FQV, Unawatuna, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWAvVdX6IIlDZpgArRKMv6gy2qOo1MQIJfuhHCBRqKMfDRFVfgs_K9iyzKa-hu12JHU0D-dRxJVI2MAfH4X_4OeRqJPWlQJzO3Ome0RPhEjiyvJi51KyLiHQapVhwIFRhseBEElQAP6alnSVB9nR6dcOmOiT9vOEyVmC4Qp34hphIlE&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXlESzf9xCzr8VlONd_5WJS_XhB77fLJAg0bc7gNEjnICHXLOWdVR0q7jPQgmA5t-esOvDUbA0NTk4na_NijyoeXzG11WUhe6k86LWqBQyiP12OwwFcye6yu_eKDzmsypRmb4ODtqHI2YTPFtAgdWiG5bHDQeZGbBzDCIWUR_qJh460&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUMME72zHZ1AT34rhS13q1u7mZM1T33YfwUL8BsCua8GhwI_DTciWMrKgaHV7Oqlll5g0kkD66UKFf__BTQzaigGHC44IBOtnkBSsJ_V3RIjy1O02GkfgDuUUkmjaTnf-fJE1Qvvn61SGo2-SG43kMJxha8bwM8CtnA8saP7QvuEJ45&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVCS--kNrSCbBrR8KdzVp38SVv383tlvV3tIDI-uoRS38pNVMa5EICKKPOYPKnuAIUDxv_YmCqlXmYFDPKPQpBYgzV56NWA4cdBD3oBvK6UiKGwgg0LTiMymO9JmQz9wlT0RFlic9KuSZnmmUfqCp1bhUkk9Uwp7UBjApM-B763LKU&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXSVuz2wWnZ7tzNwiQvrRvyq5WRBtoBJ00bbFKPhLx2d9kXcxf1PbABjlpaelCAxrJXu-A1Iv1Wu3OVx86YX7NWsJCp-4pl_fd-EzKdDsMi7lOcCZvXUnyedf5JG0yAKS7-mmGNyBnPTFsYx9Jw-se5X58phBZe2TYijdPRVwTpcYwh&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWt2FiW6KOP_2Gbu0Jv0GzqzcmmczFRUBgaDUsGq_8RS_Woj2ZHEMwtsi5nJ10CnKd8_KzuZfCjY9YE3FMupoM3vKU1Eco6ce3wlqVGoCKk-3tYL0jpy1sfcGWJUdMmdjk6sk5tNMzHCX7iE93O-mEPeGAmuLJXNEezMb0JTs6xAnN5&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUopgPZB1mszKvyQjCYDnnlQWQ6114DREVxU4mG9WpI2Rk-lB0XzspvBDvFA3Pgnsm44US8Yzc6LR4RKWuJlW1AioYKfVzdDZKJnw_OgZng5M7Hqjq0nQg-nUAYwW1TNuHLiznVcjgsYe6ozcwtLYxYIffShkOZFDgIrhZi8F0csRc&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVLIzlAdlMMa6mKrQJ4N4ZeMNvvCZUyP3dVzF3Ymz2sYm1GFS7jcaZTfW8iNavbosrzxGaZgSf0ncDcEKxhE5JW0b3ybyqpCgIjuPI7OZrMe3tlZuhBdkGOqby7I-dQi7Eg-n4qwH8utxqvS-s14QBp2t2JFH1g1HuQlqL5QH91qtb-&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWsX34JA_YfOCJi5AKjTkctTlUSuY0uO0bc3epEl1iG256x3QGSv3L5lGuApf3mu-dK5B7WBAt5tY3klXbmXGOpCcxbBYBkSKDjSYPLo4Y9Gw9r275SUX6N_1O4-1BmhSYtCYVEZq6v70HbPCVqhvzzn-aIiPSBzkHiDCS2HXQR-tL2&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXbfqG1zObc3Kujs0CCUG5Z5smTG53c33TknmlFDBr7_mi3gfalEnTblftddxXbmnEM0R9sA5MXAARdNICQFfbPKy19BAIuqv8hZBVyDkhUYEp1qWyy8QQ_WeCS-Ysmhy2p5IqIBhdkGfMWkt0EiOzbCdcb-XsketOfX7WOuFe1mPIk&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.018741299999999,80.2394297",
+        "Reviews": [
+            {
+                "Review Author": "Isaac Davy-Day",
+                "Review Rating": 5,
+                "Review Text": "The beach is pretty cool.\nIt’s a short walk through the jungle to reach a relatively small beach with a small shack selling food and drinks.\nThere are wooden sun lounges or plenty of space to lie on the sand.\nThe sea is not clear and is quite warm.\nThere are quite a few monkeys around and we saw a snake at the edge of the beach.\nGood location for sunset."
+            },
+            {
+                "Review Author": "Chandraneel Jaderia",
+                "Review Rating": 4,
+                "Review Text": "It's a small hike down towards the beach, from the Peace Pagoda, where we park. Takes about 10min. There are sand bags laid out on the path. In weekends it can be crowded, otherwise good. A few stalls with amazing spiced fresh pickles. Some sports activities too happen here. A good beach too. Another path leads to the boulders side."
+            },
+            {
+                "Review Author": "Shashimal Randika",
+                "Review Rating": 5,
+                "Review Text": "Jungle Beach in Unawatuna is a hidden gem. With its calm waters and picturesque scenery, it's the perfect escape from the hustle and bustle. Definitely a must-visit for anyone seeking peace and natural beauty."
+            },
+            {
+                "Review Author": "Joshua Dixon",
+                "Review Rating": 3,
+                "Review Text": "A good place to have a swim in calm waters, small beach so it gets crowded it easily but there’s actually two beaches so u can walk along the rocks to get to the other side. There is boats pumping smoke into the water for no apparent reason just swapping places driving near tourists being annoying"
+            },
+            {
+                "Review Author": "Asanka Kumarasiri",
+                "Review Rating": 5,
+                "Review Text": "There are two beaches in the Jungle Beach. This is the one you hit first when you are travelling from Galle, NOT the one next to the Buddhist temple.\nA nice beach shadowed from the landside by a thin jungle. You can experience a sense of seclusion because of the surrounding green jungle belt.\nThe shoreline isn't that long, but it does drop off over a short distance like you're in over your head after just a few steps. You should be careful, especially if you've got kids with you."
+            }
+        ]
+    },
+    {
+        "Name": "Japanese Peace Pagoda - Rumassala",
+        "Rating": 4.7,
+        "User Ratings Total": 2115,
+        "Address": "268Q+82M, Jungle Beach Rd, Unawatuna, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVtmVEaQQ9eQzS6C4_jQ0NTSmVYu6P98tAje95dHw0up5WVuzj5UrS9jRBgQHPzjuGmURljfmgTLSPSTfH94ZiJfftNYevahtgGhGtyJ-ACAN1xfHRWTGdoc8iuXnbEJMHO7m4wzGx7T1_nWxQx24MXCsR22_so0faxvRsER0095MgO&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXb5ty7XiigZW-pou3oN979z_Q9W2kkBlnLbqlnuY1cyjeqE2ZGY979yqdRRtrTy2fTXtCMFVPfRyT8kKM6oJHsu1jqsGON01O4xegHH8UoIUaYoSp_CLTCVMexfc1IyquJvNzRYWmH9LnQcpMcUO6wZiJOiy7Dbtc28U38_wt6SsW-&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXfadjUzHJJLzMWpF-ckYUMHYe2QbI4jtbJ-rNLlpQGzyVqwM2I-xtP-2-fT1C6plddFd2uPPuuqsejw3pNRSvGS3hzsMIes14DsXtk6v2TX6xGHxMBTpVgxIly2IAzBZYTJxUNtt7ZPD7b-co_sxXNizSUWnuMw2O2aPfqOYJAyXxA&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW5TdzA0qqZDpqYKItzXgmJTTfC5B9kK2UkKW5XLtSwnZVsXp6kWa89Twiw-DcrO6Pu1Pwfgg7BuSD7o1JaMw79-ryH9BjbIV-z_2Yb8PPERXxMpHzbhzcTccvs-KiFIoo_llbwzXfdQ65kFy-tdXyi9Umfi_Lxn1x1yH79kJjEo5K4&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUBO8tvj55mV1pfDzGgoAXudy1EJvz3QqGjUyQ8bUMeAgk9jvwY2SK4nYNYbLz6Ib7oG0JN-eeEhe3_6PU1zskhFhEj6dwvU4tCKZgWAzxWaPVrWxXbu6QnRxbc2vz1hGu0wrfrE8DCUBuylnuYUI7sMh-QFed5pkNQO2cFbzF8aoF9&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU_PFfebQaExddCKIBgOKMTIPAQRHVbyzBF_k03fq0MmB7CuaxLguDZpVPliPcGI4BlrjwMjMIvd4XapBhfsymszLf-olhAHdQ7-fJi_LKArUghhqk6ira7iA4rWPt-sGsJEKGzPVsg06Lf6_Ujh3Fwa-EOE67bwbg2s36g90pukdwj&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUaGng5s4QHpqN15h9dxFg-3xKLeylYJydsZBqLC8BhHCM_XwpTWOuQWto0vliHThcNGVzQ2M_-0moVPs2KtMLPCWcu_Q35bJc3gx2sTOa1Hh46UjO1ufzdaVCS2uumpx5ClW0tcJDzT_0RL5kY3Cn4-dxRXGNNqj2VEqKRJFvutSnJ&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVi1dmtQouXD48h_DkLt11S0SPtT_NvrYffmctmsMDt6hvkvCoUnCyjerADGRsu6dFkUsvhz9ePeiA-9h8bUe-mCqbdgR04CY_uYAdfxqurwxn592Yl0zm102vGlGXYHdFHhRnnlQee68oVZW392W-W-D5vmu_I9OxZeRLLAWjxRrdw&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUCrBpzyc3kSZQ4Jj94iettWJTiyfz9pLBbiLO9eHCih2eCH9ar4u4pZl3lRkWF9A0NhaaL96uhW1dBDsV3glbf1K9m8iBYtjyGAP5RZdxYAP1MSf08DYYL3gPNoWC3YeDNhVdqBlN1zq8xVyYboa1Tv5S9ptNcymqOofxYV7Mzla7V&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXuwgZLtbcVkF7bDEnNRcgQs0MHZln_7faNqyUanq2TxxQCI9i1ILAjiw-IiGmeqJMWG-LUwZmNAaAiomPkt0FnflMGDvf-yR1rislSlF5BfMVueEeyMT_PAl2u3z5dmBBCU1yGVs7pPaDXf-1PSYmO2ot2F7pWzYRL7IBgbGz36_Q_&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.015803200000001,80.2378171",
+        "Reviews": [
+            {
+                "Review Author": "Hemal Peiris",
+                "Review Rating": 5,
+                "Review Text": "Breathtaking views with Tranquil serenity.\nBut DO NOT FOLLOW GOOGLE LOCATION to this place 🚫🖐️\n(which is will lead you to inaccessible rocky road dead end.)\n\n⭐⭐⭐Instead -\n1. From highway exist - TAKE A LEFT TURN\n2. Then take the First TURN TO RIGHT in to the carpetee by road.\n3. This will leads you directly to the temple parking."
+            },
+            {
+                "Review Author": "Linda",
+                "Review Rating": 5,
+                "Review Text": "A must place to visit, very quiet and peaceful, Stunning views overlooking Unawatuna, the Jungle and Galle Lighthouse, also has a lovely memorial pillar for the tsunami victims back in 2004."
+            },
+            {
+                "Review Author": "Nuwan Madushanka",
+                "Review Rating": 5,
+                "Review Text": "Most attraction place, nice view point\nNear by nice jungle beach rumassala.\nWe do the city tour in Galle visit that place,\nI'm tour guide and taxi service in Sri Lanka 🇱🇰\nIf you need help or my service contact me\nNM TOURS GALLE\n+94718715990 what'sapp"
+            },
+            {
+                "Review Author": "Mathangan Sri",
+                "Review Rating": 5,
+                "Review Text": "Located a few kilometres from the city of Galle, the Japanese Peace Pagoda is a unique shrine that guarantees peace and solitude to anyone who visits. Built by the Japanese Nipponzan-Myōhōji order in 2005, it was made as a symbol to promote peace in the island. A short hike to the summit of the Rumassala Hill and you’ll find yourself in awe of the pristine pagoda. Enjoy the unhindered and stunning views of the coast and the bustling town of Galle when you reach the top."
+            },
+            {
+                "Review Author": "Nadya",
+                "Review Rating": 4,
+                "Review Text": "This place is 2km walk from main road (Bonavista bus stop). and close to jungle beach and Unawatuna. This is on Rumassala hill top. Hence the view is stunning. You can see the Galle town, fort, lagoun and harbour from this. The view is nice. But when on sunny days this place is hot. There is a small temple which has some influance from Japaneess culture. Its better to wear apprpreatly of you are visiting the temple. If you are walking to this location , you will notice there are different varities of trees as there is a forest around this area. There are many hotels near by this location if you wish to stay and enjoy the view and the surrounding."
+            }
+        ]
+    },
+    {
+        "Name": "Rumassala South Beach",
+        "Rating": 4.7,
+        "User Ratings Total": 150,
+        "Address": "269P+95Q, Unawatuna, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVrZVmaxPU9D6_BGq5ACKRWizFa1cj8IUWU4GOB1XUl90LARCBIfFvsAw_uCtlP_4dZmVSbfM4QR3TzzUQxw0Cn4e4g-ibr258gAVdW0y9YoeIl0pEQ82NxFal2kT-x0EaqOQH_8eBXQHNkMdmMfqxtnd9hvUYGTR1Mll59trldA1Jn&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVyxS2kn5vWuTmYdC5Wj9QKDeudk17vPeEDylnfzG1QSHM_XALottZ0iX-Hh5IrqQw0SacVWEFtMsZTNq1Wb4ZkTLNSGSaEZeo2fP6a7s1o6WwIZz_d4dOKIjkiVt4kvpbCh1VCJwe2TqNIX7kxSFb4TPQRBhqW1mwsGSplSzTindI&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWmOK0HvnE176A5sFly00SOk5G51IybSD8zuBnp6zoeKC1v7QtQnpvPp1VD-CGH5aXJHHSBTiBHFPzkBpyJNPudwgOpPtn0D2RgEfJPoAXn5Jd3_rLLEV_-i63osKLek9pW2J9mi4tk32zG8LcpL6TyPYQ_nEUMvrusvZoVNgcHFxBQ&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWXJmmpTriapfDKmH6nSCYIMcXjCy9hjqgfbxTQrae3OEAHzquA3p8-7LSX0SRsV1v2NJ8bHi8znRjyQs5QkJtKGjnd4GStfYj2UlpClmwRleQ8p9p8dtlOVb43jYAqxD0rCEDmep39PIjpzed_xeyqS4GNNLNdQSrkhTfkh1ulNNf3&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWnr4c9ph-0GwVE7EYTyUDT1GrJyDWOsiMvjjUiZ8bM0BAo8ag6Iy4_sPGmjs12kVKIoTCCVZ1399_yUCgkbHM2V8A4x6laRHmMYXhtMaCe1NkFR_h66PGnK7dH9GzOrXKRLMc2RoRLYzqt5ivjYgl5fYAcH6A5yqZfz2P3dwU420AZ&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU1QsiUDkAr974_YCysGNh9IVQk5V7lhBc2kwDMZ160XLwufXTB3-aOfsFkg6Q4DsHIKv2kdyfX1N9UpQy5f3Ci7h035bb_zkxj4SIg2LbsjwpHG0rz3kku1zt9WVUQnu2qSW8Bc9ab711OaSx5HbSKgRJnyfs19YzVYBrSUGNPykhy&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVxWs3gbFiql25rSHfRNN9LOaWwDq7R6gqBXw-Kfytk9Pq7wPJGzVjqVv5hIc4M61Bnr9XBrfrP0tsC63jej9SpANzUo5nkPOPhjMNdAUZQ-Ce40HVrOd5pX_Pv5w8yCmwGckIQOxOw57syZGDisQ3bv7M334kl2DTrOJnoqffyaQJB&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWdkVrU534ev96VQU_eWfz8SmguEQ3t4oKdv8YXg2ZEU3RgmWgSWY2i4OxYhohVV4M1UJQxyO7qG6zEU9mrdQFM8doXrIm3b1_UpiTmhkdqAjkSIC62w682ymY6hp-09WGQ3p8qAsgH-cbPyaAQYzTa_XYpWPPaZRK5oz6rOAC2DUOE&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXVy8LMpZCbc7cnsodiTnkWMnlSQUWSkxStk9hoK0OMXFkGA2LfsWL6s_LGm5YmPKuUDisEG3slVneaZ58KjGEFBWnbQ7CqV_yVM4tduJ_9kjp-xSDyJ3O_u7UsaBc6jCF7L8ZhPR3VnfLc19MhGA7BulaLGfLBMnggxGvWEoAtzO-t&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVUlHgt8ZH8c2yn_KzZpry_gsm0T6FXYmmYARZkn2LM9CKI-3oJbi2Z4ctkV62hgNLxwa4RgieQGwJnGPwayQ2WRTAkDeDiK4_HMn6QAuk6unFYLvHHnC32jcv-I7IMRDrWeDlA-b0xhBtFtUWCRlT_40Gr_51_H4z3Qqpm0Dh0Xbm5&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.018462500000001,80.2354871",
+        "Reviews": [
+            {
+                "Review Author": "Shamitha Atapattu",
+                "Review Rating": 4,
+                "Review Text": "Roomassala Beach is a hidden gem renowned for its natural beauty, featuring pristine shores and crystal-clear waters. The unspoiled landscape provides a tranquil escape from the hustle of city life. However, visitors should be prepared for limited facilities, including sparse washrooms, and the challenge of poor access to the location."
+            },
+            {
+                "Review Author": "Kavindu Dias",
+                "Review Rating": 5,
+                "Review Text": "This place is really quiet and calm. And it has beautiful scenery. When you visit there by early morning with light rain you will find pleasing environment."
+            },
+            {
+                "Review Author": "Abheeth Satharasinghe",
+                "Review Rating": 5,
+                "Review Text": "Captivating scenery! There is one restaurant besides the beach. Tides are not harsh at all. Fine road condition upto the the Japanese Peace temple, and you can park your vehicle at the temple premises. So no need of paying for parking spaces available along the road. Enjoy!"
+            },
+            {
+                "Review Author": "Chathurarya",
+                "Review Rating": 5,
+                "Review Text": "This place is a part of the Rumassala Sanctuary. If you want to reach this place you'll have to come near to the Rumassala Japanese Peace Pagoda and follow the road downwards. Parking is available and it's better to park near the pagoda. Apart from the gorgeous sandy beach the shoreline to the left is rocky. An ideal camping site without any big troubles. If you go left you'll be able to find many camping spots. Some people leave Polythene and leftovers everywhere. Please protect the place. Beware of young couples :D They deserve their freedom too."
+            },
+            {
+                "Review Author": "Anand Ramabhadran",
+                "Review Rating": 5,
+                "Review Text": "Snorkelling. Decent place. Had a good guide and it was a clear day. Do not compare Sri Lanka waters for snorkelling with Thailand or Seychelles. In Sri Lanka this was a good and safe experience"
+            }
+        ]
+    },
+    {
+        "Name": "Yatagala Raja Maha Viharaya",
+        "Rating": 4.7,
+        "User Ratings Total": 685,
+        "Address": "27G6+4F2, Unawatuna, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXpiw4C-_xvVVITtW2Qf8_gi5qn0OZ1QgxMkENSCQ_6Zlled1bIJ4bEqOaQVrc9LTxswbnpqv0Q5AZ-lEc4qZzTWn0Q_cbdK1zpuKJ28o8O2nWnnc-JFZfKiQvZw0Dg18uxWU2kA_CqszhJdlkItRWzGHy9CrR9_4x0ScrHcEM5MV43&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX6I2XrM266ej56_9QFrBTEQc9VQaM6RnYF6qnChcsf3VQq2VzCQagKpHO9pRAbJ26BD5avlRiLXwznC2vyUe3eMReZAKw1AKhO0y2Se8TEB4j9pMjOv6UYdK3WmJ5Bc4RE8sa5djeveJpDk-EmC9SMSrDrUFE4AOHW1FT4agJZYCa9&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXoG2CAwaVQy5JBaHxcdbKbJYfTDDG7S2wLTIbL_zeCeJQ2erNGPE5F_dogczoN-ndz_GpMEhXCUPJgzFZsZPSb5gAikOFCn4sJWm8-xFq6OvBRro3G2gVBdNpEQ0GF6SnxNfTFyZywAOyxY2E2X6PHTN26RKzd9-B1Ka00blNJodLD&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWdcX7TiIgDgLcwBiV_GtS-hOHB8C0XAs_ioRX_n6zXSF_SV7YtQGGPUCwrnRwczQ8xwx1-FlY6Ivj5O9rzUNg-ACfFuRuLwzhnj-meVIXZg_w4eCi48Bsd0P9IspFW_mVf89LARa1iSRfEmRjl80TlEZJbVBB8Xiu9YtBwlMdHsidv&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVKFWw3q3oD8h9RlcwX3ggjdkUGwRkakac03vau5_eWKdLHTIiapY-12u-os8opezJmEXMuXU-bmzGLyzRBWsvmFEHoaB7D1B9EEshi9qGA7_882cwMMkOz7wEGCNE0RNu1goyabqL9ifwcUosVkUtWF3KKfFJWsCzD1Ctbng8RPgpl&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUgwLfv_tMAK6xmEK7lLT68fgevzAzgUmolT9lLp05ntL36EEmJT_moMSGy22ssmu-YITACKuCrCgtr951UpVP_dVWpkyQiswA9sznZNbVlUpdpt73unKWGyv2F92Oi0lH4l8PV6xvplUqtJ31rS7wrMYwpe5D6ShHRjCk7eePt8T2u&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX79gDlDfu4SNxXRZ8ZlJQdO6kZoeHrQb2kGZnBu7_wUbJMZxDQxnoK2DYq9Xvcob3n3IF2LDjMsKs0mTSXkj4hTCK452pbzcEvBaWenCJci2OJNcVkdMuoVIFVB9N-zzDz_5VgeczdRgdGa8Xr2GUZnXOqTEOAaidzly-nf0YvEv07&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU5M3MZkDBnewnJrZCQ4AHOwqrM1TzvXstS4xOLII3zqVQvsbLQNp--mT6fVpqnpsRKKjmfeNIJHOyIVkMgs9bbO7esM2KMoy_-bzrzTEyxk0-i4qgGYDguMvwVfNw08WgspESzjJghEZm-KCPLj0-V37RQsBsiybZpBwOmyjXhcTxK&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX_FDA9Siy4Aeu0gDgoJceDjr1LZMmeqhmPJF_XjVM2TJmZd5kUiDbyA8v1EzIQt4xohCeb1CjZFmaOQo9Ih8ZcRfkVav9XcvL7G6WtEEB9YJTbX8CMrxC1nKN85V1hiw-PD9IOZVF1S2Pn80MZiUNrefkT7Rk9x7nT8r-KzZK_ecmS&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUEw74TCf_Sjr4eSz0pmKxtPDwJg5_pDvH2NrOanxCvuJC9pC2cLx69BTbBEh8-nRpKm9TAsEnAqzzsMPjvmWNftyKAYcp81opY8P7D1SjQtO60KOZt7mFs0g1q4bEybzu0lUlt2Ml_TQyyuZtKokd-Jl2VrqEJaoiTZ0pkAz8BrGWO&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.0252714,80.2611405",
+        "Reviews": [
+            {
+                "Review Author": "Ann Komissarova",
+                "Review Rating": 5,
+                "Review Text": "Very beautiful, calm and peaceful place. Entrance 1000 lkr for two adults and a baby.\nInteresting small excursion and we saw a varan, two monkey and fed dogs.\nI recommend this place! It impressed. I feel there very comfortable."
+            },
+            {
+                "Review Author": "Ishan Bhanuka",
+                "Review Rating": 5,
+                "Review Text": "This place is called the Yatagala Rajamaha Viharaya, built 2,300 years ago. It's a peaceful spot to meditate and unwind, with beautiful wall paintings and statues. To get there, just turn near the Unawatuna Post Office and drive about 4 kilometers. You'll see a pretty lake in front of the temple, home to some cute turtles. And the temple is always kept clean and tidy."
+            },
+            {
+                "Review Author": "Olga",
+                "Review Rating": 4,
+                "Review Text": "Nice and peaceful temple to visit. If you go there by taxi, it’s better to ask driver to wait for you because it’s quite difficult to order taxi from there"
+            },
+            {
+                "Review Author": "Jayasanka Udara",
+                "Review Rating": 3,
+                "Review Text": "If you search for tourist attractions near Galle, this would be one of them. This temple is not far from Galle Town, and therefore, you can easily go there.\n\nAs its name contains \"Rajamaha Viharaya,\" its history might go back thousands of years. Still, we can see old paintings in the \"vihara geya,\" or shrine. One of the features is that we can see a few caves. Some of the rocks are hanging with the support of adjoining rocks.\n\nThe design of this temple and its calm surroundings are also attractive. When I visited the place, I saw that forgers were also visiting it. For locals, there are also logging facilities available for those who are going on pilgrimages."
+            },
+            {
+                "Review Author": "Michiel Buitelaar",
+                "Review Rating": 5,
+                "Review Text": "Lovely place. Beautiful statues, buildings, wall paintings and more. Lovely and impressive. A joy to stroll around or just sit."
+            }
+        ]
+    },
+    {
+        "Name": "Clippenberg Bastion",
+        "Rating": 4.7,
+        "User Ratings Total": 72,
+        "Address": "26G7+QHG, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWX_emL7RoOuiJ18oY7qZfuOrmDznyheGDNjp7COoEnIOl2sq1N5au4GQALAeLn3KjawioQ-t5TsC7LkBvEIM0xQ0061NLpmc43858wk0SMpEdeHthNdExDTieXUfRxADvkUkx2seXpDzIa5QU8xlalIQv9mffWAtXbpGeyMlKgURaL&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVt2a_JmRhmUr-r-0VpbWHztlto_onUP_FsXHpEmIS-j5LovxFufSpru_mj49LcL1Xdr5Z5DtS7itr3zZtPt6Hqfk7nvOXdyEyx6Thernt7PSZWJf6EdJApFPOCXBmaHgJhaL-wuKUF_kTmnwn8mQUYJASD7jXyMBZ4WQfj602u1-s7&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVCrSdxbOkUv1Pm7hrGmPtyzoHEQqCg1BkFT0U9yTlu5GZ3jtBvM8jWIsmTIYdHVa7aKE7soa9_9CdaMH57WUC1i4igbPwjJlW9cQlkPMby13giEUxGavvP3ex5dcNr7R5lVFEXqx-wMoaDajviWt7K8Kd0LpASl-j9Ieyd3762M1w9&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXCXAAFVB8Mo94YyjYECf6VasRoa1vDKcovUQkn2_4KM2VTz5LwrzZ4ckvRC-xbyMrZwPH-bcBZ9njZeOts6Z7Y1V5HKI4nQ70F7KY6elctQSIeUKHXW8Xjuk9TRLuOVD64Aa467dCSkNQwfmZQoUhjw6Ubt4BEh8HheDjNOb0S3Gqp&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVbPO0kA3ODZHQyJMfZu3HHXZWvkmYj0mbcrGy3s27n5YrSnZzpjgTNlkyTG_ozeUnyRi9RL-_6JrNQzSG-QX0idvohuRUldHb_TtrDzup-qxVNEmzNozjLcNfbPs7Ex2fog1XP_f3_QHLNqrzHtKZpB8yV1TuDtMs0YiqfNkST_bL1&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVeJl0quDqdnEmMLVHvOn0C8Gj0D6jLKRsVY0ERt5NYq5fXcrrfJiNBmTUJ_8funxO4y4NmlyzSq6-aoepJm8GhpIJe8T0yebQZhXX_6ZhVfRf-JDiVMn-M5WR2alRWkHqREMEkgRwMuvAC0NuFv0SsQlvjKBcbPizdtdIgm70-jM5_&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU4IAPFGTPOeCqGruwtHppj5Xf392dlI89UA784G8LYHE8_2GWdOvSNpid4EcjoODgYdtBUErmQjpjhgmjMml9iGuWuQLj1MmOASACEwvnqEnZvllR7-ysyCCZQeaIrES6Civvdm7dHQTmxz4OMqZb3Dd7IltXFWnd3uFZHPHivQyao&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWqBBAzy_jRT8loCx7OL0CtGYBjazbzwpqcMPlzqN9fyP241FKrzt698z0ysyXj3Q421Sk1lYsLJPdpmZsb3BFrT-oZVByg4DpJftoWQTkGm49z0l0w8Ar0omgJlmm7yz4lJP3cqgSTpvioH_VdMiQoK5l8LsbYqN826fyp-Xm-iNKL&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWPaYFw6hVile8-BIRPCPTt9R5ltn2Km-hBi0oBExfRSJ_VKfdRS1yHEBsngGyK_OjJHVENfFiIZkE3y9gxTBA9aHHov_9Oc6mKqpR2_Emb_SYrtNuCQKqdDAbXpkAjxI4pCMp9vROTvAHM8G7PenPFij0CKJppuVpWiIu8qpaufMO7&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXDn0ZNWEesrRz49YDc9pfGnJgp-X_UOEBwVnChM1eyO10QTjD_ppWhgwIX2EKh1wNXvKg-melzvp2JjlCfOw1QO2eL1Fw1wbX79x521lOLw-IG-P0hsjQg06sxW-cEWWHautFBIKiuFs-Vdp6bXD_bsbiFNGfcgd57GqAO468_mA6s&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.0269406,80.2139681",
+        "Reviews": [
+            {
+                "Review Author": "Sanatha De Silva",
+                "Review Rating": 5,
+                "Review Text": "You can see One of the best sunsets in Srilanka if you come here around 1630 hours... if you are photographer you can capture so many scenic views. Calm place for think many things. Good place to hangout with family, friends and partner. You can find some street food shops near the Galle fort. 👍👍👍👍👍👍👍👍👌🏻👌🏻👌🏻👌🏻👌🏻☀️☀️☀️🌊🌊🌊⚓️⚓️⚓️🛳🛳⛴⛴⛴⛵️⛵️⛵️🚤🚤🛥🛥🛥🏖🏖"
+            },
+            {
+                "Review Author": "Kasun Nakandala",
+                "Review Rating": 5,
+                "Review Text": "During the British period a naval signal station had been located here called the Lloyd Signal Stationowned by the Lloyd Company. There are still remaints of the        equipment which was installed here.\n\nThi location is recommend for the photo shoot at evening time.\nAnd the weddkmg pre shoots & lovely memories for couples.\n\nBest claim & good view sundown moments can be seen at there."
+            },
+            {
+                "Review Author": "Givantha Karunanayake",
+                "Review Rating": 5,
+                "Review Text": "It is a great place to relax and enjoy the sea breeze. There were Good places to eat and relax. I really enjoyed walking through the Galle Fort"
+            },
+            {
+                "Review Author": "Home visit massage therapist Unawatuna.",
+                "Review Rating": 5,
+                "Review Text": "I do really love this place because there have lovely sunset..."
+            },
+            {
+                "Review Author": "Thushara Krishantha (Krish)",
+                "Review Rating": 5,
+                "Review Text": "A superb place to be there during the sunset. A colorful sunset can see there. To sit on the wall with breeze from the ocean and the sound of the waves with looking at the sunset. Awesomely romantic."
+            }
+        ]
+    },
+    {
+        "Name": "Hikkaduwa Lagoon Safari and Adventure kayaking",
+        "Rating": 4.8,
+        "User Ratings Total": 386,
+        "Address": "Lahiru's Place, No 9 Dammissara Road, Dodanduwa 80250, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVxhKmI9a6HkIIbzNG2zWOlQ_JHgdc8axBlhLNj_hFzALic0FaVR8XWJg6UrMp0RjYpzV34mtMxpZDZM_2Ldwccm9RLwfuqXzlPb3DfhMqXVXZY9uc_FsAbypVIOHO5JXf7_hBeZkCXCd8Xb4Pq2qAWobngCt_5nSZwCsIR3ax3TJ77&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU0NTraKMP9REFeWnk9YvFlOEO8QRIQtypbreVWqakGNF_OPSfmxPQWlxil365TN9qbgmdDXRTrO8tz3HC1MN6ANS0fUf5cqdPMSwBuiCaBqxIp7Bah20zkvpeOEsX5ZwUE3KxV4UFlnrukEaQBFGXINlQ0OyfgssMBoIHN1F0CJH23&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU0U3X20csb2F4rmLwRFbL0wewDFkzslnst-686kY2UncFHZisxtOlw9ojSYZphRpBwYah3cd4gFuOG7aCcITrT3ncF21taPttQNi2MM2iayBTF_0nuUjucyVy2SLi0VSumOXtob_Vd9JHp6ZmeplGNk3QRC1EivdZgZvXc87C_MqYW&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWle_WACF9dPcCbeULwLGqvBjMrT-eDIqs_gjfpwiE2D4dtTez6CXS8_FWNP42jdeNQ6VTnnnToyRnf81kxTeQmIYgUJWZXXG1EOGlifdoRx7JFjepGUnTfzkydb5AYYmi7mXU2fIfn6U3HCZZd2OOtIydffvr5EsiFR_FMVlqgNPyd&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWW0TVWmDoOhLLCPQ8MKS6VEwhPdSCYXV-B61u3qr5Ph-uAAyiN0f5yn7GYoV17Og13nOBKrVkgpoZMbD-RRZHFdSBpsXdRjSBW1nJX39hEk-9AGCdxeS8J-Y45ECKo9F6bBFQo-mFk3nPQGR9T2gkRl5RxtF2LRuZPTCUUJH66q4-O&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUZDRF-benC-4BAih0RVs7wzg248jPniKl6Oixdh6yV_zay9JeXN7iMakYInkzEdsyC5I2diwQoQtYqvTEt3y6Vv7UodTL14QNUtH-m__QrmIeWjJeRIhfvyilMy4h81bqYubPVa90xCzcZN5se-DN60sKNS5bEMRDSOheOdVuPl-Rn&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU6abgEGpeWcMiOCl4iwZK1weo5n1nmEZ_4Ha6fp36lTsGCdCZqdBnvWrWCidyAXIuiYHTXXjYt-6r1Nj42FbPEgAl1BvarPzNUyEVwv7WbrCFI54kC2hIs6iXlrDivTLphjRgK5gyV-YYcjBfN3IYLITIOFxgoBrHq7pgGSB6jnr-9&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXZUGjlFFd_oimervmqmM8eltcf9E2T0Jssx6Di-WNESNFJUzbnlqV9H-YEPbbvn8PqycNGsmOOk6ogOgnhgeG70n7GgEDeUzH4VRAvAj3uiEu6fBMU2n1ukjdSyn62cDYWGRn0obr3ZoFAl_wPdjLAXSmYzn8iEEBVXb9tG_XYtCKa&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUk_WTQo9KdFsExEDLh6MN3YjtAwZJZk6p3fmy1jV0Fva3tcfwhM5mwy05vpdQy2JGTgGKdy4fvMIWf0X9LtxJjTJYnM5X9qyodyEwTiLm1I8MUef7PfiYq69BqmxclBq5kUUylC7q11yWix5B9NpFNp6ni4_ZZvUO6WGy542D7unlz&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXnq-__cy2XFbYjCkN9XAoK1fIyY98ugtngAlFLVhwvOv4FV9shOG4QkRt2D0yNkvTkI7IPgfIrCxFu1XnhZyNgtom83EqLDsmDSBcNTf5O9uyIN45RHxUd1KuLkkTblyJG5ZG23shCYsCg7BXLfp1yk0JzZMYViHtUYPoNp4Yf23WN&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.1033254,80.1268865",
+        "Reviews": [
+            {
+                "Review Author": "Lena Best",
+                "Review Rating": 5,
+                "Review Text": "I had a wonderful safari with my mother today. We were able to enjoy nature in all ways and observe the animals in their habitat. The whole tour was excellent and the guys who drove the catamaran were super friendly and explained everything very well. I can recommend such a tour from the bottom of my heart. Afterwards we got a delicious tea and were able to buy two bags in the shop by having very nice homemade things.\n\nIf you want to experience a very nice and unforgettable time, then you should book a safari tour with this family. It was incredibly fun."
+            },
+            {
+                "Review Author": "Francesca Osborne",
+                "Review Rating": 5,
+                "Review Text": "We had an absolutely amazing time on the catamaran lagoon safari. We decided to go for sunset and left at 4pm avoiding the hotter part of the day. As we paddled out into the lagoon we saw a kingfisher, eagles, monitor lizards and bats hanging in the trees. We stopped off to climb a 600 year old Banyan tree and visited a monastery with beautiful 200 year old paintings inside depicting the story of Buddha. After a swim in the lagoon and a beautiful sunset we headed back and were blessed with the most incredible display of hundreds of fruit bats flying out from the trees ready to feed. It was a truly magical experience and our two guides were knowledgeable and kind, I can't recommend this enough."
+            },
+            {
+                "Review Author": "Daham Dissanayake",
+                "Review Rating": 5,
+                "Review Text": "We decided to give kayaking try for the first time at this place, and let me tell you, it was a blast! The staff there were super friendly and made sure we were all good to go before we set off. Even though it was our first time, learning how to kayak was a breeze. Can't wait to go back and do it all over again!"
+            },
+            {
+                "Review Author": "Matthias Eder",
+                "Review Rating": 5,
+                "Review Text": "Very professional and friendly, we were on the Catamaran with our children, all safe. We saw some wildlife, we went up a beautiful mangrove tree, we swam in the lagoon and, our highlight, we visited an absolute gem of a Buddhist temple (non-touristy). I can wholly recommend, it's well worth the price and exactly as advertised."
+            },
+            {
+                "Review Author": "Нора Дд",
+                "Review Rating": 5,
+                "Review Text": "Thank you Lahiru and his family for a great morning in a wonderful and calm lagoon. A ride on a SUP board with a paddle, where you don’t need to be a super athlete. You can paddle by sitting or standing, as you wish. During the walk you can see monitor lizards, fish, bats and enjoy the beautiful sounds of nature. So relaxing and peaceful."
+            }
+        ]
+    },
+    {
+        "Name": "Galle Unesco Signage",
+        "Rating": 0,
+        "User Ratings Total": 0,
+        "Address": "Warehouse Building, Queens St, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXV_2P0D5yBno79LdkT3LCNqmk34e_DPjhpqNPe7uzfi35JmpvbxIaENnp7EplUW8XxvV3Nf2ZgX3oGK5Sje3rlaVCUzl5Qa07OJuntvgMC11CUTaL3Q_jteRSO7k-yezDYdoXOUqWT-G72F-KOYQefhMKlbavzGEvVnIFz5Bih-4nU&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXr6XH5fYp060xAfPG1K5QBxLGGmnuH7Khx0UFHFkEhYUVPiT46q-kNIwCuLWDf6k0tuorivUW9tTIY-XkM7vTmkXTcXCSDYg2LnNLNpEPGN9vRT7T8Fye6-z4vbmK6W-rSbzzEytBSPkabY7w8NMI03FIEZGn9n_TZLf5gkfngPhpy&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW9CQm_THG4z5YqVZfrFLKocyWgAJrpW6II4nUgNV5ASZH25FuKYpLDxcJGW3Q-8tiXtwxBiWHtwAhx6av1JJHEzN9TRlTm6yMrHOy8EUNxfhJX2mkdeF5c813aoYXCJ6IKGqvu3YvMgzjSQMzcgPxCZZmKuAAMJXDDUA6v5mz2nDM2&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUyz6yp_i6hzNVxojn5mEHmfe9NDwCf8OfhkLXBKmn4O8qUGUVyvbYykvUzmNyLk_zrdGePzz96I8O_K_fmjEWUS9myMvxydRR2s9y2s-pGPXQmadYVtL_D7bwjbTt74-0C3OOKnaeKZcLQsXQQrTmUz9ehyYnRKABn2_fVCS8KysCb&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWlBig2_MX1KTZnhgOA3c9eG_RCUWzkrl2gisCLFYyGosANuZ9Lxdw3fJqLvD1s1H1yxtocfAlVtl7qzrkCtEv_YXMMMlEF4d-MxfuwyE6xwnD6qRmgMa0N1MQv6y7SXh3E7tBxWfB7WHLcCHR_pIIMWEjn0og1POuqEIU17MMtdna1&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.0280892,80.21838369999999",
+        "Reviews": []
+    },
+    {
+        "Name": "Black Galle Fort - Zwart Bastion",
+        "Rating": 4.6,
+        "User Ratings Total": 111,
+        "Address": "26H9+MP3, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVsoBPszpJRDPkNVV790BVH0S4_O6aq1Ui9R_EiA7i6q5LdD2S3uAniiV1c88tNtfsDR3_zHgeOtFWIvkzMpf_brnfEiEleh_W88RwQmaki8ywDhidXLocBmv3jCHv8_a-cu1tYoJmvIg5MwMgac-O7t8BwbXlsiDTbSUofB8IQfLdX&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWLgE1z6R2q64WPjKE3Rt_aNAcc-aHzmblmtl6OapGolmgEynMpXVSzMZWxxIon6zR7DZ6jLVY_kp_JTZyUzakZfdlpnEIdZHb2MdxUw65SBr232xUThAGS9ZeRxg0EFQIykOVAJkcvH_7o3r5pKGIgMriZJ3pQndBYkHE0vdcUUNLU&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXV5PptGhUW1oUVjd5LcaB4nTbShh_-9MC7-Y22H4j0Oqxei4z4JWh8p3yMw6efIOl3laGbLcfAOuoomy6xppf52SYLWOhhAWV92OEHmFA2H5kG54akrxotbQD0n00PyybP5oq3x6B5yPJ5f1xYaXJ3Y3ZZWLVLdOgNwoBVOzq2lA-xD&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWzMWs0j7SQtRPynO8jrrCKAzG-O7_MAmR1Di9PSbPFtxOzeyIZICl4EbFIF7Ldcxl20Rhfc59SjyePHZQ1KqRJvIMsHUSfBFRXwmD8kDLd5xudJAOK9m1wbhB6rr859Gc-hHHcD9sC2gwiqXqR4EJjF9RoOoxAnvozrLC0ghCcmI4&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX9Q4D1SR34lHpuLFIvZWfRBPs-xoWHEZIEpcDU6wZbtoIf2ClbKxOdtfVYbvJb2rbqivr8Hbs7dcnvZxFl1m03MftqxefrY_e5ydnL-LMh8nB1M-hFLPhv5gUKTMzBF-zNYCdQhGZ1hsOP3FnLJt-9xIFaLZbv8GZSOBZwsvCXFtML&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXDWw_esuOAiLog8NYh47tfx5oqqtwr5HGyqkwyxi6qgFEoWXfktouX02E7ogW__xYjmWrQEHJfc5CFqoAD16vKhuwwo20nxEfiGT5-Yy0uFA-4-v4Bj7UT1CK7ezO3MyHpP765CHZ6GdoBODm_V1AMs65gqWBdT3jdtsBPK-IZS1Dg&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXSGPjAQxHYuI2M_hzs_TLPLRr7ItMhiphY4fkMmP8Y0qVNg3PiGPxqcmyu2yrb7ia6Ud2uHzKQB8mAwRoVaJ2n5h7KZmNbKvPgCu4gMsiA_nNI8novyrNUNCLRSzRpoH12xYl5Os_pYZGNsDr02roC3Esd3P-LOmzh-Om_KlLICUSm&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXV1zowx6JVeIOf_1TnQR_BsPXkhjyHG4MdsAUCWOADLBLk87lZV21PNuf-emjz0RzwvDr5vzzCYSTOdB8mS6HIEpK2DlxdkyX5UJJutJsZLKdp6vjGV39SegAgb-rndKTOQV0irIrUmCYqN-jbK_pH6AcnIrBiGpkmwGfodRMv1P7u0&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXZrig5feRQezOINb4zwVx7poaetEvgr6KkCPa0ZVa6H2QsBLPEkbvqOyG3WWZOugJWOvc7fQUycPRFs_ujlbJyRNhyLfhGkBKK04V30i_lzE6rKUcPZ52wn1BsgaFF-yUzBrOZwmglD-VAzzzaK2C2VGKImylZM61Wad5Pg6oRExWx&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUNUB3nlQsPf_Xze91PTEKhSVKlQbBuwj6IUVBI4a8Q4zqnGQE4EaazI0PqyERryld2XsNbG-lym9TPV-DsC3Kkq3R_WeYyDXsjDv6yQyWdbsjMmc7sgwoXQnfRbydF1efEryodFEsiDZKZACWtFDfOCX7pQaqgwTPasjcS0gTSGzRv&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.0291295,80.21929229999999",
+        "Reviews": [
+            {
+                "Review Author": "Jayasanka Udara",
+                "Review Rating": 4,
+                "Review Text": "This is a part of the Galle dutch port. But most of the visitors do not visit this place because they are not aware of it or do not know how to get there. This place is located adjacent to the Deputy Inspector General (DIG-Police) office . So there is a police post prior to this place. Just ask for their permission, and they will guide you to this area. No prior approval or reservation is required. However, on weekdays, the place might be busy.\n\nOnce you get there, you can go through an old tunnel and arrive at the open area. There is no such experience you can get in the other parts of this Dutch fort. A few artifacts are also displayed. The view from this location is picturesque.\n\nDon't miss this place."
+            },
+            {
+                "Review Author": "Pasan Parakrama Kaluthotage",
+                "Review Rating": 5,
+                "Review Text": "The Black Fort, originally constructed by the Portuguese in the early 16th century within the Galle Dutch Fort in Sri Lanka, stands as a testament to the region's colonial history. This bastion, later enhanced by the Dutch in the 17th century, offers a captivating blend of architectural richness and historical significance. Perched along the coastline, the Black Fort provides visitors with striking views of the Indian Ocean, inviting them to explore the layers of cultural heritage embedded within its walls. Any one visit black fort now can enter simply by buying a ticket no need prior permission . If you buy 100 rupees ticket you can visit 3 other newly opened places in galle fort . For black fort only its 60 rupees ."
+            },
+            {
+                "Review Author": "Thisura Wijewardena",
+                "Review Rating": 5,
+                "Review Text": "Tucked away in the lesser-explored corners of the Galle Fort, the Black Fort stands as a testament to the city's rich history. Often overshadowed by its more prominent Bastions, this hidden gem deserves a spotlight for its historical significance and breathtaking views.\n\nThe Black Fort holds the distinction of being the oldest part of the Galle Fort, a structure that bears witness to the bygone era of Portuguese colonization. Situated inconspicuously just behind the Police Station, its confusing  entrance belies the historical marvel that awaits within. Keep a look out for the signs!\n\nPerched strategically, it offers a panoramic vista of the Galle harbour and the spot where the Portuguese first made landfall on Sri Lanka. It is an ideal spot for those seeking a tranquil escape from the bustling city life.\n\nThe fort, is quite miniature in size with its sturdy weathered architecture and little garrisons cells used by the British. There are a number of plaques explaining the history of the site."
+            },
+            {
+                "Review Author": "Paramee M Rathnaike",
+                "Review Rating": 5,
+                "Review Text": "This is a historical landmark in galle. It was named Fortaliza by Portugese in around 1510 but later changed into Black Fort by English as the whole building was in black colour due to the blacksmith workshop there, which produced the weapons for the Portugese army. Later, the building was converted into a prison. The escape tunnel, rolling gate, guard rooms, and cannons manifest important war startergies they had used in the past. The view from the place is splendid.   There is a museum inside the black fort related to guns that were made in the past. However, the museum is closed on Mondays according to the information we got"
+            },
+            {
+                "Review Author": "lilan priyashantha",
+                "Review Rating": 5,
+                "Review Text": "Swartz bastion (black fort) is a hidden gem  inside the DIG of police premises. But it's open for public visits. You just need to inquire. Well preserved,  it has prison cells, guard rooms, gun powder stores, guns pointed at 3 directions and a tunnel to go down to the ground level.\n\nIt was nearly empty, and the sight of the harbor is beautiful. It has an interesting history as well. Lorenzo De Almeda's first arrival spot is so close to the gun platform.\n\nA must visit in the Galle fort!"
+            }
+        ]
+    },
+    {
+        "Name": "Sea Turtle Hatchery - Habaraduwa",
+        "Rating": 4.3,
+        "User Ratings Total": 1965,
+        "Address": "Silver Green, Matara Rd, Habaraduwa 80630, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVspQf4GlbSrxrr4IjNsQ29jBHtywwKkLzyx0Nvar3LAF1wP72r-kV9JF7t1MVTXv5WQ9Nb2CJwoe9XqvoDnxoKSXVQY1FYiSyigFqvXh-wYjAeccROkxv3rrLIB3jdJkwV5yTlXnuXQvKGpLb6pjItoinJY659g4hCs6pyjkHVq2E1&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWji4Fw2DLZ66wIv-TACpwcgc6-56mIMUGWURLbS7zqrqdkFCEpoR0KbT_ieePVveLiF2bkaYVZL9SLkD3pLR-R110B6ek032GM0pppe4CLlQCERe-MJz6pC2bm-S7lLQorNBGFzXM5e_aTvcqYOtIUlHKI77mzYGyifVsj0gXG7FI2&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXV9k5FVRZwRhSXIGanl3WH7AxMcKWMovFY8VVQbJJOvBrT00Och018SNS3XTSRpSiIBYXK-Gk17Ga49QMlwTNyy7OsS0a7pkjJM6fOWhEVfbj407kNGD5J6A2wRJS4_fVmZ29EChs_B16V0cBEep8HHaDh7YYWGWprjWbNqiVs9kYXH&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUuJRSLb7DZXKyP2sfferHSsy9pMpaZI73YjqI_pdvl7vPH7G73E89KbNJ7Bk08XYKjFotUL7QX0-YuopTXQ2KrzarDRK9bgWazlNSmnmbKtGNdSMLPHuN5Fg_u757Ps2gm66skJrn66aLIX50-06FRfw30iC_N6m82tHthrx9wBw3A&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX0eBmaJ9588OoGRvO3q-YKr53ubO8zVYnrsN3iaRmldUVI9moyrF4ilS95VvCeUfM_QnroM10HTm-GD0EE89dDxZmBaI8tb6-4zwTOuH8oMDXnRFRni_e_4FFUBMnWXT2CKRlUyWwAS_jUIRbszD5Mn2rvd2GeTNwC9iAtcgLBM_J4&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUv99clC83RSv36OGOREs9SjEWBjcrdddLaHM-4yotuJAM5Qw-cS8xkazmN8ti09QUhP5VL_TwO5FqYrCIFZwJpKXXDqibdEZ1-wjtUYqhS8q6nIa3TvmQ_pbYCxIp2pVoQM59QC2fSEyqmceT0FpZQrY0wF06yj8gXdCBIHAmJw7rw&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWdolQHEWLJZNMlKP_vAhqA_0yO-q7dbE3wKwwdDeoBwEAOnOzzZaSmW-8k5uKr-vT7Me79_TUNM923-_u75MVWQDZue9GrNFcE0sovfQJx1EjJOMRKWvKDweSczcQPn630CWuOg52IdbUHEWtt8U2VNqQdPqZMKdYRXipz4fu-jkko&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX2fISbf2KAApH5t42A764tOFYFW2weNBnlAyGyk_DEOorfTQBXH969kjBJyxBV1LixJTf_s7IyzDGj9bmOaWBp8lQ8zvkS7us87mkIzn1X2lsDiKrzP0Mqepw2wN5swCQj1FfIuGGmzmU8B5jnZZwyc_EZw6pcWFljWOAuzEK0hAB0&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXW_upP91WdsSUr1b2b58yZydLbp2u33UN3TXV43NnF5fU3VwxMn_TMffimbih4IbEegvNKiz-U3CCyem3L02bCUV1VvKITGyXL4sylBO9tYdR_NhDBlBOhGBVg9SwJu1LaNL_5H-9Tnvnw6033l47Q5Fi8egNMimRMnWIJJzbuqsyU4&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVLmWFWCdnDQsScrppENFdxcb6TaZottQpAnIcdn9zF6qgpLNjAeuBs4csV_LXvEuIgtmgX87gSl3RUzymkUwu8x9P8xyNdRh1qPxGSJCiRL6FRTPbcL_i6C2PP1FzD9oqGjk1GRCBG6ThCvHuY8c-AtjeCSvtl28x1S2UC2sSwHYNP&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=5.993702300000001,80.3041743",
+        "Reviews": [
+            {
+                "Review Author": "Shannon Kalinowska",
+                "Review Rating": 5,
+                "Review Text": "Our visit to the turtle hatchery in Sri Lanka was an enlightening and heartwarming experience that left a lasting impression on us. From the moment we arrived, the staff greeted us with genuine warmth and hospitality, eager to share their passion for sea life conservation.\n\nThe staff members were not only friendly but incredibly knowledgeable, providing us with comprehensive information about the various turtle species, their life cycles, and the challenges they face in their natural habitats. We learned about the critical work being done at the hatchery to protect and rehabilitate these magnificent creatures, as well as how we could contribute to their conservation efforts.\n\nThe hatchery's dedication to sea turtle welfare was evident in the care and attention given to each turtle under their watch. We were moved by their commitment to ensuring the health and safety of these vulnerable animals, and it was inspiring to see firsthand the positive impact of their efforts.\n\nIn addition to the educational aspect, the hatchery also featured a charming souvenir shop where we could purchase mementos to commemorate our visit. From handmade crafts to locally sourced goods, the shop offered a variety of unique treasures that not only served as reminders of our time at the hatchery but also contributed to supporting their conservation initiatives.\n\nOverall, our experience at the turtle hatchery was both educational and uplifting. The friendly and informative staff, coupled with the opportunity to witness the incredible work being done to protect sea life, made it a highlight of our trip to Sri Lanka. We left feeling inspired and empowered to do our part in preserving these magnificent creatures for future generations to enjoy."
+            },
+            {
+                "Review Author": "David Leach",
+                "Review Rating": 3,
+                "Review Text": "Our family of five visited. A nice man gave us a tour for about 20 mins, talking about the lifecycle of turtles, the different types and lots of interesting facts. He also let us hold some turtles and take photos.\n\nUnfortunately we were a little shocked by the cost but decided to do it anyway. As a family (parents + 3 kids under 18), we were charged 8000 LKR which we thought was very expensive. I suggest asking more questions at the front, negotiate a discount or try a different hatchery."
+            },
+            {
+                "Review Author": "Linda",
+                "Review Rating": 4,
+                "Review Text": "This small sea turtle hatchery looking out to a stunning empty beach where the turtles come and nest 🐢 they also care & treat any injured turtles so they can be returned back to the ocean."
+            },
+            {
+                "Review Author": "Erika Parvi",
+                "Review Rating": 5,
+                "Review Text": "This is a wonderful short activity and learning learning experience. We spent about 30 minutes here learning about the turtles from a guide, held a 2 month old green sea turtle, and left with a smile. They have multiple types of turtles that have been injured in some way. They try to rehab them and release back to the sea."
+            },
+            {
+                "Review Author": "Thilini Nadeesha",
+                "Review Rating": 4,
+                "Review Text": "We visited there on a weak day. There are sea turtles in big tanks. You can see a giant white sea turtle which is injured. My kids enjoyed it a lot. You can release small sea turtles to the sea in the evening. The entrance ticket is Rs 300 for locals."
+            }
+        ]
+    },
+    {
+        "Name": "Sri Sudharmalaya Buddhist Temple",
+        "Rating": 4.7,
+        "User Ratings Total": 270,
+        "Address": "Parawa St, Galle 80000, Sri Lanka",
+        "Image URLs": [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWx6aQmoJ5bxCkR8dEs4ZIxcxyrYjcV3KSqzALmLBiGPU-oFtqnP4ecopWAcpT62w54bo5iDIz24ac-6xa7QyYNSwhkqys3ZeiOKi8BkY8IKv4FHeZLzdFrJPxikmH15FqswDJaOn1Ba7D9bLOXKFXS_pAIuIZk5DVJ3hQil_ck_MhV&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWQA0G3XmKbNA1m4lwoMluS_du-FNOyuIGkg89IHzpPmDb_jJ_0PZ3feB5xCyl8TnyjG9Tjg0RWWDz-PM4l_2dAjf5yDzWVGAf2g7HXMG_ktjznUBfuiZF23vw-VFswJm2BLpaR5sPLCkU5WxdKd6bfQO1gPYZyxi7qD0HGa9CYhfCd&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWKt3hoQvLr_91aCdyP7cy26ulk-SZlV_CTlyz3-eHt3b-BCmMEzcd_Zcwf6FWFmlJZa5o2jZ_foqow6MPl0_qU6qUcqzSp9mPxy6YCq0AaeznufkNx9HtL1mXetA0TaUon16v-WT2gT91kR5nFKABSQTK48YwHOgYmRfqdW-ThtWvs&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXXRyeMnLbE-j2sgp3Nki0b5CpscxF04kV6mLL1_n3T4tJ10ghCuC2PrxRJPCrHm6BZWx4gyMrqGuPWkQywsUFnYeoeIXX3UUCpbHC9_jy3QRI9cnEN1dTU7Ll0-Ve6Ceex-ljnbWLNPiFyo2Y8R00LeMC6wg_SVCCnsaG_Ltfy2Cpkl&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXX4RE_ZPg0ygvnJLVFz8ltrifc0oG1wChdlRGYKcucJB0LjO877ylbVA2SbUiZeRh3OxMraekUds7P-OTufAvOsgY7piyWQW5XP6_VeuWj8LOQc4sL0WTsZ8mTbR2pzatbwNQCRS1DVp1zHqd3Va309dUYZ1Qj8GTIz8QvCDvHgjVYg&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXWaUl30-52X1sIwwOFVhYeL2rZJWAjvnBME4j6x8Ag_dVZTiWUKgGO8fipleIYIWUz1TVfr8qKaZWKGCq7oDBUx0gfCC34IQieI5BlDzNh7O0oT9ctd86sDknYm_cawlEySTGqVC9Prcd7JEU-kBVsezYFHtYovpLy9YXIOJYXJ5gEa&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVaoWWjDgLBZHp44cvYEkV7o2NB0i_JpL6r_rVG-t2iXFkxJ3tHPjOuqsCfZhmG2EYavbdlUjd8UBSRV9SOsW7CERPcRtffqW7mpl2DVXQIEhVokGjpJFEblLxIyJZo3Bfo-ECYNG49xUz2CR12zObJw4dEQTJAj9ZuxXv57z8K0U3x&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXU7WwekZbes20r2k2FfQf66jSFWI7-39DragNZk6VG5zE2ZrbazYwIu12gsaKnI-S8hOfx3i-1C7ibSgNMjC02mKzgv9_GE_bseb09EfIDf3xFFhWJ2hRTzJP3Us9LhPrGGYvXzq0i1gsa-k-AF8-ZZNYMXjA8BLnsLVAcyHJ2edIXd&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXVwXOexFMsCnMqUTTAR5Zcv37YG79F69o6vrrcFiwNJhk2-j2_4t4a3RXCfoRQIGhGCIcrEALQEP5CKYBbIhP7rAr4N7ZjSEqHlkIoIMv2xE2TYOZSc7WGFGO1yffnW1HApqQ95QuYNVfnDaaVNor7D8t7glQoeOtyKjM_BSkj-ZLxU&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA",
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AUc7tXUfwzcy6s4H04ks_SRjyXsRid6Oefhp8SZWeiO9b2hrJiyyNQecFXuBg4BDA0Mwd1DLrJ4kl1uLxPOpFwKUfzADsNwmx3ijfT4dlVPYfUfoip4_LFVvPjq4ATXR49S5VZPG786koCkpaQ7gk49U57rjJgv48Of6H5PVRHMnk_HtwB4v&key=AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA"
+        ],
+        "Location Link": "https://www.google.com/maps/?q=6.0270066,80.2153562",
+        "Reviews": [
+            {
+                "Review Author": "Kasun Randima",
+                "Review Rating": 5,
+                "Review Text": "Small and peaceful temple located in Galle Fort facing to Rampart street. This temple has small prayer hall, small stupa, big reclining lord buddha statue and other small wood statues. There is a small musium in this temple. There is no dedicated vehicle park for temple. Few vehicles can pe parked on the road side."
+            },
+            {
+                "Review Author": "Imashi Umayangani",
+                "Review Rating": 4,
+                "Review Text": "Sri Sudharmalaya Temple is a buddhist temple situated in the Galle Fort, It's located at the Rampart Street.This temple constructed in 1889.This land donated by Mr.S.A.Wickramasinghe who lived in galle fort these days.A statue of a sitting buddha outside the samll temple faces the sea over the bastion.Inside this temple contains a prayer hall,mini stupa,a large statue of a reclining lord buddha and smaller statues.So many locals and tourists visited this temple because of its religious,cultural and architectural importance."
+            },
+            {
+                "Review Author": "sansa dias",
+                "Review Rating": 5,
+                "Review Text": "This Buddhist temple is situated inside the World Heritage site Galle Dutch Fort .\n\nFacing the Indian ocean it has beautiful views.\n\nA calm and tranquil place worthy of a visit if you are in Galle Dutch Fort."
+            },
+            {
+                "Review Author": "Marc Ollosson",
+                "Review Rating": 5,
+                "Review Text": "A temple that sits inside an ex / repurposed church.\n\nVery peaceful feel and lovely to look at"
+            },
+            {
+                "Review Author": "Inshaf Caffoor",
+                "Review Rating": 5,
+                "Review Text": "If you're a Traveller, you'll definitely need to make it to the temple. Open to all factions of life, the temple has quite a bit of history and the artifacts and statues are of great historical value.\n\nBe respectful when entering since it is a holy place of worship"
+            }
+        ]
+    }
+]

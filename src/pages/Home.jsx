@@ -12,6 +12,8 @@ import Chatbot from "../components/common/Chatbot";
 import { useNavigate } from "react-router-dom";
 import Hotel from "../components/home/Hotel";
 import Restaurant from "../components/home/Restaurant";
+import ThingsdoinGalle from "./ThingsdoinGalle";
+import FamousPlacesInGalle from "../components/home/FamousPlacesInGalle";
 
 function Home() {
   const [showChatbot, setShowChatbot] = useState(false);
@@ -32,7 +34,7 @@ function Home() {
             <h1 className="img-con-second">Trip Here</h1>
             <button
               className="hover-button"
-              onClick={() => navigate("/Planetrip")}
+              onClick={() => navigate("/UserChoise")}
             >
               Plan Your Trip Here
             </button>
@@ -57,6 +59,7 @@ function Home() {
               onClick={toggleChatbot}
             />
             {showChatbot && <Chatbot />}
+            <FamousPlacesInGalle/>
             <HomeBtm />
           </div>
         )}
@@ -66,7 +69,7 @@ function Home() {
         {section === "restaurants" && <Restaurant />}
 
         {section === "thingsToDo" && (
-          <div className="section-placeholder">Things To Do Section</div>
+          <div className="section-placeholder"><ThingsdoinGalle/></div>
           
         )}
       </div>

@@ -1,0 +1,100 @@
+.things-main {
+    display: flex;
+    flex-direction: column;
+    margin: 56px;
+  }
+  
+  .things-main-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .things-main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  .things-box {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .things-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .things-box-top {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .things-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    
+  }
+  
+  .things-box-btm {
+    padding: 20px;
+  }
+  
+  .things-box-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .things-box-address {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .things-box-rating {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .things-box-reviews {
+    margin-top: 15px;
+  }
+  
+  .things-box-review {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .things-box-review-author {
+    font-weight: 600;
+  }
+  
+  .things-box-review-rating {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .things-box-review-text {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .things-box-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .things-box-link:hover {
+    text-decoration: underline;
+  }
+  
