@@ -31,38 +31,42 @@ function Hotel() {
             searchable={false}
             style={{ width: 224, marginRight: '25px' }}
             placeholder="Hotel or Villa"
+            data={[]}
           />
           <SelectPicker
             searchable={false}
             style={{ width: 224, marginRight: '25px' }}
             placeholder="Room Type"
+            data={[]}
           />
           <SelectPicker
             searchable={false}
             style={{ width: 224, marginRight: '25px' }}
             placeholder="Location"
+            data={[]}
           />
           <SelectPicker
             searchable={false}
             style={{ width: 224, marginRight: '25px' }}
             placeholder="Price"
+            data={[]}
           />
         </div>
         <div className="hotels">All Hotels In Galle Area</div>
         <div className="hotel-con">
           {combinedHotelsData.map((hotel) => (
-            <div className="hotel-box-con" key={hotel.name}>
+            <div className="hotel-box-con" key={hotel.id}>
               <div className="hotel-box-con-top">
-                <img src={hotel.image} alt="img" className="hotelimg" />
+                <img src={hotel.picture.url} alt="hotel" className="hotelimg" />
               </div>
               <div className="hotel-box-con-btm">
                 <div className="hotel-box-con-btm-left">
                   <div className="hotel-box-con-btm-title">
-                    {hotel.name} {hotel.address.region}
+                    {hotel.name} {hotel.location.city}
                   </div>
                   <div>
                     <Rate
-                      defaultValue={hotel.rating}
+                      defaultValue={hotel.reviews?.count / 100 || 0}
                       style={{
                         width: '80px',
                         fontSize: '12px',
@@ -75,8 +79,7 @@ function Hotel() {
                   </div>
                 </div>
                 <div className="hotel-box-con-btm-right">
-                  <span className="material-symbols-outlined">person</span>
-                  <h1>N/A LKR</h1>
+                  <h1>{hotel.pricing_quote.primary.price}LKR</h1>
                 </div>
               </div>
             </div>

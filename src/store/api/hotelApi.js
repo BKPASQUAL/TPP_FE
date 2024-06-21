@@ -6,12 +6,12 @@ export const hotelApi = createApi({
   endpoints: (builder) => ({
     getHotelList1: builder.query({
       query: () => ({
-        url: "https://api.apify.com/v2/datasets/YzqspUxwJlfpYv73T/items?clean=true&format=json",
+        url: "https://api.apify.com/v2/datasets/bYnHRUPbypZQrtNFA/items?clean=true&format=json",
       }),
     }),
     getHotelList2: builder.query({
       query: () => ({
-        url: "https://api.apify.com/v2/datasets/egelftqveQOE1e8Jm/items?clean=true&format=json",
+        url: "https://api.apify.com/v2/datasets/Sw1lq2xCileS11anW/items?clean=true&format=json",
       }),
     }),
   }),
