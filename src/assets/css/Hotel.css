@@ -22,7 +22,7 @@ font-weight: 700;
 }
 
 .hotel-box-con {
-  height: 330px; /* Set a fixed height for each hotel box */
+  height: 360px; /* Set a fixed height for each hotel box */
   width: 400px; /* Set a fixed width for each hotel box */
   background-color: rgb(255, 255, 255);
   border-radius: 10px;

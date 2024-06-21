@@ -1,5 +1,43 @@
 [
   {
+    "id": "12345678",
+    "name": "Light House Hotel",
+    "location": {
+      "city": "Galle"
+    },
+    "pricing_quote": {
+      "primary": {
+        "price": "Rs20,000",
+        "qualifier": "night"
+      }
+    },
+    "capacity": {
+      "person": 4,
+      "bathrooms": 1,
+      "bedrooms": 2
+    },
+    "picture": {
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/490937419.jpg?k=db375a7f6605f58e61e5c215e67b123fb574b467d15a784387c7b2b04cc272c0&o=&hp=1"
+    },
+    "stars": {
+      "count": 5
+    },
+    "pricing_info": {
+      "price": 20000,
+      "currency": "LKR",
+      "currency_native": "LKR",
+      "min_nights": 1,
+      "max_nights": 365,
+      "cancel_policy": {
+        "name": "flexible"
+      },
+      "checkout_time": 11,
+      "checkin_time_start": 14,
+      "checkin_time_end": -1
+    }
+  },
+
+  {
     "id": "1018574417092370753",
     "name": "Beach flat with private garden",
     "title": "Apartment in Hikkaduwa",
