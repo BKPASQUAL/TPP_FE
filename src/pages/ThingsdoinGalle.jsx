@@ -28,15 +28,15 @@ function ThingsdoinGalle() {
           <div className="things-box" key={index}>
             <div className="things-box-top">
               {/* Render only the first image */}
-              {thing.ImageURLs && thing.ImageURLs.length > 0 && (
-                <img src={thing.ImageURLs[0]} alt={thing.Name} className="things-img" />
+              {thing["Image URLs"] && thing["Image URLs"].length > 0 && (
+                <img src={thing["Image URLs"][0]} alt={thing.Name} className="things-img" />
               )}
             </div>
             <div className="things-box-btm">
               <div className="things-box-title">{thing.Name}</div>
               <div className="things-box-address">{thing.Address}</div>
               <div className="things-box-rating">
-                Rating: {thing.Rating} ({thing.UserRatingsTotal} reviews)
+                Rating: {thing.Rating} ({thing["User Ratings Total"]} reviews)
               </div>
               <div className="things-box-reviews">
                 {thing.Reviews && thing.Reviews.length > 0 ? (

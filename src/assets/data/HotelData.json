@@ -7,7 +7,7 @@
     },
     "pricing_quote": {
       "primary": {
-        "price": "Rs20,000",
+        "price": "Rs40,000",
         "qualifier": "night"
       }
     },
@@ -23,7 +23,7 @@
       "count": 5
     },
     "pricing_info": {
-      "price": 20000,
+      "price": 40000,
       "currency": "LKR",
       "currency_native": "LKR",
       "min_nights": 1,

@@ -51,7 +51,7 @@ function HomeNav({ activeSection, setSection }) {
         <button
           variant="dark"
           className="homenav-btn1 btn btn-outline-dark"
-          onClick={() => navigate("/Planetrip")}
+          onClick={() => navigate("/PlanYourTripHere")}
         >
           Plan Tour trip with AI
         </button>
