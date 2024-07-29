@@ -4,6 +4,7 @@
     padding-bottom: 0;
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
   }
   
   .createPlan-left {
@@ -25,7 +26,7 @@
   }
   
   .createPlan-hotel-box {
-    height: 250px;
+    height: 280px;
     width: 200px;
     background-color: aqua;
   }
@@ -113,3 +114,11 @@
     left: 0;
     z-index: 1000;
   }
+
+  .createPlan-right {
+    position: sticky;
+    top: 100px;
+    margin-left: 100px;
+    height: 800px;
+  }
+  

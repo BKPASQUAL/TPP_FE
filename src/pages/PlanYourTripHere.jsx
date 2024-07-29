@@ -178,7 +178,7 @@ function PlanYourTripHere() {
               <SelectPicker
                 data={dayOptions}
                 searchable={false}
-                style={{ width: 300 }}
+                style={{ width: 1000 }}
                 placeholder="How many days will you spend in the Galle area?"
                 {...register("numDays")}
                 onChange={(value) => setValue("numDays", value)}
@@ -190,7 +190,7 @@ function PlanYourTripHere() {
                   <SelectPicker
                     placeholder={`${index + 1} Day - Where to go?`}
                     data={areas}
-                    style={{ width: 300 }}
+                    style={{ width: 1000 }}
                     searchable={false}
                     {...register(`areas.${index}`)}
                     onChange={(value) => setValue(`areas.${index}`, value)}
@@ -202,34 +202,17 @@ function PlanYourTripHere() {
                 {...register("vehicle")}
                 data={vehicleOptions}
                 searchable={false}
-                style={{ width: 300 }}
+                style={{ width: 1000 }}
                 placeholder="Select mode of transportation"
                 onChange={(value) => setValue("vehicle", value)}
               />
-            </div>
-            <div className="UserChoice-field">
-              <label>What are your interests?</label>
-              <div className="activities-container">
-                {activities.map((activity) => (
-                  <button
-                    key={activity}
-                    type="button"
-                    className={`activity-button ${
-                      selectedActivities.includes(activity) ? "selected" : ""
-                    }`}
-                    onClick={() => handleActivityClick(activity)}
-                  >
-                    {activity}
-                  </button>
-                ))}
-              </div>
             </div>
             <div className="UserChoice-field">
               <SelectPicker
                 {...register("accommodationType")}
                 data={accommodationTypes}
                 searchable={false}
-                style={{ width: 300 }}
+                style={{ width: 1000 }}
                 placeholder="Select accommodation type"
                 onChange={(value) => setAccommodationType(value)}
               />
@@ -240,7 +223,7 @@ function PlanYourTripHere() {
                   {...register("starRating")}
                   data={starRatings}
                   searchable={false}
-                  style={{ width: 300 }}
+                  style={{ width: 1000 }}
                   placeholder="Select star rating"
                   onChange={(value) => setStarRating(value)}
                 />
@@ -258,6 +241,24 @@ function PlanYourTripHere() {
                 />
               </div>
             )}
+            <div className="UserChoice-field">
+              <label>What are your interests?</label>
+              <div className="activities-container">
+                {activities.map((activity) => (
+                  <button
+                    key={activity}
+                    type="button"
+                    className={`activity-button ${
+                      selectedActivities.includes(activity) ? "selected" : ""
+                    }`}
+                    onClick={() => handleActivityClick(activity)}
+                  >
+                    {activity}
+                  </button>
+                ))}
+              </div>
+            </div>
+
             <button type="submit">Submit</button>
           </form>
         </div>

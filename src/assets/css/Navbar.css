@@ -1,39 +1,43 @@
 .navbar-main {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: rgb(255, 255, 255);
     height: 50px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1) 
-}
-
-.navbar-con {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    /* margin-bottom: 10px; */
+  }
+  
+  .navbar-con {
     display: flex;
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
-}
-
-.navbar-con-left {
+  }
+  
+  .navbar-con-left {
     display: flex;
-}
-
-.navbar-con-right {
+  }
+  
+  .navbar-con-right {
     display: flex;
-}
-
-
-
-.navbar-con-left  h1 {
+  }
+  
+  .navbar-con-left h1 {
     margin-top: 9%;
     font-size: 90%;
     margin-right: 40px;
-}
-
-.navbar-con-mid  h1 {
+  }
+  
+  .navbar-con-mid h1 {
     margin-top: 18%;
     font-size: 90%;
-}
-
-.navbar-con-right  h1 {
+  }
+  
+  .navbar-con-right h1 {
     margin-top: 10%;
     font-size: 90%;
     margin-right: 40px;
-}
+  }
+  
