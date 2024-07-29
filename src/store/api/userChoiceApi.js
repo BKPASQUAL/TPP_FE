@@ -11,7 +11,14 @@ export const userChoiceApi = createApi({
         body: data,
       }),
     }),
+    getAccommodations: builder.mutation({
+      query: (data) => ({
+        url: '/get_accommodations',
+        method: 'POST',
+        body: data,
+      }),
+    }),
   }),
 });
 
-export const { useGetRecommendationsMutation } = userChoiceApi;
+export const { useGetRecommendationsMutation, useGetAccommodationsMutation } = userChoiceApi;

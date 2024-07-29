@@ -1,25 +1,14 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { SelectPicker, TagPicker } from "rsuite";
-import {
-  GoogleMap,
-  LoadScript,
-  Marker,
-  InfoWindow,
-} from "@react-google-maps/api";
+import { SelectPicker } from "rsuite";
 import Navbar from "../components/common/Navbar";
 import "../assets/css/UserChoice.css";
 import "../assets/css/Userreq.css";
 import "../assets/css/PlanYourTripHere.css";
-
-import { useGetRecommendationsMutation } from "../store/api/userChoiceApi";
+import { useGetRecommendationsMutation, useGetAccommodationsMutation } from "../store/api/userChoiceApi";
+import { useNavigate } from "react-router-dom";
 
 const GOOGLE_MAPS_API_KEY = "AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA";
-
-const mapContainerStyle = {
-  height: "400px",
-  width: "100%",
-};
 
 const locations = {
   Galle: { lat: 6.0535, lng: 80.2203 },
@@ -69,6 +58,17 @@ const dayOptions = [
   { label: "Three Day Trip", value: 3 },
 ];
 
+const accommodationTypes = [
+  { label: "Hotel", value: "hotel" },
+  { label: "Villa", value: "villa" },
+];
+
+const starRatings = [
+  { label: "5 Star", value: 5 },
+  { label: "4 Star", value: 4 },
+  { label: "3 Star", value: 3 },
+];
+
 function PlanYourTripHere() {
   const {
     register,
@@ -80,7 +80,13 @@ function PlanYourTripHere() {
   const [selectedActivities, setSelectedActivities] = useState([]);
   const [recommendations, setRecommendations] = useState({});
   const [selectedPlace, setSelectedPlace] = useState(null);
+  const [accommodationType, setAccommodationType] = useState(null);
+  const [starRating, setStarRating] = useState(null);
+  const [numPeople, setNumPeople] = useState(0);
   const [getRecommendations] = useGetRecommendationsMutation();
+  const [getAccommodations] = useGetAccommodationsMutation();
+  const navigate = useNavigate();
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleActivityClick = (activity) => {
     setSelectedActivities((prev) =>
@@ -92,7 +98,7 @@ function PlanYourTripHere() {
 
   const onSubmit = async (data) => {
     data.activities = selectedActivities;
-    data.maxDistance = 15; // Set max distance to 15 km
+    data.maxDistance = 5; // Set max distance to 5 km
 
     const numDays = data.numDays;
     const selectedAreas = data.areas || [];
@@ -101,6 +107,8 @@ function PlanYourTripHere() {
       console.error("Insufficient areas selected for the number of days");
       return;
     }
+
+    setIsLoading(true);
 
     try {
       let newRecommendations = {};
@@ -113,15 +121,44 @@ function PlanYourTripHere() {
           max_distance: data.maxDistance,
         }).unwrap();
 
-        newRecommendations[`day${i + 1}`] = { area, recommendations: response };
+        // Filter the recommendations by distance
+        const filteredRecommendations = response.filter(
+          (rec) => rec.distance <= data.maxDistance
+        );
+
+        newRecommendations[`day${i + 1}`] = {
+          area,
+          recommendations: filteredRecommendations,
+        };
       }
-      setRecommendations(newRecommendations);
+
+      // Fetch accommodation recommendations
+      let accommodationRecommendations = [];
+      if (accommodationType) {
+        const accommodationResponse = await getAccommodations({
+          type: accommodationType,
+          star_rating: accommodationType === 'hotel' ? starRating : undefined,
+          num_people: accommodationType === 'villa' ? numPeople : undefined,
+        }).unwrap();
+
+        accommodationRecommendations = accommodationResponse;
+      }
+
+      setRecommendations({
+        ...newRecommendations,
+        accommodations: accommodationRecommendations,
+      });
+
+      // Navigate to CreatePlan and pass the data
+      navigate("/create-plan", {
+        state: { tripData: data, recommendations: newRecommendations, accommodations: accommodationRecommendations },
+      });
     } catch (error) {
       console.error("Error fetching recommendations:", error);
+    } finally {
+      setIsLoading(false);
     }
   };
-
-  const defaultCenter = locations.Galle; // Default center
 
   return (
     <div className="planTrip-main">
@@ -141,7 +178,7 @@ function PlanYourTripHere() {
               <SelectPicker
                 data={dayOptions}
                 searchable={false}
-                style={{ width: 10000 }}
+                style={{ width: 300 }}
                 placeholder="How many days will you spend in the Galle area?"
                 {...register("numDays")}
                 onChange={(value) => setValue("numDays", value)}
@@ -153,7 +190,7 @@ function PlanYourTripHere() {
                   <SelectPicker
                     placeholder={`${index + 1} Day - Where to go?`}
                     data={areas}
-                    style={{ width: 10000 }}
+                    style={{ width: 300 }}
                     searchable={false}
                     {...register(`areas.${index}`)}
                     onChange={(value) => setValue(`areas.${index}`, value)}
@@ -165,7 +202,7 @@ function PlanYourTripHere() {
                 {...register("vehicle")}
                 data={vehicleOptions}
                 searchable={false}
-                style={{ width: 10000 }}
+                style={{ width: 300 }}
                 placeholder="Select mode of transportation"
                 onChange={(value) => setValue("vehicle", value)}
               />
@@ -187,69 +224,45 @@ function PlanYourTripHere() {
                 ))}
               </div>
             </div>
+            <div className="UserChoice-field">
+              <SelectPicker
+                {...register("accommodationType")}
+                data={accommodationTypes}
+                searchable={false}
+                style={{ width: 300 }}
+                placeholder="Select accommodation type"
+                onChange={(value) => setAccommodationType(value)}
+              />
+            </div>
+            {accommodationType === 'hotel' && (
+              <div className="UserChoice-field">
+                <SelectPicker
+                  {...register("starRating")}
+                  data={starRatings}
+                  searchable={false}
+                  style={{ width: 300 }}
+                  placeholder="Select star rating"
+                  onChange={(value) => setStarRating(value)}
+                />
+              </div>
+            )}
+            {accommodationType === 'villa' && (
+              <div className="UserChoice-field">
+                <label>Number of People</label>
+                <input
+                  type="number"
+                  {...register("numPeople")}
+                  value={numPeople}
+                  onChange={(e) => setNumPeople(Number(e.target.value))}
+                  placeholder="Enter number of people"
+                />
+              </div>
+            )}
             <button type="submit">Submit</button>
           </form>
         </div>
-
-        <div className="planTrip-main-right">
-          <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
-            <GoogleMap
-              mapContainerStyle={mapContainerStyle}
-              center={
-                locations[watch("areas") ? watch("areas")[0] : "Galle"] ||
-                defaultCenter
-              }
-              zoom={10}
-            >
-              {Object.values(recommendations)
-                .flatMap(({ recommendations }) => recommendations)
-                .map((place, index) => (
-                  <Marker
-                    key={index}
-                    position={{ lat: place.latitude, lng: place.longitude }}
-                    onClick={() => setSelectedPlace(place)}
-                  />
-                ))}
-              {selectedPlace && (
-                <InfoWindow
-                  position={{
-                    lat: selectedPlace.latitude,
-                    lng: selectedPlace.longitude,
-                  }}
-                  onCloseClick={() => setSelectedPlace(null)}
-                >
-                  <div>
-                    <h2>{selectedPlace.name}</h2>
-                    <p>Distance: {selectedPlace.distance.toFixed(2)} km</p>
-                    <p>Travel Time: {selectedPlace.duration}</p>
-                    <p>Activities: {selectedPlace.activities.join(", ")}</p>
-                  </div>
-                </InfoWindow>
-              )}
-            </GoogleMap>
-          </LoadScript>
-          <div className="recommendations-list">
-            {watch("numDays") &&
-              Array.from({ length: watch("numDays") || 0 }, (_, index) => (
-                <div key={index}>
-                  <h2>{`Day ${index + 1} Recommendations: ${
-                    recommendations[`day${index + 1}`]?.area || ""
-                  }`}</h2>
-                  {(
-                    recommendations[`day${index + 1}`]?.recommendations || []
-                  ).map((place, placeIndex) => (
-                    <div key={placeIndex} className="recommendation-item">
-                      <h3>{place.name}</h3>
-                      <p>Distance: {place.distance.toFixed(2)} km</p>
-                      <p>Travel Time: {place.duration}</p>
-                      <p>Activities: {place.activities.join(", ")}</p>
-                    </div>
-                  ))}
-                </div>
-              ))}
-          </div>
-        </div>
       </div>
+      {isLoading && <div className="createPlan-loading">Loading...</div>}
     </div>
   );
 }

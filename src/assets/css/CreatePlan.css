@@ -1,0 +1,115 @@
+.createPlan-main {
+    padding: 20%;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .createPlan-left {
+    width: 50%;
+  }
+  
+  .createPlan-right {
+    width: 50%;
+  }
+  
+  .createPlan-left-top h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .createPlan-left-mid h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .createPlan-hotel-box {
+    height: 250px;
+    width: 200px;
+    background-color: aqua;
+  }
+  
+  .createPlan-left-bottom h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .createPlan-date-description {
+    /* Add any specific styles for the description here */
+  }
+  
+  .createPlan-date-details {
+    display: flex;
+    width: 100%;
+  }
+  
+  .createPlan-date-details-section {
+    width: 100%;
+    margin-left: 20px;
+  }
+  
+  .createPlan-date-details-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .createPlan-date-details-left h1 {
+    background-image: url(../images/7263.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  
+  .createPlan-date-details-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .createPlan-line {
+    width: 2px;
+    background-color: black;
+    flex-grow: 1;
+    margin-bottom: 5px;
+  }
+  
+  .createPlan-content {
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .createPlan-activity {
+    /* Add styles for the activity name here */
+  }
+  
+  .createPlan-toggle-icon {
+    cursor: pointer !important;
+  }
+  
+  .createPlan-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }

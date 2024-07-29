@@ -8,6 +8,7 @@ import Userreq from "./pages/Userreq";
 import UserChoise from "./pages/UserChoise";
 import ThingsdoinGalle from "./pages/ThingsdoinGalle";
 import PlanYourTripHere from "./pages/PlanYourTripHere";
+import CreatePlan from "./pages/CreatePlan";
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
         <Route path="/UserChoise" element={<UserChoise />} />
         <Route path="/ThingsdoinGalle" element={<ThingsdoinGalle />} />
         <Route path="/PlanYourTripHere" element={<PlanYourTripHere />} />
+        <Route path="/CreatePlan" element={<CreatePlan />} />
+        <Route path="/create-plan" element={<CreatePlan />} />
+
     </Routes>
   );
 }

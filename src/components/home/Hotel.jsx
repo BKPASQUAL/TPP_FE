@@ -82,6 +82,7 @@ function Hotel() {
             </div>
           ))}
         </div>
+      
       </div>
       <img
         src={chatIcon}

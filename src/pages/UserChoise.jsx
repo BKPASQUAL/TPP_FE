@@ -7,10 +7,11 @@ import {
   Marker,
   InfoWindow,
 } from "@react-google-maps/api";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../components/common/Navbar";
 import "../assets/css/UserChoice.css";
 import "../assets/css/Userreq.css";
-import { useGetRecommendationsMutation } from "../store/api/userChoiceApi";
+import axios from "axios";
 
 const GOOGLE_MAPS_API_KEY = "AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA";
 
@@ -78,7 +79,7 @@ function UserChoice() {
   const [selectedActivities, setSelectedActivities] = useState([]);
   const [recommendations, setRecommendations] = useState({});
   const [selectedPlace, setSelectedPlace] = useState(null);
-  const [getRecommendations] = useGetRecommendationsMutation();
+  const navigate = useNavigate();
 
   const handleActivityClick = (activity) => {
     setSelectedActivities((prev) =>
@@ -105,17 +106,35 @@ function UserChoice() {
       for (let i = 0; i < numDays; i++) {
         const area = selectedAreas[i];
         const location = locations[area];
-        const response = await getRecommendations({
+        const response = await axios.post("http://localhost:5001/get_recommendations", {
           location: [location.lat, location.lng],
           preferences: data.activities,
           max_distance: data.maxDistance,
-        }).unwrap();
+        });
 
-        newRecommendations[`day${i + 1}`] = { area, recommendations: response };
+        newRecommendations[`day${i + 1}`] = { area, recommendations: response.data };
       }
       setRecommendations(newRecommendations);
     } catch (error) {
       console.error("Error fetching recommendations:", error);
+    }
+  };
+
+  const getSchedule = async () => {
+    const formData = {
+      numDays: watch("numDays"),
+      areas: watch("areas"),
+      vehicle: watch("vehicle"),
+      activities: selectedActivities,
+      maxDistance: 15, // Set max distance to 15 km
+    };
+
+    try {
+      const response = await axios.post("http://localhost:5001/create_schedule", formData);
+      console.log("Schedule created:", response.data);
+      // Navigate to another page if needed or display the schedule
+    } catch (error) {
+      console.error("Error creating schedule:", error);
     }
   };
 
@@ -136,17 +155,18 @@ function UserChoice() {
                   onChange={(value) => setValue("numDays", value)}
                 />
               </div>
-              {watch("numDays") && Array.from({ length: watch("numDays") || 0 }, (_, index) => (
-                <div className="UserChoice-field" key={index}>
-                  <TagPicker
-                    placeholder={`${index + 1} Day - Where to go?`}
-                    data={areas}
-                    style={{ width: 1000 }}
-                    {...register(`areas.${index}`)}
-                    onChange={(value) => setValue(`areas.${index}`, value)}
-                  />
-                </div>
-              ))}
+              {watch("numDays") &&
+                Array.from({ length: watch("numDays") || 0 }, (_, index) => (
+                  <div className="UserChoice-field" key={index}>
+                    <TagPicker
+                      placeholder={`${index + 1} Day - Where to go?`}
+                      data={areas}
+                      style={{ width: 1000 }}
+                      {...register(`areas.${index}`)}
+                      onChange={(value) => setValue(`areas.${index}`, value)}
+                    />
+                  </div>
+                ))}
               <div className="UserChoice-field">
                 <SelectPicker
                   {...register("vehicle")}
@@ -174,7 +194,7 @@ function UserChoice() {
                   ))}
                 </div>
               </div>
-              <button type="submit">Submit</button>
+              <button type="submit">Get Recommendations</button>
             </form>
           </div>
         </div>
@@ -213,24 +233,28 @@ function UserChoice() {
             </GoogleMap>
           </LoadScript>
           <div className="recommendations-list">
-            {watch("numDays") && Array.from({ length: watch("numDays") || 0 }, (_, index) => (
-              <div key={index}>
-                <h2>{`Day ${index + 1} Recommendations: ${
-                  recommendations[`day${index + 1}`]?.area || ""
-                }`}</h2>
-                {(
-                  recommendations[`day${index + 1}`]?.recommendations || []
-                ).map((place, placeIndex) => (
-                  <div key={placeIndex} className="recommendation-item">
-                    <h3>{place.name}</h3>
-                    <p>Distance: {place.distance.toFixed(2)} km</p>
-                    <p>Travel Time: {place.duration}</p>
-                    <p>Activities: {place.activities.join(", ")}</p>
-                  </div>
-                ))}
-              </div>
-            ))}
+            {watch("numDays") &&
+              Array.from({ length: watch("numDays") || 0 }, (_, index) => (
+                <div key={index}>
+                  <h2>{`Day ${index + 1} Recommendations: ${
+                    recommendations[`day${index + 1}`]?.area || ""
+                  }`}</h2>
+                  {(
+                    recommendations[`day${index + 1}`]?.recommendations || []
+                  ).map((place, placeIndex) => (
+                    <div key={placeIndex} className="recommendation-item">
+                      <h3>{place.name}</h3>
+                      <p>Distance: {place.distance.toFixed(2)} km</p>
+                      <p>Travel Time: {place.duration}</p>
+                      <p>Activities: {place.activities.join(", ")}</p>
+                    </div>
+                  ))}
+                </div>
+              ))}
           </div>
+        </div>
+        <div className="UserChoice-field">
+          <button onClick={getSchedule}>Get Schedule</button>
         </div>
       </div>
     </div>
