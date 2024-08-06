@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Divider } from "rsuite";
 import { useLocation } from "react-router-dom";
 import {
@@ -9,7 +9,9 @@ import {
 } from "@react-google-maps/api";
 import Navbar from "../components/common/Navbar";
 import "../assets/css/CreatePlan.css";
+import Button from "react-bootstrap/Button";
 
+// Replace this with your actual Google Maps API key
 const GOOGLE_MAPS_API_KEY = "AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA";
 
 const mapContainerStyle = {
@@ -19,7 +21,7 @@ const mapContainerStyle = {
 
 function CreatePlan() {
   const location = useLocation();
-  const { tripData, recommendations } = location.state || {};
+  const { tripData, recommendations, accommodations } = location.state || {};
 
   if (!tripData || !recommendations) {
     console.error("No trip data or recommendations available");
@@ -28,6 +30,15 @@ function CreatePlan() {
 
   const [visibleContents, setVisibleContents] = useState(new Set());
   const [selectedPlace, setSelectedPlace] = useState(null);
+
+  const hotelBoxRef = useRef(null);
+
+  const scrollHotels = (direction) => {
+    if (hotelBoxRef.current) {
+      const scrollAmount = direction === "left" ? -250 : 250;
+      hotelBoxRef.current.scrollBy({ left: scrollAmount, behavior: "smooth" });
+    }
+  };
 
   const toggleContentVisibility = (dayIndex, index) => {
     const contentKey = `${dayIndex}-${index}`;
@@ -42,6 +53,7 @@ function CreatePlan() {
     });
   };
 
+  // Default map center to the first recommendation of day 1 if available
   const defaultCenter = tripData.areas?.length
     ? recommendations[`day1`]?.recommendations[0]
       ? {
@@ -74,7 +86,40 @@ function CreatePlan() {
           </div>
           <div className="createPlan-left-mid">
             <h1>Places to stay</h1>
-            <div className="createPlan-hotel-box"></div>
+            <div className="createPlan-hotel-box" ref={hotelBoxRef}>
+              <div
+                className="createPlan-arrow createPlan-arrow-left"
+                onClick={() => scrollHotels("left")}
+              >
+                {/* <span className="material-symbols-outlined">
+                  arrow_circle_left
+                </span> */}
+              </div>
+              {accommodations.map((acc, index) => (
+                <div className="accommodation" key={index}>
+                  <img
+                    src={acc.picture_url}
+                    alt={acc.name}
+                    className="createPlan-hoteImg"
+                  />
+                  <h3>{acc.name}</h3>
+                  <p>Type: {acc.type}</p>
+                  <p>Capacity: {acc.capacity} people</p>
+                  <p>
+                    Price: {acc.price_per_night} {acc.currency} per night
+                  </p>
+                  {acc.star_rating && <p>Star Rating: {acc.star_rating}</p>}
+                </div>
+              ))}
+              <div
+                className="createPlan-arrow createPlan-arrow-right"
+                onClick={() => scrollHotels("right")}
+              >
+                {/* <span className="material-symbols-outlined">
+                  arrow_circle_right
+                </span> */}
+              </div>
+            </div>
             <Divider />
           </div>
           {tripData.areas.map((area, dayIndex) => (
@@ -132,6 +177,11 @@ function CreatePlan() {
               <Divider />
             </div>
           ))}
+          <div className="createPlan-btn">
+            <Button type="submit" variant="dark">
+              Create Shedule
+            </Button>
+          </div>
         </div>
         <div className="createPlan-right">
           <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
@@ -140,8 +190,8 @@ function CreatePlan() {
               center={defaultCenter}
               zoom={10}
             >
-              {Object.entries(recommendations)
-                .flatMap(([day, { recommendations }]) =>
+              {Object.entries(recommendations).flatMap(
+                ([day, { recommendations }]) =>
                   recommendations.map((place, index) => (
                     <Marker
                       key={`${day}-${index}`}
@@ -152,7 +202,7 @@ function CreatePlan() {
                       onClick={() => setSelectedPlace(place)}
                     />
                   ))
-                )}
+              )}
               {selectedPlace && (
                 <InfoWindow
                   position={{

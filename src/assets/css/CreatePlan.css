@@ -1,124 +1,177 @@
 .createPlan-main {
-    padding: 20%;
-    padding-top: 0;
-    padding-bottom: 0;
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-  }
-  
-  .createPlan-left {
-    width: 50%;
-  }
-  
-  .createPlan-right {
-    width: 50%;
-  }
-  
-  .createPlan-left-top h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .createPlan-left-mid h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .createPlan-hotel-box {
-    height: 280px;
-    width: 200px;
-    background-color: aqua;
-  }
-  
-  .createPlan-left-bottom h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .createPlan-date-description {
-    /* Add any specific styles for the description here */
-  }
-  
-  .createPlan-date-details {
-    display: flex;
-    width: 100%;
-  }
-  
-  .createPlan-date-details-section {
-    width: 100%;
-    margin-left: 20px;
-  }
-  
-  .createPlan-date-details-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .createPlan-date-details-left h1 {
-    background-image: url(../images/7263.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 13px;
-    margin-bottom: 5px;
-  }
-  
-  .createPlan-date-details-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .createPlan-line {
-    width: 2px;
-    background-color: black;
-    flex-grow: 1;
-    margin-bottom: 5px;
-  }
-  
-  .createPlan-content {
-    height: 120px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin-top: 10px;
-    background-color: #f9f9f9;
-  }
-  
-  .createPlan-activity {
-    /* Add styles for the activity name here */
-  }
-  
-  .createPlan-toggle-icon {
-    cursor: pointer !important;
-  }
-  
-  .createPlan-loading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-  }
+  padding: 20%;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
 
-  .createPlan-right {
-    position: sticky;
-    top: 100px;
-    margin-left: 100px;
-    height: 800px;
-  }
-  
+.createPlan-left {
+  width: 50%;
+}
+
+.createPlan-right {
+  width: 50%;
+}
+
+.createPlan-left-top h1,
+.createPlan-left-mid h1,
+.createPlan-left-bottom h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.createPlan-hotel-box {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  gap: 20px;
+  padding: 10px;
+  scroll-behavior: smooth;
+  position: relative;
+  /* Hide scrollbar for Webkit-based browsers (Chrome, Safari, etc.) */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.createPlan-hotel-box::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+
+.accommodation {
+  min-width: 250px;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .createPlan-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+/*  */
+.createPlan-arrow-left {
+  left: 0;
+}
+
+.createPlan-arrow-right {
+  right: 0;
+}
+ */
+
+
+.createPlan-hoteImg {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.createPlan-date-description {
+  /* Add any specific styles for the description here */
+}
+
+.createPlan-date-details {
+  display: flex;
+  width: 100%;
+}
+
+.createPlan-date-details-section {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.createPlan-date-details-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createPlan-date-details-left h1 {
+  background-image: url(../images/7263.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.createPlan-date-details-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createPlan-line {
+  width: 2px;
+  background-color: black;
+  flex-grow: 1;
+  margin-bottom: 5px;
+}
+
+.createPlan-content {
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+}
+
+.createPlan-activity {
+  /* Add styles for the activity name here */
+}
+
+.createPlan-toggle-icon {
+  cursor: pointer !important;
+}
+
+.createPlan-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.createPlan-right {
+  position: sticky;
+  top: 100px;
+  margin-left: 100px;
+  height: 800px;
+}
+
+.createPlan-btn {
+  display: flex;
+  justify-content:flex-end;
+  padding-top: 20px;
+}

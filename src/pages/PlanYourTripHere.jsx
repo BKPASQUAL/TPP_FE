@@ -5,8 +5,13 @@ import Navbar from "../components/common/Navbar";
 import "../assets/css/UserChoice.css";
 import "../assets/css/Userreq.css";
 import "../assets/css/PlanYourTripHere.css";
-import { useGetRecommendationsMutation, useGetAccommodationsMutation } from "../store/api/userChoiceApi";
+import {
+  useGetRecommendationsMutation,
+  useGetAccommodationsMutation,
+} from "../store/api/userChoiceApi";
 import { useNavigate } from "react-router-dom";
+import Button from "react-bootstrap/Button";
+
 
 const GOOGLE_MAPS_API_KEY = "AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA";
 
@@ -137,8 +142,8 @@ function PlanYourTripHere() {
       if (accommodationType) {
         const accommodationResponse = await getAccommodations({
           type: accommodationType,
-          star_rating: accommodationType === 'hotel' ? starRating : undefined,
-          num_people: accommodationType === 'villa' ? numPeople : undefined,
+          star_rating: accommodationType === "hotel" ? starRating : undefined,
+          num_people: accommodationType === "villa" ? numPeople : undefined,
         }).unwrap();
 
         accommodationRecommendations = accommodationResponse;
@@ -151,7 +156,11 @@ function PlanYourTripHere() {
 
       // Navigate to CreatePlan and pass the data
       navigate("/create-plan", {
-        state: { tripData: data, recommendations: newRecommendations, accommodations: accommodationRecommendations },
+        state: {
+          tripData: data,
+          recommendations: newRecommendations,
+          accommodations: accommodationRecommendations,
+        },
       });
     } catch (error) {
       console.error("Error fetching recommendations:", error);
@@ -217,7 +226,7 @@ function PlanYourTripHere() {
                 onChange={(value) => setAccommodationType(value)}
               />
             </div>
-            {accommodationType === 'hotel' && (
+            {accommodationType === "hotel" && (
               <div className="UserChoice-field">
                 <SelectPicker
                   {...register("starRating")}
@@ -229,7 +238,7 @@ function PlanYourTripHere() {
                 />
               </div>
             )}
-            {accommodationType === 'villa' && (
+            {accommodationType === "villa" && (
               <div className="UserChoice-field">
                 <label>Number of People</label>
                 <input
@@ -258,8 +267,9 @@ function PlanYourTripHere() {
                 ))}
               </div>
             </div>
-
-            <button type="submit">Submit</button>
+            <div className="createPlan-btn">
+              <Button type="submit" variant="dark">Show Results</Button>
+            </div>
           </form>
         </div>
       </div>
