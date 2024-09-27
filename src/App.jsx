@@ -9,6 +9,7 @@ import UserChoise from "./pages/UserChoise";
 import ThingsdoinGalle from "./pages/ThingsdoinGalle";
 import PlanYourTripHere from "./pages/PlanYourTripHere";
 import CreatePlan from "./pages/CreatePlan";
+import Schedule from "./pages/Schedule";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/PlanYourTripHere" element={<PlanYourTripHere />} />
         <Route path="/CreatePlan" element={<CreatePlan />} />
         <Route path="/create-plan" element={<CreatePlan />} />
+        <Route path="/Schedule" element={<Schedule />} />
 
     </Routes>
   );

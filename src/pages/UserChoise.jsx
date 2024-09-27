@@ -13,7 +13,7 @@ import "../assets/css/UserChoice.css";
 import "../assets/css/Userreq.css";
 import axios from "axios";
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA";
+const GOOGLE_MAPS_API_KEY = "AIzaSyB7kbfj1W88pLMBACs5DKYel8396HJtXRE";
 
 const mapContainerStyle = {
   height: "400px",

@@ -3,7 +3,7 @@ import axios from 'axios';
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
 import "../assets/css/Userreq.css";
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA';
+const GOOGLE_MAPS_API_KEY = 'AIzaSyB7kbfj1W88pLMBACs5DKYel8396HJtXRE';
 
 const mapContainerStyle = {
   height: '400px',

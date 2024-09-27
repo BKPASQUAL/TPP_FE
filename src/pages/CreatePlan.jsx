@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Divider } from "rsuite";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import {
   GoogleMap,
   LoadScript,
@@ -11,8 +11,7 @@ import Navbar from "../components/common/Navbar";
 import "../assets/css/CreatePlan.css";
 import Button from "react-bootstrap/Button";
 
-// Replace this with your actual Google Maps API key
-const GOOGLE_MAPS_API_KEY = "AIzaSyCjlPRHMD6ztQgpxb-WfIL8HS274DIxYCA";
+const GOOGLE_MAPS_API_KEY = "AIzaSyB7kbfj1W88pLMBACs5DKYel8396HJtXRE";
 
 const mapContainerStyle = {
   height: "800px",
@@ -21,6 +20,7 @@ const mapContainerStyle = {
 
 function CreatePlan() {
   const location = useLocation();
+  const navigate = useNavigate();
   const { tripData, recommendations, accommodations } = location.state || {};
 
   if (!tripData || !recommendations) {
@@ -30,6 +30,10 @@ function CreatePlan() {
 
   const [visibleContents, setVisibleContents] = useState(new Set());
   const [selectedPlace, setSelectedPlace] = useState(null);
+  const [mapCenter, setMapCenter] = useState({
+    lat: 6.0535,
+    lng: 80.2203,
+  });
 
   const hotelBoxRef = useRef(null);
 
@@ -53,15 +57,21 @@ function CreatePlan() {
     });
   };
 
-  // Default map center to the first recommendation of day 1 if available
-  const defaultCenter = tripData.areas?.length
-    ? recommendations[`day1`]?.recommendations[0]
-      ? {
-          lat: recommendations[`day1`].recommendations[0].latitude,
-          lng: recommendations[`day1`].recommendations[0].longitude,
-        }
-      : { lat: 6.0535, lng: 80.2203 } // Default to Galle
-    : { lat: 6.0535, lng: 80.2203 }; // Default to Galle
+  const handleCreateSchedule = () => {
+    const userChoices = {
+      tripData,
+      accommodations,
+      recommendations,
+    };
+
+    navigate("/Schedule", { state: { userChoices } });
+  };
+
+  // Center the map on the selected activity when its name is clicked
+  const handleActivityClick = (place) => {
+    setSelectedPlace(place);
+    setMapCenter({ lat: place.latitude, lng: place.longitude });
+  };
 
   return (
     <>
@@ -90,11 +100,7 @@ function CreatePlan() {
               <div
                 className="createPlan-arrow createPlan-arrow-left"
                 onClick={() => scrollHotels("left")}
-              >
-                {/* <span className="material-symbols-outlined">
-                  arrow_circle_left
-                </span> */}
-              </div>
+              ></div>
               {accommodations.map((acc, index) => (
                 <div className="accommodation" key={index}>
                   <img
@@ -104,7 +110,7 @@ function CreatePlan() {
                   />
                   <h3>{acc.name}</h3>
                   <p>Type: {acc.type}</p>
-                  <p>Capacity: {acc.capacity} people</p>
+                  {/* <p>Capacity: {acc.capacity} people</p> */}
                   <p>
                     Price: {acc.price_per_night} {acc.currency} per night
                   </p>
@@ -114,11 +120,7 @@ function CreatePlan() {
               <div
                 className="createPlan-arrow createPlan-arrow-right"
                 onClick={() => scrollHotels("right")}
-              >
-                {/* <span className="material-symbols-outlined">
-                  arrow_circle_right
-                </span> */}
-              </div>
+              ></div>
             </div>
             <Divider />
           </div>
@@ -145,9 +147,10 @@ function CreatePlan() {
                       <div className="createPlan-date-details-section">
                         <div
                           className="createPlan-date-details-header"
-                          onClick={() =>
-                            toggleContentVisibility(dayIndex, index)
-                          }
+                          onClick={() => {
+                            toggleContentVisibility(dayIndex, index);
+                            handleActivityClick(recommendation);
+                          }}
                         >
                           <div className="createPlan-activity">
                             {recommendation.name}
@@ -162,8 +165,14 @@ function CreatePlan() {
                         </div>
                         {visibleContents.has(contentKey) && (
                           <div className="createPlan-content">
-                            <p>Distance: {recommendation.distance} km</p>
-                            <p>Duration: {recommendation.duration}</p>
+                            <img
+                              src={recommendation.image_url}
+                              alt={recommendation.name}
+                              className="createPlan-activityImg"
+                            />
+                            <p>{recommendation.description}</p>
+                            {/* <p>Distance: {recommendation.distance} km</p>
+                            <p>Duration: {recommendation.duration} min</p> */}
                             <p>
                               Activities: {recommendation.activities.join(", ")}
                             </p>
@@ -178,44 +187,89 @@ function CreatePlan() {
             </div>
           ))}
           <div className="createPlan-btn">
-            <Button type="submit" variant="dark">
-              Create Shedule
-            </Button>
+            {/* <Button type="button" variant="dark" onClick={handleCreateSchedule}>
+              Create Schedule
+            </Button> */}
           </div>
         </div>
         <div className="createPlan-right">
           <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
             <GoogleMap
               mapContainerStyle={mapContainerStyle}
-              center={defaultCenter}
+              center={mapCenter} // Use state to center the map
               zoom={10}
             >
+              {/* Render Markers for Recommendations (Activities) */}
               {Object.entries(recommendations).flatMap(
                 ([day, { recommendations }]) =>
                   recommendations.map((place, index) => (
                     <Marker
-                      key={`${day}-${index}`}
+                      key={`place-${day}-${index}`}
                       position={{
                         lat: place.latitude,
                         lng: place.longitude,
                       }}
                       onClick={() => setSelectedPlace(place)}
+                      icon={{
+                        url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png", // Blue marker for activity places
+                      }}
                     />
                   ))
               )}
+
+              {/* Render Markers for Accommodations (Hotels) */}
+              {accommodations.map((acc, index) => (
+                <Marker
+                  key={`hotel-${index}`}
+                  position={{
+                    lat: acc.latitude,
+                    lng: acc.longitude,
+                  }}
+                  onClick={() => setSelectedPlace(acc)}
+                  icon={{
+                    url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png", // Red marker for accommodations
+                  }}
+                />
+              ))}
+
+              {/* InfoWindow to display details of the selected place */}
               {selectedPlace && (
                 <InfoWindow
                   position={{
                     lat: selectedPlace.latitude,
                     lng: selectedPlace.longitude,
                   }}
-                  onCloseClick={() => setSelectedPlace(null)}
+                  onCloseClick={() => setSelectedPlace(null)} // This allows users to close by clicking outside
                 >
-                  <div>
-                    <h2>{selectedPlace.name}</h2>
-                    <p>Distance: {selectedPlace.distance.toFixed(2)} km</p>
-                    <p>Travel Time: {selectedPlace.duration}</p>
-                    <p>Activities: {selectedPlace.activities.join(", ")}</p>
+                  <div className="createPlan-infoWindow">
+                    <h6>{selectedPlace.name}</h6>
+                    {selectedPlace.distance && (
+                      <p>Distance: {selectedPlace.distance.toFixed(2)} km</p>
+                    )}
+                    {selectedPlace.duration && (
+                      <p>Travel Time: {selectedPlace.duration}</p>
+                    )}
+                    {selectedPlace.location && (
+                      <p>
+                        {/* Google Link:{" "} */}
+                        <a
+                          href={selectedPlace.location}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {selectedPlace.location}
+                        </a>
+                      </p>
+                    )}
+                    {selectedPlace.capacity && (
+                      <p>Capacity: {selectedPlace.capacity} people</p>
+                    )}
+                    {selectedPlace.price_per_night && (
+                      <p>
+                        Price: {selectedPlace.price_per_night}{" "}
+                        {selectedPlace.currency} per night
+                      </p>
+                    )}
                   </div>
                 </InfoWindow>
               )}

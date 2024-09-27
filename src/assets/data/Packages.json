@@ -1,207 +1,408 @@
 {
-    "packages": [
-      {
-        "Type": "oneday",
-        "name": "Galle One Day Trip",
-        "likeBeach": true,
-        "likeSurfing": false,
-        "wantBath": false,
-        "activities": [
-          {
-            "time": "08:00 AM",
-            "activity": "Visit Galle Fort",
-            "description": "Explore the historic Galle Fort, a UNESCO World Heritage site."
-          },
-          {
-            "time": "10:00 AM",
-            "activity": "Galle Lighthouse",
-            "description": "Take photos at the iconic Galle Lighthouse."
-          },
-          {
-            "time": "12:00 PM",
-            "activity": "Lunch at Local Restaurant",
-            "description": "Enjoy a traditional Sri Lankan meal at a local restaurant."
-          },
-          {
-            "time": "02:00 PM",
-            "activity": "Beach Time at Unawatuna",
-            "description": "Relax on the beautiful Unawatuna beach."
-          },
-          {
-            "time": "05:00 PM",
-            "activity": "Shopping at Galle Market",
-            "description": "Shop for souvenirs and local goods at Galle Market."
-          }
-        ]
-      },
-      {
-        "Type": "2Day",
-        "name": "Galle Two Day Trip",
-        "likeBeach": true,
-        "likeSurfing": true,
-        "wantBath": true,
-        "activities": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "08:00 AM",
-                "activity": "Visit Galle Fort",
-                "description": "Explore the historic Galle Fort, a UNESCO World Heritage site."
-              },
-              {
-                "time": "10:00 AM",
-                "activity": "Galle Lighthouse",
-                "description": "Take photos at the iconic Galle Lighthouse."
-              },
-              {
-                "time": "12:00 PM",
-                "activity": "Lunch at Local Restaurant",
-                "description": "Enjoy a traditional Sri Lankan meal at a local restaurant."
-              },
-              {
-                "time": "02:00 PM",
-                "activity": "Beach Time at Unawatuna",
-                "description": "Relax on the beautiful Unawatuna beach."
-              },
-              {
-                "time": "05:00 PM",
-                "activity": "Shopping at Galle Market",
-                "description": "Shop for souvenirs and local goods at Galle Market."
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "08:00 AM",
-                "activity": "Surfing at Hikkaduwa",
-                "description": "Catch some waves at Hikkaduwa, a popular surfing spot."
-              },
-              {
-                "time": "11:00 AM",
-                "activity": "Snorkeling at Hikkaduwa",
-                "description": "Snorkel and see the vibrant marine life."
-              },
-              {
-                "time": "01:00 PM",
-                "activity": "Lunch at Beachside Cafe",
-                "description": "Have lunch at a cafe with a sea view."
-              },
-              {
-                "time": "03:00 PM",
-                "activity": "Visit Turtle Hatchery",
-                "description": "Learn about sea turtles at the local turtle hatchery."
-              },
-              {
-                "time": "05:00 PM",
-                "activity": "Evening at Hikkaduwa Beach",
-                "description": "Relax and enjoy the sunset at Hikkaduwa beach."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "Type": "3Day",
-        "name": "Galle Three Day Trip",
-        "likeBeach": true,
-        "likeSurfing": false,
-        "wantBath": true,
-        "activities": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "08:00 AM",
-                "activity": "Visit Galle Fort",
-                "description": "Explore the historic Galle Fort, a UNESCO World Heritage site."
-              },
-              {
-                "time": "10:00 AM",
-                "activity": "Galle Lighthouse",
-                "description": "Take photos at the iconic Galle Lighthouse."
-              },
-              {
-                "time": "12:00 PM",
-                "activity": "Lunch at Local Restaurant",
-                "description": "Enjoy a traditional Sri Lankan meal at a local restaurant."
-              },
-              {
-                "time": "02:00 PM",
-                "activity": "Beach Time at Unawatuna",
-                "description": "Relax on the beautiful Unawatuna beach."
-              },
-              {
-                "time": "05:00 PM",
-                "activity": "Shopping at Galle Market",
-                "description": "Shop for souvenirs and local goods at Galle Market."
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "08:00 AM",
-                "activity": "Visit Hikkaduwa",
-                "description": "Visit the coastal town of Hikkaduwa."
-              },
-              {
-                "time": "10:00 AM",
-                "activity": "Coral Sanctuary",
-                "description": "Explore the coral sanctuary at Hikkaduwa."
-              },
-              {
-                "time": "12:00 PM",
-                "activity": "Lunch at Beachside Cafe",
-                "description": "Have lunch at a cafe with a sea view."
-              },
-              {
-                "time": "02:00 PM",
-                "activity": "Turtle Hatchery",
-                "description": "Learn about sea turtles at the local turtle hatchery."
-              },
-              {
-                "time": "05:00 PM",
-                "activity": "Evening at Hikkaduwa Beach",
-                "description": "Relax and enjoy the sunset at Hikkaduwa beach."
-              }
-            ]
-          },
-          {
-            "day": 3,
-            "activities": [
-              {
-                "time": "08:00 AM",
-                "activity": "Visit Koggala",
-                "description": "Explore Koggala and its surroundings."
-              },
-              {
-                "time": "10:00 AM",
-                "activity": "Boat Safari",
-                "description": "Enjoy a boat safari on Koggala Lake."
-              },
-              {
-                "time": "12:00 PM",
-                "activity": "Lunch at Local Restaurant",
-                "description": "Have lunch at a local restaurant in Koggala."
-              },
-              {
-                "time": "02:00 PM",
-                "activity": "Koggala Beach",
-                "description": "Spend the afternoon at Koggala beach."
-              },
-              {
-                "time": "05:00 PM",
-                "activity": "Return to Galle",
-                "description": "Return to Galle and end the trip."
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "packages": [
+    {
+      "Type": "oneday",
+      "name": "Galle One Day Trip",
+      "likeBeach": true,
+      "likeSurfing": false,
+      "wantBath": false,
+      "activities": [
+        {
+          "time": "08:00 AM",
+          "activity": "Visit Galle Fort",
+          "description": "Explore the historic Galle Fort, a UNESCO World Heritage site."
+        },
+        {
+          "time": "10:00 AM",
+          "activity": "Galle Lighthouse",
+          "description": "Take photos at the iconic Galle Lighthouse."
+        },
+        {
+          "time": "12:00 PM",
+          "activity": "Lunch at Local Restaurant",
+          "description": "Enjoy a traditional Sri Lankan meal at a local restaurant."
+        },
+        {
+          "time": "02:00 PM",
+          "activity": "Beach Time at Unawatuna",
+          "description": "Relax on the beautiful Unawatuna beach."
+        },
+        {
+          "time": "05:00 PM",
+          "activity": "Shopping at Galle Market",
+          "description": "Shop for souvenirs and local goods at Galle Market."
+        }
+      ]
+    },
+    {
+      "Type": "2Day",
+      "name": "Galle Two Day Trip",
+      "likeBeach": true,
+      "likeSurfing": true,
+      "wantBath": true,
+      "activities": [
+        {
+          "day": 1,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Visit Galle Fort",
+              "description": "Explore the historic Galle Fort, a UNESCO World Heritage site."
+            },
+            {
+              "time": "10:00 AM",
+              "activity": "Galle Lighthouse",
+              "description": "Take photos at the iconic Galle Lighthouse."
+            },
+            {
+              "time": "12:00 PM",
+              "activity": "Lunch at Local Restaurant",
+              "description": "Enjoy a traditional Sri Lankan meal at a local restaurant."
+            },
+            {
+              "time": "02:00 PM",
+              "activity": "Beach Time at Unawatuna",
+              "description": "Relax on the beautiful Unawatuna beach."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Shopping at Galle Market",
+              "description": "Shop for souvenirs and local goods at Galle Market."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Surfing at Hikkaduwa",
+              "description": "Catch some waves at Hikkaduwa, a popular surfing spot."
+            },
+            {
+              "time": "11:00 AM",
+              "activity": "Snorkeling at Hikkaduwa",
+              "description": "Snorkel and see the vibrant marine life."
+            },
+            {
+              "time": "01:00 PM",
+              "activity": "Lunch at Beachside Cafe",
+              "description": "Have lunch at a cafe with a sea view."
+            },
+            {
+              "time": "03:00 PM",
+              "activity": "Visit Turtle Hatchery",
+              "description": "Learn about sea turtles at the local turtle hatchery."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Evening at Hikkaduwa Beach",
+              "description": "Relax and enjoy the sunset at Hikkaduwa beach."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "3Day",
+      "name": "Galle Three Day Trip",
+      "likeBeach": true,
+      "likeSurfing": false,
+      "wantBath": true,
+      "activities": [
+        {
+          "day": 1,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Visit Galle Fort",
+              "description": "Explore the historic Galle Fort, a UNESCO World Heritage site."
+            },
+            {
+              "time": "10:00 AM",
+              "activity": "Galle Lighthouse",
+              "description": "Take photos at the iconic Galle Lighthouse."
+            },
+            {
+              "time": "12:00 PM",
+              "activity": "Lunch at Local Restaurant",
+              "description": "Enjoy a traditional Sri Lankan meal at a local restaurant."
+            },
+            {
+              "time": "02:00 PM",
+              "activity": "Beach Time at Unawatuna",
+              "description": "Relax on the beautiful Unawatuna beach."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Shopping at Galle Market",
+              "description": "Shop for souvenirs and local goods at Galle Market."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Visit Hikkaduwa",
+              "description": "Visit the coastal town of Hikkaduwa."
+            },
+            {
+              "time": "10:00 AM",
+              "activity": "Coral Sanctuary",
+              "description": "Explore the coral sanctuary at Hikkaduwa."
+            },
+            {
+              "time": "12:00 PM",
+              "activity": "Lunch at Beachside Cafe",
+              "description": "Have lunch at a cafe with a sea view."
+            },
+            {
+              "time": "02:00 PM",
+              "activity": "Turtle Hatchery",
+              "description": "Learn about sea turtles at the local turtle hatchery."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Evening at Hikkaduwa Beach",
+              "description": "Relax and enjoy the sunset at Hikkaduwa beach."
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Visit Koggala",
+              "description": "Explore Koggala and its surroundings."
+            },
+            {
+              "time": "10:00 AM",
+              "activity": "Boat Safari",
+              "description": "Enjoy a boat safari on Koggala Lake."
+            },
+            {
+              "time": "12:00 PM",
+              "activity": "Lunch at Local Restaurant",
+              "description": "Have lunch at a local restaurant in Koggala."
+            },
+            {
+              "time": "02:00 PM",
+              "activity": "Koggala Beach",
+              "description": "Spend the afternoon at Koggala beach."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Return to Galle",
+              "description": "Return to Galle and end the trip."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "oneday",
+      "name": "Galle Adventure Day",
+      "likeBeach": false,
+      "likeSurfing": true,
+      "wantBath": false,
+      "activities": [
+        {
+          "time": "08:00 AM",
+          "activity": "Surfing at Hikkaduwa",
+          "description": "Catch some waves at Hikkaduwa, a popular surfing spot."
+        },
+        {
+          "time": "10:00 AM",
+          "activity": "Snorkeling at Hikkaduwa",
+          "description": "Snorkel and see the vibrant marine life."
+        },
+        {
+          "time": "12:00 PM",
+          "activity": "Lunch at Beachside Cafe",
+          "description": "Enjoy a meal at a cafe with a sea view."
+        },
+        {
+          "time": "02:00 PM",
+          "activity": "Visit Turtle Hatchery",
+          "description": "Learn about sea turtles at the local turtle hatchery."
+        },
+        {
+          "time": "04:00 PM",
+          "activity": "Jet Skiing at Bentota",
+          "description": "Experience the thrill of jet skiing at Bentota beach."
+        }
+      ]
+    },
+    {
+      "Type": "2Day",
+      "name": "Galle Culture and Adventure",
+      "likeBeach": false,
+      "likeSurfing": true,
+      "wantBath": false,
+      "activities": [
+        {
+          "day": 1,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Visit Galle Fort",
+              "description": "Explore the historic Galle Fort, a UNESCO World Heritage site."
+            },
+            {
+              "time": "10:00 AM",
+              "activity": "Galle Lighthouse",
+              "description": "Take photos at the iconic Galle Lighthouse."
+            },
+            {
+              "time": "12:00 PM",
+              "activity": "Lunch at Local Restaurant",
+              "description": "Enjoy a traditional Sri Lankan meal at a local restaurant."
+            },
+            {
+              "time": "02:00 PM",
+              "activity": "Surfing at Hikkaduwa",
+              "description": "Catch some waves at Hikkaduwa, a popular surfing spot."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Shopping at Galle Market",
+              "description": "Shop for souvenirs and local goods at Galle Market."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Jet Skiing at Bentota",
+              "description": "Experience the thrill of jet skiing at Bentota beach."
+            },
+            {
+              "time": "10:00 AM",
+              "activity": "Visit Brief Garden",
+              "description": "Explore the beautiful Brief Garden by Bevis Bawa."
+            },
+            {
+              "time": "12:00 PM",
+              "activity": "Lunch at Beachside Cafe",
+              "description": "Enjoy a meal at a cafe with a sea view."
+            },
+            {
+              "time": "02:00 PM",
+              "activity": "Visit Kosgoda Turtle Hatchery",
+              "description": "Learn about sea turtles at the Kosgoda turtle hatchery."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Return to Galle",
+              "description": "Return to Galle and end the trip."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "3Day",
+      "name": "Galle Culture and Nature",
+      "likeBeach": true,
+      "likeSurfing": false,
+      "wantBath": true,
+      "activities": [
+        {
+          "day": 1,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Visit Galle Fort",
+              "description": "Explore the historic Galle Fort, a UNESCO World Heritage site."
+            },
+            {
+              "time": "10:00 AM",
+              "activity": "Galle Lighthouse",
+              "description": "Take photos at the iconic Galle Lighthouse."
+            },
+            {
+              "time": "12:00 PM",
+              "activity": "Lunch at Local Restaurant",
+              "description": "Enjoy a traditional Sri Lankan meal at a local restaurant."
+            },
+            {
+              "time": "02:00 PM",
+              "activity": "Visit Martin Wickramasinghe Folk Museum",
+              "description": "Discover Sri Lankan culture and heritage at this museum."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Evening at Unawatuna Beach",
+              "description": "Relax and enjoy the sunset at Unawatuna beach."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Visit Hikkaduwa",
+              "description": "Visit the coastal town of Hikkaduwa."
+            },
+            {
+              "time": "10:00 AM",
+              "activity": "Coral Sanctuary",
+              "description": "Explore the coral sanctuary at Hikkaduwa."
+            },
+            {
+              "time": "12:00 PM",
+              "activity": "Lunch at Beachside Cafe",
+              "description": "Have lunch at a cafe with a sea view."
+            },
+            {
+              "time": "02:00 PM",
+              "activity": "Turtle Hatchery",
+              "description": "Learn about sea turtles at the local turtle hatchery."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Evening at Hikkaduwa Beach",
+              "description": "Relax and enjoy the sunset at Hikkaduwa beach."
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            {
+              "time": "08:00 AM",
+              "activity": "Visit Sinharaja Forest Reserve",
+              "description": "Explore the biodiversity of the Sinharaja Forest Reserve."
+            },
+            {
+              "time": "11:00 AM",
+              "activity": "Bird Watching",
+              "description": "Watch a variety of bird species in their natural habitat."
+            },
+            {
+              "time": "01:00 PM",
+              "activity": "Lunch at Local Restaurant",
+              "description": "Have lunch at a local restaurant."
+            },
+            {
+              "time": "02:00 PM",
+              "activity": "Visit Kanneliya Forest Reserve",
+              "description": "Discover the beauty of Kanneliya Forest Reserve."
+            },
+            {
+              "time": "05:00 PM",
+              "activity": "Return to Galle",
+              "description": "Return to Galle and end the trip."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
